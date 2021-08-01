@@ -2,6 +2,8 @@
 
 require 'forwardable'
 
+# codebeat:disable[ABC]
+
 module Diesis
   module Geometry
     class Rect < Element
@@ -143,7 +145,6 @@ module Diesis
         { width: width, height: height, **position.to_h }
       end
 
-      # codebeat:disable[ABC]
       def to_svgf
         <<~SVG
           <rect width="#{Support.approx(width)}" height="#{Support.approx(height)}" x="#{Support.approx(position.x)}" y="#{Support.approx(position.y)}" %{attributes}/>
@@ -165,7 +166,6 @@ module Diesis
                  bottom: Line.new(@corner.bottom_left,  @corner.bottom_right),
                  left:   Line.new(@corner.top_left,     @corner.bottom_left))
       end
-      # codebeat:enable[ABC]
     end
   end
 end
