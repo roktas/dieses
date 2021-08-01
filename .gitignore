@@ -1,0 +1,6 @@
+.envrc
+.local/tmp
+/vendor/
+/pkg/
+*.old
+*.svg

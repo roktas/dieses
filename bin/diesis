@@ -1,0 +1,37 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require 'diesis/cli'
+
+# Orientation = Support::Enum.of(:portrait, :landscape, :square)
+# Bar = Support::Enum.of(:x, :y)
+# a = Bar.(:y)
+# # p Orientation.class.to_s; exit
+#
+# f = Orientation.(:square)
+# p f.is_a?(Bar); exit
+# puts f.class; exit
+# f.value = :landscape
+# puts f
+#
+# g = Orientation.(:landscape)
+#
+# p f == g
+# p f.landscape?
+#
+# # orientation = Orientation.(:portrait)
+# # puts orientation
+# # orientation.value = :landscape
+# # puts orientation
+# # puts orientation.landscape?
+#
+# exit
+
+def main
+  # paper = Diesis::Application::Paper.a4
+  # p paper.inner.dimensions; exit
+  # p paper.orient(:landscape).class; exit
+  Diesis::CLI.call(*ARGV)
+end
+
+main
