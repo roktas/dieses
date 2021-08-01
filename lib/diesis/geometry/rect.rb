@@ -2,8 +2,6 @@
 
 require 'forwardable'
 
-# codebeat:disable[ABC]
-
 module Diesis
   module Geometry
     class Rect < Element
@@ -112,6 +110,7 @@ module Diesis
 
       include Predicate
 
+      # codebeat:disable[ABC]
       def intersect(equation, precision: nil)
         points = Side.members
           .map { |line| public_send(line).intersect(equation).approx(precision) }
@@ -125,6 +124,7 @@ module Diesis
 
         Line.new((starting = points.shift), (points.shift || starting))
       end
+      # codebeat:enable[ABC]
 
       def angle
         Math.atan(height / width)
@@ -145,6 +145,7 @@ module Diesis
         { width: width, height: height, **position.to_h }
       end
 
+      # codebeat:disable[ABC]
       def to_svgf
         <<~SVG
           <rect width="#{Support.approx(width)}" height="#{Support.approx(height)}" x="#{Support.approx(position.x)}" y="#{Support.approx(position.y)}" %{attributes}/>
