@@ -4,6 +4,7 @@ require 'forwardable'
 
 module Diesis
   module Geometry
+    # codebeat:disable[TOO_MANY_IVARS]
     class Rect < Element
       Side   = Struct.new(*%i[top right bottom left], keyword_init: true)                       # in CSS margin order
       Corner = Struct.new(*%i[bottom_left top_left top_right bottom_right], keyword_init: true) # cw from position
@@ -110,7 +111,7 @@ module Diesis
 
       include Predicate
 
-      # codebeat:disable[ABC]
+      # codebeat:disable[LOC,ABC]
       def intersect(equation, precision: nil)
         points = Side.members
           .map { |line| public_send(line).intersect(equation).approx(precision) }
@@ -124,7 +125,7 @@ module Diesis
 
         Line.new((starting = points.shift), (points.shift || starting))
       end
-      # codebeat:enable[ABC]
+      # codebeat:enable[LOC,ABC]
 
       def angle
         Math.atan(height / width)
