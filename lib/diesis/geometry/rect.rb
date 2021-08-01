@@ -18,29 +18,18 @@ module Diesis
 
       attr_reader :width, :height, :position
 
-      def initialize(width, height, position: Point.origin) # rubocop:disable Metrics/MethodLength,Metrics/AbcSize
-        @width, @height = width.to_f, height.to_f
-        @position       = Point.cast(position)
-
-        @corner = Corner.new(top_left:     Point.cast(position),
-                             top_right:    Point.new(position.x + width, position.y),
-                             bottom_right: Point.new(position.x + width, position.y + height),
-                             bottom_left:  Point.new(position.x,         position.y + height))
-
-        @side   = Side.new(top:    Line.new(@corner.top_left,     @corner.top_right),
-                           right:  Line.new(@corner.top_right,    @corner.bottom_right),
-                           bottom: Line.new(@corner.bottom_left,  @corner.bottom_right),
-                           left:   Line.new(@corner.top_left,     @corner.bottom_left))
+      def initialize(width, height, position: Point.origin)
+        @width    = width.to_f
+        @height   = height.to_f
+        @position = Point.cast(position)
+        @corner   = calculate_corner
+        @side     = calculate_side
 
         super()
       end
 
       def translate(x: 0, y: 0)
         self.class.new width, height, position: position.translate(x: x, y: y)
-      end
-
-      def enlarge(width: 0, height: 0)
-        self.class.new self.width + width, self.height + height, position: position
       end
 
       def shrink(width: 0, height: 0)
@@ -136,11 +125,7 @@ module Diesis
       end
 
       def angle
-        Math.atan(aspect_ratio)
-      end
-
-      def aspect_ratio
-        height / width
+        Math.atan(height / width)
       end
 
       def bbox
@@ -162,6 +147,22 @@ module Diesis
         <<~SVG
           <rect width="#{Support.approx(width)}" height="#{Support.approx(height)}" x="#{Support.approx(position.x)}" y="#{Support.approx(position.y)}" %{attributes}/>
         SVG
+      end
+
+      private
+
+      def calculate_corner
+        Corner.new(top_left:     position,
+                   top_right:    Point.new(position.x + width, position.y),
+                   bottom_right: Point.new(position.x + width, position.y + height),
+                   bottom_left:  Point.new(position.x,         position.y + height))
+      end
+
+      def calculate_side
+        Side.new(top:    Line.new(@corner.top_left,     @corner.top_right),
+                 right:  Line.new(@corner.top_right,    @corner.bottom_right),
+                 bottom: Line.new(@corner.bottom_left,  @corner.bottom_right),
+                 left:   Line.new(@corner.top_left,     @corner.bottom_left))
       end
     end
   end
