@@ -1,0 +1,32 @@
+#!/usr/bin/env bash
+
+set -Eeuo pipefail; shopt -s nullglob; [[ -z ${TRACE:-} ]] || set -x; unset CDPATH; IFS=$' \t\n'
+
+cd "$(dirname "$(readlink -f "$0")")"/../.. || exit
+
+export RUBYLIB="$PWD"/lib
+export PATH="$PWD"/bin:"$PATH"
+
+TESTROOT=$(readlink -m .local/tmp/t)
+export TESTROOT
+
+cry() {
+	echo >&2 "$@"
+}
+
+die() {
+	echo >&2 "$@"
+	exit 1
+}
+
+init() {
+	rm -rf "$TESTROOT"
+	mkdir -p "$TESTROOT"
+	trap '[[ $? -ne 0 ]] || rm -rf "$TESTROOT"' 0
+}
+
+main() {
+	:
+}
+
+main "$@"

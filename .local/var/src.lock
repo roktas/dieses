@@ -1,0 +1,44 @@
+[
+  {
+    "source": "lib/diesis/support/const.rb",
+    "series": [
+      {
+        "directive": "    ... github.com/alaturka/ruby const/const\n",
+        "insertion": {
+          "before": 18,
+          "after": 51,
+          "signature": "      Undefined = Object.new.tap do |undefined| # rubocop:disable Metrics/BlockLength\n",
+          "digest": "66412e35483a756eadae06337aa7b01e900c63d5ec98b855395e831beff2442e"
+        }
+      }
+    ]
+  },
+  {
+    "source": "lib/diesis/support/class.rb",
+    "series": [
+      {
+        "directive": "    ... github.com/alaturka/ruby class/class_attribute\n",
+        "insertion": {
+          "before": 55,
+          "after": 38,
+          "signature": "      # rubocop:disable Metrics/MethodLength,Layout/LineLength,Lint/RedundantCopDisableDirective\n",
+          "digest": "15247048402a57151d60fc71e6fd9155856d8bd5846d67dbd36a8e43a3f1ae9f"
+        }
+      }
+    ]
+  },
+  {
+    "source": "lib/diesis/support/enum.rb",
+    "series": [
+      {
+        "directive": "    ... github.com/alaturka/ruby enum/enum\n",
+        "insertion": {
+          "before": 12,
+          "after": 44,
+          "signature": "        raise ArgumentError, \"Invalid enum value: #{value}\" unless self.class.values.member?(value = value.to_sym)\n",
+          "digest": "f43bc1755699d0a616c70a8e45ade7dfffeac4e07944c481dffac7165b193e87"
+        }
+      }
+    ]
+  }
+]

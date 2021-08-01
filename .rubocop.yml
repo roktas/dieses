@@ -1,0 +1,61 @@
+require:
+  - "rubocop-minitest"
+  - "rubocop-performance"
+  - "rubocop-rake"
+
+Layout/HashAlignment:
+  Enabled: true
+  EnforcedHashRocketStyle: table
+  EnforcedColonStyle: table
+Layout/LineLength:
+  Max: 120
+  Exclude: 
+    - "test/**/*.rb"
+Layout/MultilineMethodCallIndentation:
+  Enabled: true
+  EnforcedStyle: indented
+
+Naming/MemoizedInstanceVariableName:
+  EnforcedStyleForLeadingUnderscores: optional
+Naming/MethodParameterName:
+  Enabled: false
+Naming/FileName:
+  Exclude:
+    - "lib/**/*-*.rb"
+Naming/VariableNumber:
+  Exclude:
+    - "lib/**/*.rb"
+Naming/ClassAndModuleCamelCase:
+  Exclude:
+    - "lib/**/*.rb"
+
+Style/AsciiComments:
+  Enabled: false
+Style/Documentation:
+  Enabled: false
+Style/FormatStringToken:
+  EnforcedStyle: template
+Style/Lambda:
+  Enabled: false
+Style/LambdaCall:
+  Enabled: false
+Style/ParallelAssignment:
+  Enabled: false
+
+Metrics/AbcSize:
+  Max: 25
+Metrics/BlockLength:
+  Exclude: 
+    - "test/**/*.rb"
+Metrics/CyclomaticComplexity:
+  Enabled: true
+  Max: 12
+Metrics/MethodLength:
+  Exclude: 
+    - "test/**/*.rb"
+
+AllCops:
+  NewCops: enable
+  Exclude:
+    - vendor/**/*
+    - test/integration/**/*.rb
