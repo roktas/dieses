@@ -104,7 +104,9 @@ module Diesis
                              style: Style.(stroke: 'blue', 'stroke-width': '0.2')
           end
 
-          def sextet # rubocop:disable Metrics/MethodLength
+          # rubocop:disable Metrics/MethodLength
+          # codebeat:disable[ABC]
+          def sextet
             line :ascender2,  after: proc { height },
                               style: Style.(stroke: 'blue', 'stroke-width': '0.2')
             line :ascender1,  after: proc { height },
@@ -118,6 +120,8 @@ module Diesis
             line :descender2, after: proc { gap },
                               style: Style.(stroke: 'blue', 'stroke-width': '0.2')
           end
+          # codebeat:enable[ABC]
+          # rubocop:enable Metrics/MethodLength
         end
 
         def included(base)

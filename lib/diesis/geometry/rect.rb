@@ -151,12 +151,14 @@ module Diesis
 
       private
 
+      # codebeat:disable[ABC]
       def calculate_corner
         Corner.new(top_left:     position,
                    top_right:    Point.new(position.x + width, position.y),
                    bottom_right: Point.new(position.x + width, position.y + height),
                    bottom_left:  Point.new(position.x,         position.y + height))
       end
+      # codebeat:enable[ABC]
 
       def calculate_side
         Side.new(top:    Line.new(@corner.top_left,     @corner.top_right),
