@@ -143,6 +143,7 @@ module Diesis
         { width: width, height: height, **position.to_h }
       end
 
+      # codebeat:disable[ABC]
       def to_svgf
         <<~SVG
           <rect width="#{Support.approx(width)}" height="#{Support.approx(height)}" x="#{Support.approx(position.x)}" y="#{Support.approx(position.y)}" %{attributes}/>
@@ -151,14 +152,12 @@ module Diesis
 
       private
 
-      # codebeat:disable[ABC]
       def calculate_corner
         Corner.new(top_left:     position,
                    top_right:    Point.new(position.x + width, position.y),
                    bottom_right: Point.new(position.x + width, position.y + height),
                    bottom_left:  Point.new(position.x,         position.y + height))
       end
-      # codebeat:enable[ABC]
 
       def calculate_side
         Side.new(top:    Line.new(@corner.top_left,     @corner.top_right),
@@ -166,6 +165,7 @@ module Diesis
                  bottom: Line.new(@corner.bottom_left,  @corner.bottom_right),
                  left:   Line.new(@corner.top_left,     @corner.bottom_left))
       end
+      # codebeat:enable[ABC]
     end
   end
 end
