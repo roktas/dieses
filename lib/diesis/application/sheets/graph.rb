@@ -11,7 +11,7 @@ module Diesis
           self.desc = "#{square} squares with #{unit} mm unit"
         end
 
-        def call # rubocop:disable Layout/MethodLength
+        def call # rubocop:disable Metrics/MethodLength
           param = self.param
 
           draw unit: param.unit, multiple: param.square do
@@ -27,7 +27,7 @@ module Diesis
 
             repeat do
               repeat do
-                rect :rect, width: param.square, height: param.square, style: Style.(stroke: 'blue', 'stroke-width': '0.4', fill: 'none') # rubocop:disable Metrics/LineLength
+                rect :rect, width: param.square, height: param.square, style: Style.(stroke: 'blue', 'stroke-width': '0.4', fill: 'none') # rubocop:disable Layout/LineLength
                 right param.square
               end
               down param.square

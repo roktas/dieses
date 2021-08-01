@@ -18,7 +18,7 @@ module Diesis
                    When.(:a4, :landscape, :medium)  => Then.(row: 3, col: 6, width: 8, height: 10),
                    When.(:a4, :landscape, :compact) => Then.(row: 4, col: 7, width: 6, height: 8)
 
-        def call # rubocop:disable Layout/MethodLength
+        def call # rubocop:disable Metrics/MethodLength
           match! param.density
 
           param = self.param
@@ -28,7 +28,7 @@ module Diesis
               width, height = param.width, param.height
 
               repeat param.col do
-                rect :rect, width: width, height: height, style: Style.(stroke: 'blue', 'stroke-width': '0.2', fill: 'none') # rubocop:disable Metrics/LineLength
+                rect :rect, width: width, height: height, style: Style.(stroke: 'blue', 'stroke-width': '0.2', fill: 'none') # rubocop:disable Layout/LineLength
                 right(width + 1)
               end
               down(height + 1)
