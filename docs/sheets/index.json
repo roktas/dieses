@@ -1,0 +1,758 @@
+[
+  {
+    "sheet": "copperplate",
+    "variant": "5210",
+    "paper": "a4",
+    "orientation": "landscape",
+    "file": "a4/landscape/copperplate/copperplate-5210@a4-landscape.svg"
+  },
+  {
+    "sheet": "copperplate",
+    "variant": "5210",
+    "paper": "a4",
+    "orientation": "portrait",
+    "file": "a4/portrait/copperplate/copperplate-5210@a4-portrait.svg"
+  },
+  {
+    "sheet": "copperplate",
+    "variant": "5210",
+    "paper": "a5",
+    "orientation": "landscape",
+    "file": "a5/landscape/copperplate/copperplate-5210@a5-landscape.svg"
+  },
+  {
+    "sheet": "copperplate",
+    "variant": "5210",
+    "paper": "a5",
+    "orientation": "portrait",
+    "file": "a5/portrait/copperplate/copperplate-5210@a5-portrait.svg"
+  },
+  {
+    "sheet": "copperplate",
+    "variant": "5320",
+    "paper": "a4",
+    "orientation": "landscape",
+    "file": "a4/landscape/copperplate/copperplate-5320@a4-landscape.svg"
+  },
+  {
+    "sheet": "copperplate",
+    "variant": "5320",
+    "paper": "a4",
+    "orientation": "portrait",
+    "file": "a4/portrait/copperplate/copperplate-5320@a4-portrait.svg"
+  },
+  {
+    "sheet": "copperplate",
+    "variant": "5320",
+    "paper": "a5",
+    "orientation": "landscape",
+    "file": "a5/landscape/copperplate/copperplate-5320@a5-landscape.svg"
+  },
+  {
+    "sheet": "copperplate",
+    "variant": "5320",
+    "paper": "a5",
+    "orientation": "portrait",
+    "file": "a5/portrait/copperplate/copperplate-5320@a5-portrait.svg"
+  },
+  {
+    "sheet": "copperplate",
+    "variant": "7210",
+    "paper": "a4",
+    "orientation": "landscape",
+    "file": "a4/landscape/copperplate/copperplate-7210@a4-landscape.svg"
+  },
+  {
+    "sheet": "copperplate",
+    "variant": "7210",
+    "paper": "a4",
+    "orientation": "portrait",
+    "file": "a4/portrait/copperplate/copperplate-7210@a4-portrait.svg"
+  },
+  {
+    "sheet": "copperplate",
+    "variant": "7210",
+    "paper": "a5",
+    "orientation": "landscape",
+    "file": "a5/landscape/copperplate/copperplate-7210@a5-landscape.svg"
+  },
+  {
+    "sheet": "copperplate",
+    "variant": "7210",
+    "paper": "a5",
+    "orientation": "portrait",
+    "file": "a5/portrait/copperplate/copperplate-7210@a5-portrait.svg"
+  },
+  {
+    "sheet": "copperplate",
+    "variant": "7320",
+    "paper": "a4",
+    "orientation": "landscape",
+    "file": "a4/landscape/copperplate/copperplate-7320@a4-landscape.svg"
+  },
+  {
+    "sheet": "copperplate",
+    "variant": "7320",
+    "paper": "a4",
+    "orientation": "portrait",
+    "file": "a4/portrait/copperplate/copperplate-7320@a4-portrait.svg"
+  },
+  {
+    "sheet": "copperplate",
+    "variant": "7320",
+    "paper": "a5",
+    "orientation": "landscape",
+    "file": "a5/landscape/copperplate/copperplate-7320@a5-landscape.svg"
+  },
+  {
+    "sheet": "copperplate",
+    "variant": "7320",
+    "paper": "a5",
+    "orientation": "portrait",
+    "file": "a5/portrait/copperplate/copperplate-7320@a5-portrait.svg"
+  },
+  {
+    "sheet": "cursive",
+    "variant": "10110",
+    "paper": "a4",
+    "orientation": "landscape",
+    "file": "a4/landscape/cursive/cursive-10110@a4-landscape.svg"
+  },
+  {
+    "sheet": "cursive",
+    "variant": "10110",
+    "paper": "a4",
+    "orientation": "portrait",
+    "file": "a4/portrait/cursive/cursive-10110@a4-portrait.svg"
+  },
+  {
+    "sheet": "cursive",
+    "variant": "10110",
+    "paper": "a5",
+    "orientation": "landscape",
+    "file": "a5/landscape/cursive/cursive-10110@a5-landscape.svg"
+  },
+  {
+    "sheet": "cursive",
+    "variant": "10110",
+    "paper": "a5",
+    "orientation": "portrait",
+    "file": "a5/portrait/cursive/cursive-10110@a5-portrait.svg"
+  },
+  {
+    "sheet": "cursive",
+    "variant": "5110",
+    "paper": "a4",
+    "orientation": "landscape",
+    "file": "a4/landscape/cursive/cursive-5110@a4-landscape.svg"
+  },
+  {
+    "sheet": "cursive",
+    "variant": "5110",
+    "paper": "a4",
+    "orientation": "portrait",
+    "file": "a4/portrait/cursive/cursive-5110@a4-portrait.svg"
+  },
+  {
+    "sheet": "cursive",
+    "variant": "5110",
+    "paper": "a5",
+    "orientation": "landscape",
+    "file": "a5/landscape/cursive/cursive-5110@a5-landscape.svg"
+  },
+  {
+    "sheet": "cursive",
+    "variant": "5110",
+    "paper": "a5",
+    "orientation": "portrait",
+    "file": "a5/portrait/cursive/cursive-5110@a5-portrait.svg"
+  },
+  {
+    "sheet": "cursive",
+    "variant": "7110",
+    "paper": "a4",
+    "orientation": "landscape",
+    "file": "a4/landscape/cursive/cursive-7110@a4-landscape.svg"
+  },
+  {
+    "sheet": "cursive",
+    "variant": "7110",
+    "paper": "a4",
+    "orientation": "portrait",
+    "file": "a4/portrait/cursive/cursive-7110@a4-portrait.svg"
+  },
+  {
+    "sheet": "cursive",
+    "variant": "7110",
+    "paper": "a5",
+    "orientation": "landscape",
+    "file": "a5/landscape/cursive/cursive-7110@a5-landscape.svg"
+  },
+  {
+    "sheet": "cursive",
+    "variant": "7110",
+    "paper": "a5",
+    "orientation": "portrait",
+    "file": "a5/portrait/cursive/cursive-7110@a5-portrait.svg"
+  },
+  {
+    "sheet": "graph",
+    "variant": "108",
+    "paper": "a4",
+    "orientation": "landscape",
+    "file": "a4/landscape/graph/graph-108@a4-landscape.svg"
+  },
+  {
+    "sheet": "graph",
+    "variant": "108",
+    "paper": "a4",
+    "orientation": "portrait",
+    "file": "a4/portrait/graph/graph-108@a4-portrait.svg"
+  },
+  {
+    "sheet": "graph",
+    "variant": "108",
+    "paper": "a5",
+    "orientation": "landscape",
+    "file": "a5/landscape/graph/graph-108@a5-landscape.svg"
+  },
+  {
+    "sheet": "graph",
+    "variant": "108",
+    "paper": "a5",
+    "orientation": "portrait",
+    "file": "a5/portrait/graph/graph-108@a5-portrait.svg"
+  },
+  {
+    "sheet": "graph",
+    "variant": "58",
+    "paper": "a4",
+    "orientation": "landscape",
+    "file": "a4/landscape/graph/graph-58@a4-landscape.svg"
+  },
+  {
+    "sheet": "graph",
+    "variant": "58",
+    "paper": "a4",
+    "orientation": "portrait",
+    "file": "a4/portrait/graph/graph-58@a4-portrait.svg"
+  },
+  {
+    "sheet": "graph",
+    "variant": "58",
+    "paper": "a5",
+    "orientation": "landscape",
+    "file": "a5/landscape/graph/graph-58@a5-landscape.svg"
+  },
+  {
+    "sheet": "graph",
+    "variant": "58",
+    "paper": "a5",
+    "orientation": "portrait",
+    "file": "a5/portrait/graph/graph-58@a5-portrait.svg"
+  },
+  {
+    "sheet": "graph",
+    "variant": "78",
+    "paper": "a4",
+    "orientation": "landscape",
+    "file": "a4/landscape/graph/graph-78@a4-landscape.svg"
+  },
+  {
+    "sheet": "graph",
+    "variant": "78",
+    "paper": "a4",
+    "orientation": "portrait",
+    "file": "a4/portrait/graph/graph-78@a4-portrait.svg"
+  },
+  {
+    "sheet": "graph",
+    "variant": "78",
+    "paper": "a5",
+    "orientation": "landscape",
+    "file": "a5/landscape/graph/graph-78@a5-landscape.svg"
+  },
+  {
+    "sheet": "graph",
+    "variant": "78",
+    "paper": "a5",
+    "orientation": "portrait",
+    "file": "a5/portrait/graph/graph-78@a5-portrait.svg"
+  },
+  {
+    "sheet": "italics",
+    "variant": "10110",
+    "paper": "a4",
+    "orientation": "landscape",
+    "file": "a4/landscape/italics/italics-10110@a4-landscape.svg"
+  },
+  {
+    "sheet": "italics",
+    "variant": "10110",
+    "paper": "a4",
+    "orientation": "portrait",
+    "file": "a4/portrait/italics/italics-10110@a4-portrait.svg"
+  },
+  {
+    "sheet": "italics",
+    "variant": "10110",
+    "paper": "a5",
+    "orientation": "landscape",
+    "file": "a5/landscape/italics/italics-10110@a5-landscape.svg"
+  },
+  {
+    "sheet": "italics",
+    "variant": "10110",
+    "paper": "a5",
+    "orientation": "portrait",
+    "file": "a5/portrait/italics/italics-10110@a5-portrait.svg"
+  },
+  {
+    "sheet": "italics",
+    "variant": "5110",
+    "paper": "a4",
+    "orientation": "landscape",
+    "file": "a4/landscape/italics/italics-5110@a4-landscape.svg"
+  },
+  {
+    "sheet": "italics",
+    "variant": "5110",
+    "paper": "a4",
+    "orientation": "portrait",
+    "file": "a4/portrait/italics/italics-5110@a4-portrait.svg"
+  },
+  {
+    "sheet": "italics",
+    "variant": "5110",
+    "paper": "a5",
+    "orientation": "landscape",
+    "file": "a5/landscape/italics/italics-5110@a5-landscape.svg"
+  },
+  {
+    "sheet": "italics",
+    "variant": "5110",
+    "paper": "a5",
+    "orientation": "portrait",
+    "file": "a5/portrait/italics/italics-5110@a5-portrait.svg"
+  },
+  {
+    "sheet": "italics",
+    "variant": "7110",
+    "paper": "a4",
+    "orientation": "landscape",
+    "file": "a4/landscape/italics/italics-7110@a4-landscape.svg"
+  },
+  {
+    "sheet": "italics",
+    "variant": "7110",
+    "paper": "a4",
+    "orientation": "portrait",
+    "file": "a4/portrait/italics/italics-7110@a4-portrait.svg"
+  },
+  {
+    "sheet": "italics",
+    "variant": "7110",
+    "paper": "a5",
+    "orientation": "landscape",
+    "file": "a5/landscape/italics/italics-7110@a5-landscape.svg"
+  },
+  {
+    "sheet": "italics",
+    "variant": "7110",
+    "paper": "a5",
+    "orientation": "portrait",
+    "file": "a5/portrait/italics/italics-7110@a5-portrait.svg"
+  },
+  {
+    "sheet": "lined",
+    "variant": "10",
+    "paper": "a4",
+    "orientation": "landscape",
+    "file": "a4/landscape/lined/lined-10@a4-landscape.svg"
+  },
+  {
+    "sheet": "lined",
+    "variant": "10",
+    "paper": "a4",
+    "orientation": "portrait",
+    "file": "a4/portrait/lined/lined-10@a4-portrait.svg"
+  },
+  {
+    "sheet": "lined",
+    "variant": "10",
+    "paper": "a5",
+    "orientation": "landscape",
+    "file": "a5/landscape/lined/lined-10@a5-landscape.svg"
+  },
+  {
+    "sheet": "lined",
+    "variant": "10",
+    "paper": "a5",
+    "orientation": "portrait",
+    "file": "a5/portrait/lined/lined-10@a5-portrait.svg"
+  },
+  {
+    "sheet": "lined",
+    "variant": "5",
+    "paper": "a4",
+    "orientation": "landscape",
+    "file": "a4/landscape/lined/lined-5@a4-landscape.svg"
+  },
+  {
+    "sheet": "lined",
+    "variant": "5",
+    "paper": "a4",
+    "orientation": "portrait",
+    "file": "a4/portrait/lined/lined-5@a4-portrait.svg"
+  },
+  {
+    "sheet": "lined",
+    "variant": "5",
+    "paper": "a5",
+    "orientation": "landscape",
+    "file": "a5/landscape/lined/lined-5@a5-landscape.svg"
+  },
+  {
+    "sheet": "lined",
+    "variant": "5",
+    "paper": "a5",
+    "orientation": "portrait",
+    "file": "a5/portrait/lined/lined-5@a5-portrait.svg"
+  },
+  {
+    "sheet": "lined",
+    "variant": "7",
+    "paper": "a4",
+    "orientation": "landscape",
+    "file": "a4/landscape/lined/lined-7@a4-landscape.svg"
+  },
+  {
+    "sheet": "lined",
+    "variant": "7",
+    "paper": "a4",
+    "orientation": "portrait",
+    "file": "a4/portrait/lined/lined-7@a4-portrait.svg"
+  },
+  {
+    "sheet": "lined",
+    "variant": "7",
+    "paper": "a5",
+    "orientation": "landscape",
+    "file": "a5/landscape/lined/lined-7@a5-landscape.svg"
+  },
+  {
+    "sheet": "lined",
+    "variant": "7",
+    "paper": "a5",
+    "orientation": "portrait",
+    "file": "a5/portrait/lined/lined-7@a5-portrait.svg"
+  },
+  {
+    "sheet": "print",
+    "variant": "10110",
+    "paper": "a4",
+    "orientation": "landscape",
+    "file": "a4/landscape/print/print-10110@a4-landscape.svg"
+  },
+  {
+    "sheet": "print",
+    "variant": "10110",
+    "paper": "a4",
+    "orientation": "portrait",
+    "file": "a4/portrait/print/print-10110@a4-portrait.svg"
+  },
+  {
+    "sheet": "print",
+    "variant": "10110",
+    "paper": "a5",
+    "orientation": "landscape",
+    "file": "a5/landscape/print/print-10110@a5-landscape.svg"
+  },
+  {
+    "sheet": "print",
+    "variant": "10110",
+    "paper": "a5",
+    "orientation": "portrait",
+    "file": "a5/portrait/print/print-10110@a5-portrait.svg"
+  },
+  {
+    "sheet": "print",
+    "variant": "5110",
+    "paper": "a4",
+    "orientation": "landscape",
+    "file": "a4/landscape/print/print-5110@a4-landscape.svg"
+  },
+  {
+    "sheet": "print",
+    "variant": "5110",
+    "paper": "a4",
+    "orientation": "portrait",
+    "file": "a4/portrait/print/print-5110@a4-portrait.svg"
+  },
+  {
+    "sheet": "print",
+    "variant": "5110",
+    "paper": "a5",
+    "orientation": "landscape",
+    "file": "a5/landscape/print/print-5110@a5-landscape.svg"
+  },
+  {
+    "sheet": "print",
+    "variant": "5110",
+    "paper": "a5",
+    "orientation": "portrait",
+    "file": "a5/portrait/print/print-5110@a5-portrait.svg"
+  },
+  {
+    "sheet": "print",
+    "variant": "7110",
+    "paper": "a4",
+    "orientation": "landscape",
+    "file": "a4/landscape/print/print-7110@a4-landscape.svg"
+  },
+  {
+    "sheet": "print",
+    "variant": "7110",
+    "paper": "a4",
+    "orientation": "portrait",
+    "file": "a4/portrait/print/print-7110@a4-portrait.svg"
+  },
+  {
+    "sheet": "print",
+    "variant": "7110",
+    "paper": "a5",
+    "orientation": "landscape",
+    "file": "a5/landscape/print/print-7110@a5-landscape.svg"
+  },
+  {
+    "sheet": "print",
+    "variant": "7110",
+    "paper": "a5",
+    "orientation": "portrait",
+    "file": "a5/portrait/print/print-7110@a5-portrait.svg"
+  },
+  {
+    "sheet": "ruled",
+    "variant": "10",
+    "paper": "a4",
+    "orientation": "landscape",
+    "file": "a4/landscape/ruled/ruled-10@a4-landscape.svg"
+  },
+  {
+    "sheet": "ruled",
+    "variant": "10",
+    "paper": "a4",
+    "orientation": "portrait",
+    "file": "a4/portrait/ruled/ruled-10@a4-portrait.svg"
+  },
+  {
+    "sheet": "ruled",
+    "variant": "10",
+    "paper": "a5",
+    "orientation": "landscape",
+    "file": "a5/landscape/ruled/ruled-10@a5-landscape.svg"
+  },
+  {
+    "sheet": "ruled",
+    "variant": "10",
+    "paper": "a5",
+    "orientation": "portrait",
+    "file": "a5/portrait/ruled/ruled-10@a5-portrait.svg"
+  },
+  {
+    "sheet": "ruled",
+    "variant": "5",
+    "paper": "a4",
+    "orientation": "landscape",
+    "file": "a4/landscape/ruled/ruled-5@a4-landscape.svg"
+  },
+  {
+    "sheet": "ruled",
+    "variant": "5",
+    "paper": "a4",
+    "orientation": "portrait",
+    "file": "a4/portrait/ruled/ruled-5@a4-portrait.svg"
+  },
+  {
+    "sheet": "ruled",
+    "variant": "5",
+    "paper": "a5",
+    "orientation": "landscape",
+    "file": "a5/landscape/ruled/ruled-5@a5-landscape.svg"
+  },
+  {
+    "sheet": "ruled",
+    "variant": "5",
+    "paper": "a5",
+    "orientation": "portrait",
+    "file": "a5/portrait/ruled/ruled-5@a5-portrait.svg"
+  },
+  {
+    "sheet": "ruled",
+    "variant": "7",
+    "paper": "a4",
+    "orientation": "landscape",
+    "file": "a4/landscape/ruled/ruled-7@a4-landscape.svg"
+  },
+  {
+    "sheet": "ruled",
+    "variant": "7",
+    "paper": "a4",
+    "orientation": "portrait",
+    "file": "a4/portrait/ruled/ruled-7@a4-portrait.svg"
+  },
+  {
+    "sheet": "ruled",
+    "variant": "7",
+    "paper": "a5",
+    "orientation": "landscape",
+    "file": "a5/landscape/ruled/ruled-7@a5-landscape.svg"
+  },
+  {
+    "sheet": "ruled",
+    "variant": "7",
+    "paper": "a5",
+    "orientation": "portrait",
+    "file": "a5/portrait/ruled/ruled-7@a5-portrait.svg"
+  },
+  {
+    "sheet": "spencerian",
+    "variant": "5210",
+    "paper": "a4",
+    "orientation": "landscape",
+    "file": "a4/landscape/spencerian/spencerian-5210@a4-landscape.svg"
+  },
+  {
+    "sheet": "spencerian",
+    "variant": "5210",
+    "paper": "a4",
+    "orientation": "portrait",
+    "file": "a4/portrait/spencerian/spencerian-5210@a4-portrait.svg"
+  },
+  {
+    "sheet": "spencerian",
+    "variant": "5210",
+    "paper": "a5",
+    "orientation": "landscape",
+    "file": "a5/landscape/spencerian/spencerian-5210@a5-landscape.svg"
+  },
+  {
+    "sheet": "spencerian",
+    "variant": "5210",
+    "paper": "a5",
+    "orientation": "portrait",
+    "file": "a5/portrait/spencerian/spencerian-5210@a5-portrait.svg"
+  },
+  {
+    "sheet": "spencerian",
+    "variant": "5320",
+    "paper": "a4",
+    "orientation": "landscape",
+    "file": "a4/landscape/spencerian/spencerian-5320@a4-landscape.svg"
+  },
+  {
+    "sheet": "spencerian",
+    "variant": "5320",
+    "paper": "a4",
+    "orientation": "portrait",
+    "file": "a4/portrait/spencerian/spencerian-5320@a4-portrait.svg"
+  },
+  {
+    "sheet": "spencerian",
+    "variant": "5320",
+    "paper": "a5",
+    "orientation": "landscape",
+    "file": "a5/landscape/spencerian/spencerian-5320@a5-landscape.svg"
+  },
+  {
+    "sheet": "spencerian",
+    "variant": "5320",
+    "paper": "a5",
+    "orientation": "portrait",
+    "file": "a5/portrait/spencerian/spencerian-5320@a5-portrait.svg"
+  },
+  {
+    "sheet": "spencerian",
+    "variant": "7210",
+    "paper": "a4",
+    "orientation": "landscape",
+    "file": "a4/landscape/spencerian/spencerian-7210@a4-landscape.svg"
+  },
+  {
+    "sheet": "spencerian",
+    "variant": "7210",
+    "paper": "a4",
+    "orientation": "portrait",
+    "file": "a4/portrait/spencerian/spencerian-7210@a4-portrait.svg"
+  },
+  {
+    "sheet": "spencerian",
+    "variant": "7210",
+    "paper": "a5",
+    "orientation": "landscape",
+    "file": "a5/landscape/spencerian/spencerian-7210@a5-landscape.svg"
+  },
+  {
+    "sheet": "spencerian",
+    "variant": "7210",
+    "paper": "a5",
+    "orientation": "portrait",
+    "file": "a5/portrait/spencerian/spencerian-7210@a5-portrait.svg"
+  },
+  {
+    "sheet": "spencerian",
+    "variant": "7320",
+    "paper": "a4",
+    "orientation": "landscape",
+    "file": "a4/landscape/spencerian/spencerian-7320@a4-landscape.svg"
+  },
+  {
+    "sheet": "spencerian",
+    "variant": "7320",
+    "paper": "a4",
+    "orientation": "portrait",
+    "file": "a4/portrait/spencerian/spencerian-7320@a4-portrait.svg"
+  },
+  {
+    "sheet": "spencerian",
+    "variant": "7320",
+    "paper": "a5",
+    "orientation": "landscape",
+    "file": "a5/landscape/spencerian/spencerian-7320@a5-landscape.svg"
+  },
+  {
+    "sheet": "spencerian",
+    "variant": "7320",
+    "paper": "a5",
+    "orientation": "portrait",
+    "file": "a5/portrait/spencerian/spencerian-7320@a5-portrait.svg"
+  },
+  {
+    "sheet": "thumbnail",
+    "variant": "compact",
+    "paper": "a4",
+    "orientation": "landscape",
+    "file": "a4/landscape/thumbnail/thumbnail-compact@a4-landscape.svg"
+  },
+  {
+    "sheet": "thumbnail",
+    "variant": "compact",
+    "paper": "a4",
+    "orientation": "portrait",
+    "file": "a4/portrait/thumbnail/thumbnail-compact@a4-portrait.svg"
+  },
+  {
+    "sheet": "thumbnail",
+    "variant": "medium",
+    "paper": "a4",
+    "orientation": "landscape",
+    "file": "a4/landscape/thumbnail/thumbnail-medium@a4-landscape.svg"
+  },
+  {
+    "sheet": "thumbnail",
+    "variant": "medium",
+    "paper": "a4",
+    "orientation": "portrait",
+    "file": "a4/portrait/thumbnail/thumbnail-medium@a4-portrait.svg"
+  }
+]
