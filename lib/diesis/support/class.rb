@@ -57,7 +57,7 @@ module Diesis
 
       private_constant :Value
 
-      def define(name, initial = Undefined, behave: Undefined, inherit: true, instance_reader: false) # rubocop:disable Metrics/MethodLength
+      def define(name, initial: Undefined, behave: Undefined, inherit: true, instance_reader: false) # rubocop:disable Metrics/MethodLength
         ivar    = :"@#{name}"
         handler = Value.behave(behave, initial)
 
