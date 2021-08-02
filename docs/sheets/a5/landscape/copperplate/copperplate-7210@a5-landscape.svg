@@ -1,0 +1,82 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" width="210.0mm" height="148.5mm" viewBox="0 0 210.0 148.5" >
+
+  <g id="sheet">
+    <line x1="17.5" y1="21.75" x2="192.5" y2="21.75" stroke='blue' stroke-width='0.2' tags='ascender2'/>
+    <line x1="17.5" y1="28.75" x2="192.5" y2="28.75" stroke='grey' stroke-width='0.1' stroke-dasharray='2, 2' tags='ascender1'/>
+    <line x1="17.5" y1="35.75" x2="192.5" y2="35.75" stroke='grey' stroke-width='0.1' tags='waist'/>
+    <line x1="17.5" y1="42.75" x2="192.5" y2="42.75" stroke='red' stroke-width='0.1' tags='base'/>
+    <line x1="17.5" y1="49.75" x2="192.5" y2="49.75" stroke='grey' stroke-width='0.1' stroke-dasharray='2, 2' tags='descender1'/>
+    <line x1="17.5" y1="56.75" x2="192.5" y2="56.75" stroke='blue' stroke-width='0.2' tags='descender2'/>
+    <line x1="17.5" y1="63.75" x2="192.5" y2="63.75" stroke='grey' stroke-width='0.1' stroke-dasharray='2, 2' tags='ascender1'/>
+    <line x1="17.5" y1="70.75" x2="192.5" y2="70.75" stroke='grey' stroke-width='0.1' tags='waist'/>
+    <line x1="17.5" y1="77.75" x2="192.5" y2="77.75" stroke='red' stroke-width='0.1' tags='base'/>
+    <line x1="17.5" y1="84.75" x2="192.5" y2="84.75" stroke='grey' stroke-width='0.1' stroke-dasharray='2, 2' tags='descender1'/>
+    <line x1="17.5" y1="91.75" x2="192.5" y2="91.75" stroke='blue' stroke-width='0.2' tags='descender2'/>
+    <line x1="17.5" y1="98.75" x2="192.5" y2="98.75" stroke='grey' stroke-width='0.1' stroke-dasharray='2, 2' tags='ascender1'/>
+    <line x1="17.5" y1="105.75" x2="192.5" y2="105.75" stroke='grey' stroke-width='0.1' tags='waist'/>
+    <line x1="17.5" y1="112.75" x2="192.5" y2="112.75" stroke='red' stroke-width='0.1' tags='base'/>
+    <line x1="17.5" y1="119.75" x2="192.5" y2="119.75" stroke='grey' stroke-width='0.1' stroke-dasharray='2, 2' tags='descender1'/>
+    <line x1="17.5" y1="126.75" x2="192.5" y2="126.75" stroke='blue' stroke-width='0.2' tags='descender2'/>
+    <line x1="17.5" y1="21.75" x2="17.5" y2="21.75" stroke='blue' stroke-width='0.1' tags='slant'/>
+    <line x1="17.5" y1="33.92386" x2="26.02423" y2="21.75" stroke='blue' stroke-width='0.1' tags='slant'/>
+    <line x1="17.5" y1="46.09772" x2="34.54845" y2="21.75" stroke='blue' stroke-width='0.1' tags='slant'/>
+    <line x1="17.5" y1="58.27157" x2="43.07268" y2="21.75" stroke='blue' stroke-width='0.1' tags='slant'/>
+    <line x1="17.5" y1="70.44543" x2="51.59691" y2="21.75" stroke='blue' stroke-width='0.1' tags='slant'/>
+    <line x1="17.5" y1="82.61929" x2="60.12114" y2="21.75" stroke='blue' stroke-width='0.1' tags='slant'/>
+    <line x1="17.5" y1="94.79315" x2="68.64536" y2="21.75" stroke='blue' stroke-width='0.1' tags='slant'/>
+    <line x1="17.5" y1="106.96701" x2="77.16959" y2="21.75" stroke='blue' stroke-width='0.1' tags='slant'/>
+    <line x1="17.5" y1="119.14086" x2="85.69382" y2="21.75" stroke='blue' stroke-width='0.1' tags='slant'/>
+    <line x1="20.69625" y1="126.75" x2="94.21804" y2="21.75" stroke='blue' stroke-width='0.1' tags='slant'/>
+    <line x1="29.22048" y1="126.75" x2="102.74227" y2="21.75" stroke='blue' stroke-width='0.1' tags='slant'/>
+    <line x1="37.74471" y1="126.75" x2="111.2665" y2="21.75" stroke='blue' stroke-width='0.1' tags='slant'/>
+    <line x1="46.26893" y1="126.75" x2="119.79073" y2="21.75" stroke='blue' stroke-width='0.1' tags='slant'/>
+    <line x1="54.79316" y1="126.75" x2="128.31495" y2="21.75" stroke='blue' stroke-width='0.1' tags='slant'/>
+    <line x1="63.31739" y1="126.75" x2="136.83918" y2="21.75" stroke='blue' stroke-width='0.1' tags='slant'/>
+    <line x1="71.84162" y1="126.75" x2="145.36341" y2="21.75" stroke='blue' stroke-width='0.1' tags='slant'/>
+    <line x1="80.36584" y1="126.75" x2="153.88763" y2="21.75" stroke='blue' stroke-width='0.1' tags='slant'/>
+    <line x1="88.89007" y1="126.75" x2="162.41186" y2="21.75" stroke='blue' stroke-width='0.1' tags='slant'/>
+    <line x1="97.4143" y1="126.75" x2="170.93609" y2="21.75" stroke='blue' stroke-width='0.1' tags='slant'/>
+    <line x1="105.93852" y1="126.75" x2="179.46032" y2="21.75" stroke='blue' stroke-width='0.1' tags='slant'/>
+    <line x1="114.46275" y1="126.75" x2="187.98454" y2="21.75" stroke='blue' stroke-width='0.1' tags='slant'/>
+    <line x1="122.98698" y1="126.75" x2="192.5" y2="27.47512" stroke='blue' stroke-width='0.1' tags='slant'/>
+    <line x1="131.51121" y1="126.75" x2="192.5" y2="39.64897" stroke='blue' stroke-width='0.1' tags='slant'/>
+    <line x1="140.03543" y1="126.75" x2="192.5" y2="51.82283" stroke='blue' stroke-width='0.1' tags='slant'/>
+    <line x1="148.55966" y1="126.75" x2="192.5" y2="63.99669" stroke='blue' stroke-width='0.1' tags='slant'/>
+    <line x1="157.08389" y1="126.75" x2="192.5" y2="76.17055" stroke='blue' stroke-width='0.1' tags='slant'/>
+    <line x1="165.60811" y1="126.75" x2="192.5" y2="88.34441" stroke='blue' stroke-width='0.1' tags='slant'/>
+    <line x1="174.13234" y1="126.75" x2="192.5" y2="100.51826" stroke='blue' stroke-width='0.1' tags='slant'/>
+    <line x1="182.65657" y1="126.75" x2="192.5" y2="112.69212" stroke='blue' stroke-width='0.1' tags='slant'/>
+    <line x1="191.1808" y1="126.75" x2="192.5" y2="124.86598" stroke='blue' stroke-width='0.1' tags='slant'/>
+    <line x1="17.5" y1="32.50491" x2="26.52444" y2="21.75" stroke='blue' stroke-width='0.07' stroke-dasharray='2, 2' tags='connective'/>
+    <line x1="17.5" y1="43.25982" x2="35.54889" y2="21.75" stroke='blue' stroke-width='0.07' stroke-dasharray='2, 2' tags='connective'/>
+    <line x1="17.5" y1="54.01474" x2="44.57333" y2="21.75" stroke='blue' stroke-width='0.07' stroke-dasharray='2, 2' tags='connective'/>
+    <line x1="17.5" y1="64.76965" x2="53.59777" y2="21.75" stroke='blue' stroke-width='0.07' stroke-dasharray='2, 2' tags='connective'/>
+    <line x1="17.5" y1="75.52456" x2="62.62221" y2="21.75" stroke='blue' stroke-width='0.07' stroke-dasharray='2, 2' tags='connective'/>
+    <line x1="17.5" y1="86.27947" x2="71.64666" y2="21.75" stroke='blue' stroke-width='0.07' stroke-dasharray='2, 2' tags='connective'/>
+    <line x1="17.5" y1="97.03439" x2="80.6711" y2="21.75" stroke='blue' stroke-width='0.07' stroke-dasharray='2, 2' tags='connective'/>
+    <line x1="17.5" y1="107.7893" x2="89.69554" y2="21.75" stroke='blue' stroke-width='0.07' stroke-dasharray='2, 2' tags='connective'/>
+    <line x1="17.5" y1="118.54421" x2="98.71999" y2="21.75" stroke='blue' stroke-width='0.07' stroke-dasharray='2, 2' tags='connective'/>
+    <line x1="19.63897" y1="126.75" x2="107.74443" y2="21.75" stroke='blue' stroke-width='0.07' stroke-dasharray='2, 2' tags='connective'/>
+    <line x1="28.66341" y1="126.75" x2="116.76887" y2="21.75" stroke='blue' stroke-width='0.07' stroke-dasharray='2, 2' tags='connective'/>
+    <line x1="37.68785" y1="126.75" x2="125.79331" y2="21.75" stroke='blue' stroke-width='0.07' stroke-dasharray='2, 2' tags='connective'/>
+    <line x1="46.7123" y1="126.75" x2="134.81776" y2="21.75" stroke='blue' stroke-width='0.07' stroke-dasharray='2, 2' tags='connective'/>
+    <line x1="55.73674" y1="126.75" x2="143.8422" y2="21.75" stroke='blue' stroke-width='0.07' stroke-dasharray='2, 2' tags='connective'/>
+    <line x1="64.76118" y1="126.75" x2="152.86664" y2="21.75" stroke='blue' stroke-width='0.07' stroke-dasharray='2, 2' tags='connective'/>
+    <line x1="73.78562" y1="126.75" x2="161.89109" y2="21.75" stroke='blue' stroke-width='0.07' stroke-dasharray='2, 2' tags='connective'/>
+    <line x1="82.81007" y1="126.75" x2="170.91553" y2="21.75" stroke='blue' stroke-width='0.07' stroke-dasharray='2, 2' tags='connective'/>
+    <line x1="91.83451" y1="126.75" x2="179.93997" y2="21.75" stroke='blue' stroke-width='0.07' stroke-dasharray='2, 2' tags='connective'/>
+    <line x1="100.85895" y1="126.75" x2="188.96441" y2="21.75" stroke='blue' stroke-width='0.07' stroke-dasharray='2, 2' tags='connective'/>
+    <line x1="109.8834" y1="126.75" x2="192.5" y2="28.29137" stroke='blue' stroke-width='0.07' stroke-dasharray='2, 2' tags='connective'/>
+    <line x1="118.90784" y1="126.75" x2="192.5" y2="39.04628" stroke='blue' stroke-width='0.07' stroke-dasharray='2, 2' tags='connective'/>
+    <line x1="127.93228" y1="126.75" x2="192.5" y2="49.80119" stroke='blue' stroke-width='0.07' stroke-dasharray='2, 2' tags='connective'/>
+    <line x1="136.95672" y1="126.75" x2="192.5" y2="60.5561" stroke='blue' stroke-width='0.07' stroke-dasharray='2, 2' tags='connective'/>
+    <line x1="145.98117" y1="126.75" x2="192.5" y2="71.31101" stroke='blue' stroke-width='0.07' stroke-dasharray='2, 2' tags='connective'/>
+    <line x1="155.00561" y1="126.75" x2="192.5" y2="82.06593" stroke='blue' stroke-width='0.07' stroke-dasharray='2, 2' tags='connective'/>
+    <line x1="164.03005" y1="126.75" x2="192.5" y2="92.82084" stroke='blue' stroke-width='0.07' stroke-dasharray='2, 2' tags='connective'/>
+    <line x1="173.0545" y1="126.75" x2="192.5" y2="103.57575" stroke='blue' stroke-width='0.07' stroke-dasharray='2, 2' tags='connective'/>
+    <line x1="182.07894" y1="126.75" x2="192.5" y2="114.33066" stroke='blue' stroke-width='0.07' stroke-dasharray='2, 2' tags='connective'/>
+    <line x1="191.10338" y1="126.75" x2="192.5" y2="125.08558" stroke='blue' stroke-width='0.07' stroke-dasharray='2, 2' tags='connective'/>
+  </g>
+</svg>
