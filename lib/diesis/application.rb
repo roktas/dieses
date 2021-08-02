@@ -52,7 +52,7 @@ module Diesis
       private
 
       def reldir
-        File.join(paper, orientation, sheet)
+        File.join(sheet, paper)
       end
     end
 
