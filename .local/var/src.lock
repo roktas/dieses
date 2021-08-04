@@ -22,7 +22,7 @@
           "before": 55,
           "after": 38,
           "signature": "      # rubocop:disable Metrics/MethodLength,Layout/LineLength,Lint/RedundantCopDisableDirective\n",
-          "digest": "b3bc8f88450aeef514d53d19e78fd3f4760974c2848b1b5adf13c4152cfd177a"
+          "digest": "15247048402a57151d60fc71e6fd9155856d8bd5846d67dbd36a8e43a3f1ae9f"
         }
       }
     ]
