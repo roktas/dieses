@@ -33,8 +33,8 @@ module Diesis
           klass.extend Support::ClassAttribute
 
           klass.define :proto
-          klass.define :variants, initial: {}
-          klass.define :param,    initial: Param.new
+          klass.define :variants, default: {}
+          klass.define :param,    default: Param.new
         end
       end
 

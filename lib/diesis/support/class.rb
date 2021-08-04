@@ -57,11 +57,11 @@ module Diesis
 
       private_constant :Value
 
-      def define(name, initial: Undefined, behave: Undefined, inherit: true, instance_reader: false) # rubocop:disable Metrics/MethodLength
+      def define(name, default: Undefined, behave: Undefined, inherit: true, instance_reader: false) # rubocop:disable Metrics/MethodLength
         ivar    = :"@#{name}"
-        handler = Value.behave(behave, initial)
+        handler = Value.behave(behave, default)
 
-        instance_variable_set(ivar, initial.dup)
+        instance_variable_set(ivar, default.dup)
 
         mod = ::Module.new do
           define_method(name) do |new_value = Undefined|
@@ -72,14 +72,14 @@ module Diesis
             current_value = if instance_variable_defined?(ivar)
                               instance_variable_get(ivar)
                             else
-                              instance_variable_set(ivar, initial.dup)
+                              instance_variable_set(ivar, default.dup)
                             end
 
             instance_variable_set(ivar, handler.(current_value, new_value))
           end
 
           define_method(:inherited) do |klass|
-            klass.send(name, (inherit ? send(name) : initial).dup)
+            klass.send(name, (inherit ? send(name) : default).dup)
 
             super(klass)
           end
