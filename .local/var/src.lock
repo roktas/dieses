@@ -3,7 +3,7 @@
     "source": "lib/diesis/support/const.rb",
     "series": [
       {
-        "directive": "    ... github.com/alaturka/ruby kernel/const\n",
+        "directive": "    ... github.com/alaturka/ruby const/const\n",
         "insertion": {
           "before": 18,
           "after": 51,
@@ -23,6 +23,20 @@
           "after": 38,
           "signature": "      # rubocop:disable Metrics/MethodLength,Layout/LineLength,Lint/RedundantCopDisableDirective\n",
           "digest": "15247048402a57151d60fc71e6fd9155856d8bd5846d67dbd36a8e43a3f1ae9f"
+        }
+      }
+    ]
+  },
+  {
+    "source": "lib/diesis/support/enum.rb",
+    "series": [
+      {
+        "directive": "    ... github.com/alaturka/ruby enum/enum\n",
+        "insertion": {
+          "before": 12,
+          "after": 40,
+          "signature": "        raise ArgumentError, \"Invalid enum value: #{value}\" unless self.class.values.member?(value = value.to_sym)\n",
+          "digest": "7ee92ac43ad0d7c982bbde15595925369138c92c11e9894f7f2d4c1771dd1a34"
         }
       }
     ]
