@@ -34,9 +34,9 @@
         "directive": "    ... github.com/alaturka/ruby enum/enum\n",
         "insertion": {
           "before": 12,
-          "after": 40,
+          "after": 42,
           "signature": "        raise ArgumentError, \"Invalid enum value: #{value}\" unless self.class.values.member?(value = value.to_sym)\n",
-          "digest": "7ee92ac43ad0d7c982bbde15595925369138c92c11e9894f7f2d4c1771dd1a34"
+          "digest": "6e0d614fb87df684f8bd54bc0417397a3c98dc247bd49793abec37ce2912a46c"
         }
       }
     ]
