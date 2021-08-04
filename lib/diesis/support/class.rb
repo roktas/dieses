@@ -2,64 +2,63 @@
 
 module Diesis
   module Support
+    # Stolen and improved from dry-rb/dry-core
     module ClassAttribute
       module Value
-        BEHAVE = %i[update append assign].freeze # Keep the order
+        Update = Object.new.tap do |object|
+          def object.call(current_value, new_value)
+            raise ArgumentError, "Value must be updateable: #{new_value}" unless new_value.respond_to? :[]
 
-        def self.behave(behave, value = Undefined)
-          unless Undefined.equal?(behave)
-            begin
-              return const_get behave.to_s.capitalize
-            rescue NameError
-              raise ArgumentError, "Unrecognized behave: #{behave}"
+            current_value.tap { new_value.each { |k, v| current_value[k.to_sym] = v } }
+          end
+        end.freeze
+
+        Append = Object.new.tap do |object|
+          def object.call(current_value, new_value)
+            raise ArgumentError, "Value must be appendable: #{new_value}" unless new_value.respond_to? :<<
+
+            current_value.tap { new_value.each { |v| current_value << v } }
+          end
+        end.freeze
+
+        Assign = Object.new.tap do |object|
+          def object.call(_, new_value)
+            new_value.dup
+          end
+        end.freeze
+
+        class << self
+          def behave(behave, value = Undefined)
+            Undefined.equal?(behave) ? implicit_behave(value) : explicit_behave(behave)
+          end
+
+          private
+
+          def explicit_behave(behave)
+            const_get behave.to_s.capitalize
+          rescue NameError
+            raise ArgumentError, "Unrecognized behave: #{behave}"
+          end
+
+          def implicit_behave(value)
+            require 'ostruct'
+            require 'set'
+
+            case value
+            when ::Hash, ::Struct, ::OpenStruct then Update
+            when ::Array, ::Set                 then Append
+            else                                     Assign
             end
           end
-
-          BEHAVE.map { |c| const_get(c.to_s.capitalize) }.detect { |handler| handler.match?(value) } || DEFAULT
         end
-
-        def self.value!(handler, new_value)
-          raise ArgumentError, "Value must be #{handler}: #{new_value}" unless handler.match?(new_value)
-
-          new_value
-        end
-
-        Update = Object.new.tap do |this|
-          def this.match?(value)
-            value.respond_to? :[]
-          end
-
-          def this.call(current_value, new_value)
-            current_value.tap { Value.value!(self, new_value).each { |k, v| current_value[k.to_sym] = v } }
-          end
-        end.freeze
-
-        Append = Object.new.tap do |this|
-          def this.match?(value)
-            value.respond_to? :<<
-          end
-
-          def this.call(current_value, new_value)
-            current_value.tap { Value.value!(self, new_value).each { |v| current_value << v } }
-          end
-        end.freeze
-
-        DEFAULT = Assign = Object.new.tap do |this|
-          def this.match?(_)
-            true
-          end
-
-          def this.call(_, new_value)
-            Value.value!(self, new_value).dup
-          end
-        end.freeze
       end
 
       private_constant :Value
 
-      def define(name, default: Undefined, behave: Undefined, inherit: true, instance_reader: false) # rubocop:disable Metrics/MethodLength
-        ivar    = :"@#{name}"
-        handler = Value.behave(behave, default)
+      # rubocop:disable Metrics/MethodLength,Layout/LineLength,Lint/RedundantCopDisableDirective
+      def define(name, default: Undefined, behave: Undefined, inherit: true, instance_reader: false)
+        ivar   = :"@#{name}"
+        behave = Value.behave(behave, default)
 
         instance_variable_set(ivar, default.dup)
 
@@ -69,13 +68,13 @@ module Diesis
               return instance_variable_defined?(ivar) ? instance_variable_get(ivar) : nil
             end
 
-            current_value = if instance_variable_defined?(ivar)
-                              instance_variable_get(ivar)
-                            else
-                              instance_variable_set(ivar, default.dup)
-                            end
-
-            instance_variable_set(ivar, handler.(current_value, new_value))
+            instance_variable_set(
+              ivar,
+              behave.(
+                instance_variable_defined?(ivar) ? instance_variable_get(ivar) : instance_variable_set(ivar, default.dup),
+                new_value
+              )
+            )
           end
 
           define_method(:inherited) do |klass|
@@ -89,6 +88,7 @@ module Diesis
 
         define_method(name) { self.class.send(name) } if instance_reader
       end
+      # rubocop:enable Metrics/MethodLength,Layout/LineLength,Lint/RedundantCopDisableDirective
 
       def defines(*names, behave: Undefined)
         names.each { |name| define(name, behave: behave) }
