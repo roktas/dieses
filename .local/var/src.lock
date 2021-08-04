@@ -1,1 +1,30 @@
-[]
+[
+  {
+    "source": "lib/diesis/support/const.rb",
+    "series": [
+      {
+        "directive": "    ... github.com/alaturka/ruby kernel/const\n",
+        "insertion": {
+          "before": 18,
+          "after": 51,
+          "signature": "      Undefined = Object.new.tap do |undefined| # rubocop:disable Metrics/BlockLength\n",
+          "digest": "66412e35483a756eadae06337aa7b01e900c63d5ec98b855395e831beff2442e"
+        }
+      }
+    ]
+  },
+  {
+    "source": "lib/diesis/support/class.rb",
+    "series": [
+      {
+        "directive": "    ... github.com/alaturka/ruby class/class_attribute\n",
+        "insertion": {
+          "before": 55,
+          "after": 38,
+          "signature": "      # rubocop:disable Metrics/MethodLength,Layout/LineLength,Lint/RedundantCopDisableDirective\n",
+          "digest": "b3bc8f88450aeef514d53d19e78fd3f4760974c2848b1b5adf13c4152cfd177a"
+        }
+      }
+    ]
+  }
+]

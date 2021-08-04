@@ -1,11 +1,11 @@
 # frozen_string_literal: true
 
-require 'set'
-
 module Diesis
   module Support
     module Const
       # Copied from https://github.com/dry-rb/dry-core.  All kudos to the original authors.
+
+      require 'set'
 
       # An empty array
       EMPTY_ARRAY = [].freeze
