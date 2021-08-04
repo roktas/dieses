@@ -29,18 +29,20 @@ module Diesis
 
         class << self
           def behave(behave, value = Undefined)
-            Undefined.equal?(behave) ? implicit_behave(value) : explicit_behave(behave)
+            Undefined.equal?(behave) ? implicit(value) : explicit(behave)
           end
 
           private
 
-          def explicit_behave(behave)
+          # Map given symbol to relevant module
+          def explicit(behave)
             const_get behave.to_s.capitalize
           rescue NameError
             raise ArgumentError, "Unrecognized behave: #{behave}"
           end
 
-          def implicit_behave(value)
+          # Deduce semantics from a value
+          def implicit(value)
             require 'ostruct'
             require 'set'
 
