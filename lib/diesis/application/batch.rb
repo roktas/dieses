@@ -90,8 +90,6 @@ module Diesis
           end
         end
       end
-
-
     end
   end
 end
