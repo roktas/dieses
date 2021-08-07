@@ -6,7 +6,7 @@ module Diesis
       class Copperplate < Sheet
         sheet :copperplate, 'Copperplate worksheet'
 
-        include Mixins::Scribe[:sextet].with unit: [5, 7], ratio: [3/2r, 2/1r]
+        include Mixins::Scribes[:sextet].with unit: [5, 7], ratio: [3/2r, 2/1r]
 
         cline :slant,      angle: 55.0,
                            style: Style.(stroke: 'blue', 'stroke-width': 0.1)

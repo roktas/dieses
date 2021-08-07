@@ -6,7 +6,7 @@ module Diesis
       class Print < Sheet
         sheet :print, 'Print style worksheet'
 
-        include Mixins::Scribe[:quartet].with unit: [5, 7, 10]
+        include Mixins::Scribes[:quartet].with unit: [5, 7, 10]
 
         vline :vline, style: Style.(stroke: 'blue', 'stroke-width': '0.05')
 

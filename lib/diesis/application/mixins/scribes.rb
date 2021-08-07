@@ -3,9 +3,9 @@
 module Diesis
   module Application
     module Mixins
-      class Scribe < Module
+      class Scribes < Module
         def self.[](type)
-          raise ArgumentError, "No such Scribe type available: #{type}" unless Mixins.method_defined? type
+          raise ArgumentError, "No such Scribes type available: #{type}" unless Mixins.method_defined? type
 
           new(type)
         end
