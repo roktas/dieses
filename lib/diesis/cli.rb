@@ -1,6 +1,5 @@
 # frozen_string_literal: true
 
-require 'fileutils'
 require 'optparse'
 require 'ostruct'
 
@@ -103,12 +102,15 @@ module Diesis
       require 'json'
 
       INDEX_FILE = 'index.json'
-      DEST_DIR   = 'sheetsxxx'
+
+      OPTIONS    = {
+        destdir: 'sheets'
+      }.freeze
 
       module_function
 
-      def call(*argv, **options) # rubocop:disable Metrics/MethodLength
-        options = OpenStruct.new(options)
+      def call(*argv, **options) # rubocop:disable Metrics/MethodLength,Metrics/AbcSize
+        options = OpenStruct.new(OPTIONS.merge(options))
         args options(argv, options), argv
 
         index_file = argv.first
@@ -116,18 +118,14 @@ module Diesis
         if options.index
           abort("Index file exists: #{index_file}") if options.no_clobber && File.exist?(index_file)
 
-          write_index(index_file, Application.combinations)
-          return
+          return write_index(index_file, Application.combinations)
         end
 
         abort("Index file not found: #{index_file}") unless File.exist?(index_file)
 
-        destdir = options.destdir || DEST_DIR
-        if Dir.exist?(destdir)
-          abort("Destination directory exists: #{destdir}") if options.no_clobber
-        end
+        abort("Destination directory exists: #{options.destdir}") if Dir.exist?(options.destdir) && options.no_clobber
 
-        write_index(index_file, Application.batch(read_index(index_file), prefix: destdir))
+        write_index(index_file, Application.batch(read_index(index_file), prefix: options.destdir))
       rescue OptionParser::InvalidOption, Diesis::Error => e
         abort(e.message)
       end
