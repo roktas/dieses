@@ -1,0 +1,23 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" width="297.0mm" height="210.0mm" viewBox="0 0 297.0 210.0" >
+
+  <g id="sheet">
+    <rect width="30.0" height="40.0" x="81.0" y="17.5" stroke='blue' stroke-width='0.2' fill='none' tags='rect'/>
+    <rect width="30.0" height="40.0" x="116.0" y="17.5" stroke='blue' stroke-width='0.2' fill='none' tags='rect'/>
+    <rect width="30.0" height="40.0" x="151.0" y="17.5" stroke='blue' stroke-width='0.2' fill='none' tags='rect'/>
+    <rect width="30.0" height="40.0" x="186.0" y="17.5" stroke='blue' stroke-width='0.2' fill='none' tags='rect'/>
+    <rect width="30.0" height="40.0" x="81.0" y="62.5" stroke='blue' stroke-width='0.2' fill='none' tags='rect'/>
+    <rect width="30.0" height="40.0" x="116.0" y="62.5" stroke='blue' stroke-width='0.2' fill='none' tags='rect'/>
+    <rect width="30.0" height="40.0" x="151.0" y="62.5" stroke='blue' stroke-width='0.2' fill='none' tags='rect'/>
+    <rect width="30.0" height="40.0" x="186.0" y="62.5" stroke='blue' stroke-width='0.2' fill='none' tags='rect'/>
+    <rect width="30.0" height="40.0" x="81.0" y="107.5" stroke='blue' stroke-width='0.2' fill='none' tags='rect'/>
+    <rect width="30.0" height="40.0" x="116.0" y="107.5" stroke='blue' stroke-width='0.2' fill='none' tags='rect'/>
+    <rect width="30.0" height="40.0" x="151.0" y="107.5" stroke='blue' stroke-width='0.2' fill='none' tags='rect'/>
+    <rect width="30.0" height="40.0" x="186.0" y="107.5" stroke='blue' stroke-width='0.2' fill='none' tags='rect'/>
+    <rect width="30.0" height="40.0" x="81.0" y="152.5" stroke='blue' stroke-width='0.2' fill='none' tags='rect'/>
+    <rect width="30.0" height="40.0" x="116.0" y="152.5" stroke='blue' stroke-width='0.2' fill='none' tags='rect'/>
+    <rect width="30.0" height="40.0" x="151.0" y="152.5" stroke='blue' stroke-width='0.2' fill='none' tags='rect'/>
+    <rect width="30.0" height="40.0" x="186.0" y="152.5" stroke='blue' stroke-width='0.2' fill='none' tags='rect'/>
+  </g>
+</svg>

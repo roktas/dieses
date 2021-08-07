@@ -1,0 +1,55 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" width="210.0mm" height="297.0mm" viewBox="0 0 210.0 297.0" >
+
+  <g id="sheet">
+    <line x1="25.0" y1="28.5" x2="185.0" y2="28.5" stroke='blue' stroke-width='0.1' tags='hline'/>
+    <line x1="25.0" y1="38.5" x2="185.0" y2="38.5" stroke='blue' stroke-width='0.1' tags='hline'/>
+    <line x1="25.0" y1="48.5" x2="185.0" y2="48.5" stroke='blue' stroke-width='0.1' tags='hline'/>
+    <line x1="25.0" y1="58.5" x2="185.0" y2="58.5" stroke='blue' stroke-width='0.1' tags='hline'/>
+    <line x1="25.0" y1="68.5" x2="185.0" y2="68.5" stroke='blue' stroke-width='0.1' tags='hline'/>
+    <line x1="25.0" y1="78.5" x2="185.0" y2="78.5" stroke='blue' stroke-width='0.1' tags='hline'/>
+    <line x1="25.0" y1="88.5" x2="185.0" y2="88.5" stroke='blue' stroke-width='0.1' tags='hline'/>
+    <line x1="25.0" y1="98.5" x2="185.0" y2="98.5" stroke='blue' stroke-width='0.1' tags='hline'/>
+    <line x1="25.0" y1="108.5" x2="185.0" y2="108.5" stroke='blue' stroke-width='0.1' tags='hline'/>
+    <line x1="25.0" y1="118.5" x2="185.0" y2="118.5" stroke='blue' stroke-width='0.1' tags='hline'/>
+    <line x1="25.0" y1="128.5" x2="185.0" y2="128.5" stroke='blue' stroke-width='0.1' tags='hline'/>
+    <line x1="25.0" y1="138.5" x2="185.0" y2="138.5" stroke='blue' stroke-width='0.1' tags='hline'/>
+    <line x1="25.0" y1="148.5" x2="185.0" y2="148.5" stroke='blue' stroke-width='0.1' tags='hline'/>
+    <line x1="25.0" y1="158.5" x2="185.0" y2="158.5" stroke='blue' stroke-width='0.1' tags='hline'/>
+    <line x1="25.0" y1="168.5" x2="185.0" y2="168.5" stroke='blue' stroke-width='0.1' tags='hline'/>
+    <line x1="25.0" y1="178.5" x2="185.0" y2="178.5" stroke='blue' stroke-width='0.1' tags='hline'/>
+    <line x1="25.0" y1="188.5" x2="185.0" y2="188.5" stroke='blue' stroke-width='0.1' tags='hline'/>
+    <line x1="25.0" y1="198.5" x2="185.0" y2="198.5" stroke='blue' stroke-width='0.1' tags='hline'/>
+    <line x1="25.0" y1="208.5" x2="185.0" y2="208.5" stroke='blue' stroke-width='0.1' tags='hline'/>
+    <line x1="25.0" y1="218.5" x2="185.0" y2="218.5" stroke='blue' stroke-width='0.1' tags='hline'/>
+    <line x1="25.0" y1="228.5" x2="185.0" y2="228.5" stroke='blue' stroke-width='0.1' tags='hline'/>
+    <line x1="25.0" y1="238.5" x2="185.0" y2="238.5" stroke='blue' stroke-width='0.1' tags='hline'/>
+    <line x1="25.0" y1="248.5" x2="185.0" y2="248.5" stroke='blue' stroke-width='0.1' tags='hline'/>
+    <line x1="25.0" y1="258.5" x2="185.0" y2="258.5" stroke='blue' stroke-width='0.1' tags='hline'/>
+    <line x1="25.0" y1="268.5" x2="185.0" y2="268.5" stroke='blue' stroke-width='0.1' tags='hline'/>
+    <line x1="25.0" y1="28.5" x2="25.0" y2="268.5" stroke='blue' stroke-width='0.1' tags='vline'/>
+    <line x1="35.0" y1="28.5" x2="35.0" y2="268.5" stroke='blue' stroke-width='0.1' tags='vline'/>
+    <line x1="45.0" y1="28.5" x2="45.0" y2="268.5" stroke='blue' stroke-width='0.1' tags='vline'/>
+    <line x1="55.0" y1="28.5" x2="55.0" y2="268.5" stroke='blue' stroke-width='0.1' tags='vline'/>
+    <line x1="65.0" y1="28.5" x2="65.0" y2="268.5" stroke='blue' stroke-width='0.1' tags='vline'/>
+    <line x1="75.0" y1="28.5" x2="75.0" y2="268.5" stroke='blue' stroke-width='0.1' tags='vline'/>
+    <line x1="85.0" y1="28.5" x2="85.0" y2="268.5" stroke='blue' stroke-width='0.1' tags='vline'/>
+    <line x1="95.0" y1="28.5" x2="95.0" y2="268.5" stroke='blue' stroke-width='0.1' tags='vline'/>
+    <line x1="105.0" y1="28.5" x2="105.0" y2="268.5" stroke='blue' stroke-width='0.1' tags='vline'/>
+    <line x1="115.0" y1="28.5" x2="115.0" y2="268.5" stroke='blue' stroke-width='0.1' tags='vline'/>
+    <line x1="125.0" y1="28.5" x2="125.0" y2="268.5" stroke='blue' stroke-width='0.1' tags='vline'/>
+    <line x1="135.0" y1="28.5" x2="135.0" y2="268.5" stroke='blue' stroke-width='0.1' tags='vline'/>
+    <line x1="145.0" y1="28.5" x2="145.0" y2="268.5" stroke='blue' stroke-width='0.1' tags='vline'/>
+    <line x1="155.0" y1="28.5" x2="155.0" y2="268.5" stroke='blue' stroke-width='0.1' tags='vline'/>
+    <line x1="165.0" y1="28.5" x2="165.0" y2="268.5" stroke='blue' stroke-width='0.1' tags='vline'/>
+    <line x1="175.0" y1="28.5" x2="175.0" y2="268.5" stroke='blue' stroke-width='0.1' tags='vline'/>
+    <line x1="185.0" y1="28.5" x2="185.0" y2="268.5" stroke='blue' stroke-width='0.1' tags='vline'/>
+    <rect width="80.0" height="80.0" x="25.0" y="28.5" stroke='blue' stroke-width='0.2' fill='none' tags='rect'/>
+    <rect width="80.0" height="80.0" x="105.0" y="28.5" stroke='blue' stroke-width='0.2' fill='none' tags='rect'/>
+    <rect width="80.0" height="80.0" x="25.0" y="108.5" stroke='blue' stroke-width='0.2' fill='none' tags='rect'/>
+    <rect width="80.0" height="80.0" x="105.0" y="108.5" stroke='blue' stroke-width='0.2' fill='none' tags='rect'/>
+    <rect width="80.0" height="80.0" x="25.0" y="188.5" stroke='blue' stroke-width='0.2' fill='none' tags='rect'/>
+    <rect width="80.0" height="80.0" x="105.0" y="188.5" stroke='blue' stroke-width='0.2' fill='none' tags='rect'/>
+  </g>
+</svg>

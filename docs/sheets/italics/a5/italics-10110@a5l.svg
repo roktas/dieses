@@ -1,0 +1,42 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" width="210.0mm" height="148.5mm" viewBox="0 0 210.0 148.5" >
+
+  <g id="sheet">
+    <line x1="15.0" y1="14.25" x2="195.0" y2="14.25" stroke='blue' stroke-width='0.2' tags='ascender'/>
+    <line x1="15.0" y1="24.25" x2="195.0" y2="24.25" stroke='grey' stroke-width='0.1' stroke-dasharray='2, 2' tags='waist'/>
+    <line x1="15.0" y1="34.25" x2="195.0" y2="34.25" stroke='red' stroke-width='0.1' stroke-dasharray='2, 2' tags='base'/>
+    <line x1="15.0" y1="44.25" x2="195.0" y2="44.25" stroke='blue' stroke-width='0.2' tags='descender'/>
+    <line x1="15.0" y1="54.25" x2="195.0" y2="54.25" stroke='grey' stroke-width='0.1' stroke-dasharray='2, 2' tags='waist'/>
+    <line x1="15.0" y1="64.25" x2="195.0" y2="64.25" stroke='red' stroke-width='0.1' stroke-dasharray='2, 2' tags='base'/>
+    <line x1="15.0" y1="74.25" x2="195.0" y2="74.25" stroke='blue' stroke-width='0.2' tags='descender'/>
+    <line x1="15.0" y1="84.25" x2="195.0" y2="84.25" stroke='grey' stroke-width='0.1' stroke-dasharray='2, 2' tags='waist'/>
+    <line x1="15.0" y1="94.25" x2="195.0" y2="94.25" stroke='red' stroke-width='0.1' stroke-dasharray='2, 2' tags='base'/>
+    <line x1="15.0" y1="104.25" x2="195.0" y2="104.25" stroke='blue' stroke-width='0.2' tags='descender'/>
+    <line x1="15.0" y1="114.25" x2="195.0" y2="114.25" stroke='grey' stroke-width='0.1' stroke-dasharray='2, 2' tags='waist'/>
+    <line x1="15.0" y1="124.25" x2="195.0" y2="124.25" stroke='red' stroke-width='0.1' stroke-dasharray='2, 2' tags='base'/>
+    <line x1="15.0" y1="134.25" x2="195.0" y2="134.25" stroke='blue' stroke-width='0.2' tags='descender'/>
+    <line x1="15.0" y1="14.25" x2="15.0" y2="14.25" stroke='blue' stroke-width='0.05' tags='slant'/>
+    <line x1="15.0" y1="72.33059" x2="24.19906" y2="14.25" stroke='blue' stroke-width='0.05' tags='slant'/>
+    <line x1="15.0" y1="130.41118" x2="33.39812" y2="14.25" stroke='blue' stroke-width='0.05' tags='slant'/>
+    <line x1="23.59105" y1="134.25" x2="42.59719" y2="14.25" stroke='blue' stroke-width='0.05' tags='slant'/>
+    <line x1="32.79011" y1="134.25" x2="51.79625" y2="14.25" stroke='blue' stroke-width='0.05' tags='slant'/>
+    <line x1="41.98918" y1="134.25" x2="60.99531" y2="14.25" stroke='blue' stroke-width='0.05' tags='slant'/>
+    <line x1="51.18824" y1="134.25" x2="70.19437" y2="14.25" stroke='blue' stroke-width='0.05' tags='slant'/>
+    <line x1="60.3873" y1="134.25" x2="79.39343" y2="14.25" stroke='blue' stroke-width='0.05' tags='slant'/>
+    <line x1="69.58636" y1="134.25" x2="88.59249" y2="14.25" stroke='blue' stroke-width='0.05' tags='slant'/>
+    <line x1="78.78542" y1="134.25" x2="97.79156" y2="14.25" stroke='blue' stroke-width='0.05' tags='slant'/>
+    <line x1="87.98448" y1="134.25" x2="106.99062" y2="14.25" stroke='blue' stroke-width='0.05' tags='slant'/>
+    <line x1="97.18355" y1="134.25" x2="116.18968" y2="14.25" stroke='blue' stroke-width='0.05' tags='slant'/>
+    <line x1="106.38261" y1="134.25" x2="125.38874" y2="14.25" stroke='blue' stroke-width='0.05' tags='slant'/>
+    <line x1="115.58167" y1="134.25" x2="134.5878" y2="14.25" stroke='blue' stroke-width='0.05' tags='slant'/>
+    <line x1="124.78073" y1="134.25" x2="143.78686" y2="14.25" stroke='blue' stroke-width='0.05' tags='slant'/>
+    <line x1="133.97979" y1="134.25" x2="152.98593" y2="14.25" stroke='blue' stroke-width='0.05' tags='slant'/>
+    <line x1="143.17886" y1="134.25" x2="162.18499" y2="14.25" stroke='blue' stroke-width='0.05' tags='slant'/>
+    <line x1="152.37792" y1="134.25" x2="171.38405" y2="14.25" stroke='blue' stroke-width='0.05' tags='slant'/>
+    <line x1="161.57698" y1="134.25" x2="180.58311" y2="14.25" stroke='blue' stroke-width='0.05' tags='slant'/>
+    <line x1="170.77604" y1="134.25" x2="189.78217" y2="14.25" stroke='blue' stroke-width='0.05' tags='slant'/>
+    <line x1="179.9751" y1="134.25" x2="195.0" y2="39.38653" stroke='blue' stroke-width='0.05' tags='slant'/>
+    <line x1="189.17416" y1="134.25" x2="195.0" y2="97.46712" stroke='blue' stroke-width='0.05' tags='slant'/>
+  </g>
+</svg>

@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" width="210.0mm" height="148.5mm" viewBox="0 0 210.0 148.5" >
+
+  <g id="sheet">
+    <rect width="30.0" height="40.0" x="37.5" y="31.75" stroke='blue' stroke-width='0.2' fill='none' tags='rect'/>
+    <rect width="30.0" height="40.0" x="72.5" y="31.75" stroke='blue' stroke-width='0.2' fill='none' tags='rect'/>
+    <rect width="30.0" height="40.0" x="107.5" y="31.75" stroke='blue' stroke-width='0.2' fill='none' tags='rect'/>
+    <rect width="30.0" height="40.0" x="142.5" y="31.75" stroke='blue' stroke-width='0.2' fill='none' tags='rect'/>
+    <rect width="30.0" height="40.0" x="37.5" y="76.75" stroke='blue' stroke-width='0.2' fill='none' tags='rect'/>
+    <rect width="30.0" height="40.0" x="72.5" y="76.75" stroke='blue' stroke-width='0.2' fill='none' tags='rect'/>
+    <rect width="30.0" height="40.0" x="107.5" y="76.75" stroke='blue' stroke-width='0.2' fill='none' tags='rect'/>
+    <rect width="30.0" height="40.0" x="142.5" y="76.75" stroke='blue' stroke-width='0.2' fill='none' tags='rect'/>
+  </g>
+</svg>
