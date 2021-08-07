@@ -9,13 +9,13 @@ module Diesis
         @canvas = canvas
       end
 
-      def draw(unit:, multiple: Undefined, &block)
+      def draw(unit:, multiple: nil, &block)
         Draw.(self, Ruler.(unit, multiple), &block)
       end
 
       Ruler = Struct.new :unit, :multiple do
-        def self.call(unit, multiple = Undefined)
-          new unit, Undefined.default(multiple, 1)
+        def self.call(unit, multiple = nil)
+          new unit, (multiple || 1)
         end
 
         def major

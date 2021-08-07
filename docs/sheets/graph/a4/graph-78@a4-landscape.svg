@@ -61,17 +61,17 @@
     <line x1="246.5" y1="21.0" x2="246.5" y2="189.0" stroke='blue' stroke-width='0.1' tags='vline'/>
     <line x1="253.5" y1="21.0" x2="253.5" y2="189.0" stroke='blue' stroke-width='0.1' tags='vline'/>
     <line x1="260.5" y1="21.0" x2="260.5" y2="189.0" stroke='blue' stroke-width='0.1' tags='vline'/>
-    <rect width="56.0" height="56.0" x="36.5" y="21.0" stroke='blue' stroke-width='0.4' fill='none' tags='rect'/>
-    <rect width="56.0" height="56.0" x="92.5" y="21.0" stroke='blue' stroke-width='0.4' fill='none' tags='rect'/>
-    <rect width="56.0" height="56.0" x="148.5" y="21.0" stroke='blue' stroke-width='0.4' fill='none' tags='rect'/>
-    <rect width="56.0" height="56.0" x="204.5" y="21.0" stroke='blue' stroke-width='0.4' fill='none' tags='rect'/>
-    <rect width="56.0" height="56.0" x="36.5" y="77.0" stroke='blue' stroke-width='0.4' fill='none' tags='rect'/>
-    <rect width="56.0" height="56.0" x="92.5" y="77.0" stroke='blue' stroke-width='0.4' fill='none' tags='rect'/>
-    <rect width="56.0" height="56.0" x="148.5" y="77.0" stroke='blue' stroke-width='0.4' fill='none' tags='rect'/>
-    <rect width="56.0" height="56.0" x="204.5" y="77.0" stroke='blue' stroke-width='0.4' fill='none' tags='rect'/>
-    <rect width="56.0" height="56.0" x="36.5" y="133.0" stroke='blue' stroke-width='0.4' fill='none' tags='rect'/>
-    <rect width="56.0" height="56.0" x="92.5" y="133.0" stroke='blue' stroke-width='0.4' fill='none' tags='rect'/>
-    <rect width="56.0" height="56.0" x="148.5" y="133.0" stroke='blue' stroke-width='0.4' fill='none' tags='rect'/>
-    <rect width="56.0" height="56.0" x="204.5" y="133.0" stroke='blue' stroke-width='0.4' fill='none' tags='rect'/>
+    <rect width="56.0" height="56.0" x="36.5" y="21.0" stroke='blue' stroke-width='0.2' fill='none' tags='rect'/>
+    <rect width="56.0" height="56.0" x="92.5" y="21.0" stroke='blue' stroke-width='0.2' fill='none' tags='rect'/>
+    <rect width="56.0" height="56.0" x="148.5" y="21.0" stroke='blue' stroke-width='0.2' fill='none' tags='rect'/>
+    <rect width="56.0" height="56.0" x="204.5" y="21.0" stroke='blue' stroke-width='0.2' fill='none' tags='rect'/>
+    <rect width="56.0" height="56.0" x="36.5" y="77.0" stroke='blue' stroke-width='0.2' fill='none' tags='rect'/>
+    <rect width="56.0" height="56.0" x="92.5" y="77.0" stroke='blue' stroke-width='0.2' fill='none' tags='rect'/>
+    <rect width="56.0" height="56.0" x="148.5" y="77.0" stroke='blue' stroke-width='0.2' fill='none' tags='rect'/>
+    <rect width="56.0" height="56.0" x="204.5" y="77.0" stroke='blue' stroke-width='0.2' fill='none' tags='rect'/>
+    <rect width="56.0" height="56.0" x="36.5" y="133.0" stroke='blue' stroke-width='0.2' fill='none' tags='rect'/>
+    <rect width="56.0" height="56.0" x="92.5" y="133.0" stroke='blue' stroke-width='0.2' fill='none' tags='rect'/>
+    <rect width="56.0" height="56.0" x="148.5" y="133.0" stroke='blue' stroke-width='0.2' fill='none' tags='rect'/>
+    <rect width="56.0" height="56.0" x="204.5" y="133.0" stroke='blue' stroke-width='0.2' fill='none' tags='rect'/>
   </g>
 </svg>

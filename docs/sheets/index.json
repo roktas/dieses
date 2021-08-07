@@ -364,6 +364,34 @@
     "file": "italics/a5/italics-7110@a5-portrait.svg"
   },
   {
+    "sheet": "lettering",
+    "variant": "56",
+    "paper": "a4",
+    "orientation": "landscape",
+    "file": "lettering/a4/lettering-56@a4-landscape.svg"
+  },
+  {
+    "sheet": "lettering",
+    "variant": "56",
+    "paper": "a4",
+    "orientation": "portrait",
+    "file": "lettering/a4/lettering-56@a4-portrait.svg"
+  },
+  {
+    "sheet": "lettering",
+    "variant": "56",
+    "paper": "a5",
+    "orientation": "landscape",
+    "file": "lettering/a5/lettering-56@a5-landscape.svg"
+  },
+  {
+    "sheet": "lettering",
+    "variant": "56",
+    "paper": "a5",
+    "orientation": "portrait",
+    "file": "lettering/a5/lettering-56@a5-portrait.svg"
+  },
+  {
     "sheet": "lined",
     "variant": "10",
     "paper": "a4",

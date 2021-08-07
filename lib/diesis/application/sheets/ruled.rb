@@ -6,23 +6,18 @@ module Diesis
       class Ruled < Sheet
         sheet :ruled, 'Ruled worksheet'
 
+        include Mixins::Lines
+
         variate unit: [5, 7, 10] do
           self.name = unit.to_s
           self.desc = "#{unit} mm unit"
         end
 
-        def call
-          draw unit: param.unit do
-            repeat do
-              hline :hline, style: Style.(stroke: 'blue', 'stroke-width': '0.1')
-              down
-            end
+        hline :hline, style: Style.(stroke: 'blue', 'stroke-width': '0.1')
+        vline :vline, style: Style.(stroke: 'blue', 'stroke-width': '0.1')
 
-            repeat do
-              vline :vline, style: Style.(stroke: 'blue', 'stroke-width': '0.1')
-              right
-            end
-          end
+        def call
+          lines unit: param.unit
         end
       end
     end

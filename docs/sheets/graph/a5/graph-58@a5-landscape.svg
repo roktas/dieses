@@ -53,13 +53,13 @@
     <line x1="175.0" y1="34.25" x2="175.0" y2="114.25" stroke='blue' stroke-width='0.1' tags='vline'/>
     <line x1="180.0" y1="34.25" x2="180.0" y2="114.25" stroke='blue' stroke-width='0.1' tags='vline'/>
     <line x1="185.0" y1="34.25" x2="185.0" y2="114.25" stroke='blue' stroke-width='0.1' tags='vline'/>
-    <rect width="40.0" height="40.0" x="25.0" y="34.25" stroke='blue' stroke-width='0.4' fill='none' tags='rect'/>
-    <rect width="40.0" height="40.0" x="65.0" y="34.25" stroke='blue' stroke-width='0.4' fill='none' tags='rect'/>
-    <rect width="40.0" height="40.0" x="105.0" y="34.25" stroke='blue' stroke-width='0.4' fill='none' tags='rect'/>
-    <rect width="40.0" height="40.0" x="145.0" y="34.25" stroke='blue' stroke-width='0.4' fill='none' tags='rect'/>
-    <rect width="40.0" height="40.0" x="25.0" y="74.25" stroke='blue' stroke-width='0.4' fill='none' tags='rect'/>
-    <rect width="40.0" height="40.0" x="65.0" y="74.25" stroke='blue' stroke-width='0.4' fill='none' tags='rect'/>
-    <rect width="40.0" height="40.0" x="105.0" y="74.25" stroke='blue' stroke-width='0.4' fill='none' tags='rect'/>
-    <rect width="40.0" height="40.0" x="145.0" y="74.25" stroke='blue' stroke-width='0.4' fill='none' tags='rect'/>
+    <rect width="40.0" height="40.0" x="25.0" y="34.25" stroke='blue' stroke-width='0.2' fill='none' tags='rect'/>
+    <rect width="40.0" height="40.0" x="65.0" y="34.25" stroke='blue' stroke-width='0.2' fill='none' tags='rect'/>
+    <rect width="40.0" height="40.0" x="105.0" y="34.25" stroke='blue' stroke-width='0.2' fill='none' tags='rect'/>
+    <rect width="40.0" height="40.0" x="145.0" y="34.25" stroke='blue' stroke-width='0.2' fill='none' tags='rect'/>
+    <rect width="40.0" height="40.0" x="25.0" y="74.25" stroke='blue' stroke-width='0.2' fill='none' tags='rect'/>
+    <rect width="40.0" height="40.0" x="65.0" y="74.25" stroke='blue' stroke-width='0.2' fill='none' tags='rect'/>
+    <rect width="40.0" height="40.0" x="105.0" y="74.25" stroke='blue' stroke-width='0.2' fill='none' tags='rect'/>
+    <rect width="40.0" height="40.0" x="145.0" y="74.25" stroke='blue' stroke-width='0.2' fill='none' tags='rect'/>
   </g>
 </svg>
