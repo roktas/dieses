@@ -103,6 +103,7 @@ module Diesis
       require 'json'
 
       INDEX_FILE = 'index.json'
+      DEST_DIR   = 'sheetsxxx'
 
       module_function
 
@@ -110,17 +111,26 @@ module Diesis
         options = OpenStruct.new(options)
         args options(argv, options), argv
 
-        # puts Application.combinations.map(&:to_h); exit
+        index_file = argv.first
 
-        destdir = argv.first
+        if options.index
+          abort("Index file exists: #{index_file}") if options.no_clobber && File.exist?(index_file)
 
-        FileUtils.rm_rf(destdir)
+          write_index(index_file, Application.combinations)
 
-        combinations = Application.combinations.select do |combination|
-          combination.call(destdir)
+          return
         end
 
-        write_index(File.join(destdir, INDEX_FILE), combinations)
+        abort("Index file not found: #{index_file}") unless File.exist?(index_file)
+
+        destdir = options.destdir || DEST_DIR
+        if Dir.exist?(destdir)
+          abort("Destination directory exists: #{destdir}") if options.no_clobber
+        end
+
+        index = JSON.load_file(index_file).map! { |h| h.transform_keys!(&:to_sym) }
+
+        Application.batch(index, prefix: destdir)
       rescue OptionParser::InvalidOption, Diesis::Error => e
         abort(e.message)
       end
@@ -131,7 +141,7 @@ module Diesis
         OptionParser.new do |option|
           program_name = option.program_name
           option.banner = <<~BANNER
-            Usage: #{program_name} [options...] <DESTDIR>
+            Usage: #{program_name} [options...] <INDEXFILE>
 
             See #{program_name}(1) manual page for detailed help.
 
@@ -139,8 +149,16 @@ module Diesis
 
           BANNER
 
-          option.on('--force', 'Force to remove an existing base directory') do |opt|
-            options.force = opt
+          option.on('--index', 'Create index for all variants without producing sheets') do |opt|
+            options.index = opt
+          end
+
+          option.on('--destdir DIR', 'Destination directory') do |opt|
+            options.destdir = opt
+          end
+
+          option.on('--no-clobber', 'Do not overwrite an existing file or directory') do
+            options.no_clobber = true
           end
 
           option.on('--pdf', 'Generate PDF') do |opt|

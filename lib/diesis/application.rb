@@ -20,9 +20,15 @@ module Diesis
       Sheets.sheet(sheet.to_sym).new(Paper.public_send(paper.to_sym).orient(orientation.to_sym), variant: variant)
     end
 
+    def batch(index, prefix:)
+      combinations = index.map { |h| Combination.new(**h.slice(*Combination.members)) }
+      pp combinations.first
+    end
+
     Combination = Struct.new :sheet, :variant, :paper, :orientation, keyword_init: true do
       def to_s
-        "#{sheet}-#{variant}@#{paper}-#{orientation}"
+        suffix = orientation.to_s == 'landscape' ? 'l' : ''
+        "#{sheet}-#{variant}@#{paper}#{suffix}"
       end
 
       def to_h
