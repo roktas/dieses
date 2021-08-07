@@ -16,8 +16,9 @@ module Diesis
           param = self.param
 
           draw unit: param.unit do
-            row, col      = param.row_col
+            row,   col    = param.row_col
             width, height = param.width_height
+
             repeat row do
               repeat col do
                 rect :rect, width: width, height: height, style: Style.(stroke: 'blue', 'stroke-width': '0.2', fill: 'none')
