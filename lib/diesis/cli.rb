@@ -107,7 +107,7 @@ module Diesis
 
       module_function
 
-      def call(*argv, **options)
+      def call(*argv, **options) # rubocop:disable Metrics/MethodLength
         options = OpenStruct.new(options)
         args options(argv, options), argv
 
@@ -117,7 +117,6 @@ module Diesis
           abort("Index file exists: #{index_file}") if options.no_clobber && File.exist?(index_file)
 
           write_index(index_file, Application.combinations)
-
           return
         end
 
@@ -128,9 +127,7 @@ module Diesis
           abort("Destination directory exists: #{destdir}") if options.no_clobber
         end
 
-        index = JSON.load_file(index_file).map! { |h| h.transform_keys!(&:to_sym) }
-
-        Application.batch(index, prefix: destdir)
+        write_index(index_file, Application.batch(read_index(index_file), prefix: destdir))
       rescue OptionParser::InvalidOption, Diesis::Error => e
         abort(e.message)
       end
@@ -202,6 +199,10 @@ module Diesis
         end
 
         File.write(index_file, JSON.pretty_generate(combinations))
+      end
+
+      def read_index(index_file)
+        JSON.load_file(index_file).map! { |h| h.transform_keys!(&:to_sym) }
       end
 
       private_class_method :write_index
