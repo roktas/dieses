@@ -225,6 +225,38 @@
   },
   {
     "sheet": "graph",
+    "variant": "106",
+    "paper": "a4",
+    "orientation": "landscape",
+    "file": "graph/a4/graph-106@a4l.svg",
+    "produce": true
+  },
+  {
+    "sheet": "graph",
+    "variant": "106",
+    "paper": "a4",
+    "orientation": "portrait",
+    "file": "graph/a4/graph-106@a4.svg",
+    "produce": true
+  },
+  {
+    "sheet": "graph",
+    "variant": "106",
+    "paper": "a5",
+    "orientation": "landscape",
+    "file": "graph/a5/graph-106@a5l.svg",
+    "produce": true
+  },
+  {
+    "sheet": "graph",
+    "variant": "106",
+    "paper": "a5",
+    "orientation": "portrait",
+    "file": "graph/a5/graph-106@a5.svg",
+    "produce": true
+  },
+  {
+    "sheet": "graph",
     "variant": "108",
     "paper": "a4",
     "orientation": "landscape",
@@ -257,6 +289,38 @@
   },
   {
     "sheet": "graph",
+    "variant": "56",
+    "paper": "a4",
+    "orientation": "landscape",
+    "file": "graph/a4/graph-56@a4l.svg",
+    "produce": true
+  },
+  {
+    "sheet": "graph",
+    "variant": "56",
+    "paper": "a4",
+    "orientation": "portrait",
+    "file": "graph/a4/graph-56@a4.svg",
+    "produce": true
+  },
+  {
+    "sheet": "graph",
+    "variant": "56",
+    "paper": "a5",
+    "orientation": "landscape",
+    "file": "graph/a5/graph-56@a5l.svg",
+    "produce": true
+  },
+  {
+    "sheet": "graph",
+    "variant": "56",
+    "paper": "a5",
+    "orientation": "portrait",
+    "file": "graph/a5/graph-56@a5.svg",
+    "produce": true
+  },
+  {
+    "sheet": "graph",
     "variant": "58",
     "paper": "a4",
     "orientation": "landscape",
@@ -285,6 +349,38 @@
     "paper": "a5",
     "orientation": "portrait",
     "file": "graph/a5/graph-58@a5.svg",
+    "produce": true
+  },
+  {
+    "sheet": "graph",
+    "variant": "76",
+    "paper": "a4",
+    "orientation": "landscape",
+    "file": "graph/a4/graph-76@a4l.svg",
+    "produce": true
+  },
+  {
+    "sheet": "graph",
+    "variant": "76",
+    "paper": "a4",
+    "orientation": "portrait",
+    "file": "graph/a4/graph-76@a4.svg",
+    "produce": true
+  },
+  {
+    "sheet": "graph",
+    "variant": "76",
+    "paper": "a5",
+    "orientation": "landscape",
+    "file": "graph/a5/graph-76@a5l.svg",
+    "produce": true
+  },
+  {
+    "sheet": "graph",
+    "variant": "76",
+    "paper": "a5",
+    "orientation": "portrait",
+    "file": "graph/a5/graph-76@a5.svg",
     "produce": true
   },
   {
