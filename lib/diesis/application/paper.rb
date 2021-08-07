@@ -68,9 +68,9 @@ module Diesis
 
       module DSL
         VARIANTS = [
+          { suffix: 'n', floor: 7.0  }, # Narrow margins (default)
           { suffix: 'm', floor: 12.0 }, # Medium margins: bare minimum margin to accommodate ISO 838 filing holes
-          { suffix: 'w', floor: 20.0 }, # Wide margins: safe minimum margin to accommodate ISO 838 filing holes
-          { suffix: 'n', floor: 7.0  }  # Narrow margins
+          { suffix: 'w', floor: 20.0 }  # Wide margins: safe minimum margin to accommodate ISO 838 filing holes
         ].freeze
 
         def family(type, width:, height:, scale: nil)
