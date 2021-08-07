@@ -16,7 +16,7 @@ module Diesis
         hline :hline, style: Style.(stroke: 'blue', 'stroke-width': '0.1')
 
         def call
-          lines unit: param.unit
+          lines
         end
       end
     end

@@ -23,8 +23,8 @@ module Diesis
                            style: Style.(stroke: 'blue', 'stroke-width': 0.07, 'stroke-dasharray': '2, 2')
 
         def call
-          lines   unit: param.unit, multiple: param.square
-          squares unit: param.unit, square: param.square
+          lines   multiple: param.square
+          squares square: param.square
         end
       end
     end
