@@ -5,7 +5,7 @@ module Diesis
     module Mixins
       class Scribes < Module
         def self.[](type)
-          raise ArgumentError, "No such Scribes type available: #{type}" unless Mixins.method_defined? type
+          raise ArgumentError, "No such Scribes type available: #{type}" unless Bundle.method_defined? type
 
           new(type)
         end
@@ -41,7 +41,7 @@ module Diesis
           end
         end
 
-        module Mixins
+        module Bundle
           def quartet
             hline :ascender,  after: proc { height },
                               style: Style.(stroke: 'blue', 'stroke-width': '0.2')
@@ -78,8 +78,7 @@ module Diesis
 
           base.extend ClassMethods
           base.include InstanceMethods
-
-          base.extend Mixins
+          base.extend Bundle
 
           base.variate_scribes(unit: @unit, ratio: @ratio, gap: @gap) if @unit
 
