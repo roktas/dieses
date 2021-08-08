@@ -89,7 +89,6 @@ module Diesis
             add Geometry::Line.new(pos, pos.translate(y: length)), tag, style
           end
 
-          # FIXME: Genelleştir
           def cline(tag = Undefined, angle:, style: Undefined)
             add perfect.intersect(Geometry::Equation.slant_from_direction(point: pos, angle: -angle)), tag, style
           end

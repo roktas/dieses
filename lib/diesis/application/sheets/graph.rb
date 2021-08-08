@@ -19,7 +19,7 @@ module Diesis
 
         def call
           lines   multiple: param.square
-          squares square: param.square
+          squares multiple: param.square
         end
       end
     end
