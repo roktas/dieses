@@ -29,7 +29,7 @@
     <line x1="165.0" y1="34.25" x2="165.0" y2="114.25" stroke='blue' stroke-width='0.1' tags='vline'/>
     <line x1="175.0" y1="34.25" x2="175.0" y2="114.25" stroke='blue' stroke-width='0.1' tags='vline'/>
     <line x1="185.0" y1="34.25" x2="185.0" y2="114.25" stroke='blue' stroke-width='0.1' tags='vline'/>
-    <rect width="80.0" height="80.0" x="25.0" y="34.25" stroke='blue' stroke-width='0.2' fill='none' tags='rect'/>
-    <rect width="80.0" height="80.0" x="105.0" y="34.25" stroke='blue' stroke-width='0.2' fill='none' tags='rect'/>
+    <rect width="80.0" height="80.0" x="25.0" y="34.25" stroke='blue' stroke-width='0.2' fill='none' tags='square'/>
+    <rect width="80.0" height="80.0" x="105.0" y="34.25" stroke='blue' stroke-width='0.2' fill='none' tags='square'/>
   </g>
 </svg>

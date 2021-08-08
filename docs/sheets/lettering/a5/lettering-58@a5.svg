@@ -140,17 +140,17 @@
     <line x1="104.46539" y1="185.0" x2="134.25" y2="167.80385" stroke='blue' stroke-width='0.07' stroke-dasharray='2, 2' tags='connective'/>
     <line x1="114.39359" y1="185.0" x2="134.25" y2="173.5359" stroke='blue' stroke-width='0.07' stroke-dasharray='2, 2' tags='connective'/>
     <line x1="124.3218" y1="185.0" x2="134.25" y2="179.26795" stroke='blue' stroke-width='0.07' stroke-dasharray='2, 2' tags='connective'/>
-    <rect width="40.0" height="40.0" x="14.25" y="25.0" stroke='blue' stroke-width='0.2' fill='none' tags='rect'/>
-    <rect width="40.0" height="40.0" x="54.25" y="25.0" stroke='blue' stroke-width='0.2' fill='none' tags='rect'/>
-    <rect width="40.0" height="40.0" x="94.25" y="25.0" stroke='blue' stroke-width='0.2' fill='none' tags='rect'/>
-    <rect width="40.0" height="40.0" x="14.25" y="65.0" stroke='blue' stroke-width='0.2' fill='none' tags='rect'/>
-    <rect width="40.0" height="40.0" x="54.25" y="65.0" stroke='blue' stroke-width='0.2' fill='none' tags='rect'/>
-    <rect width="40.0" height="40.0" x="94.25" y="65.0" stroke='blue' stroke-width='0.2' fill='none' tags='rect'/>
-    <rect width="40.0" height="40.0" x="14.25" y="105.0" stroke='blue' stroke-width='0.2' fill='none' tags='rect'/>
-    <rect width="40.0" height="40.0" x="54.25" y="105.0" stroke='blue' stroke-width='0.2' fill='none' tags='rect'/>
-    <rect width="40.0" height="40.0" x="94.25" y="105.0" stroke='blue' stroke-width='0.2' fill='none' tags='rect'/>
-    <rect width="40.0" height="40.0" x="14.25" y="145.0" stroke='blue' stroke-width='0.2' fill='none' tags='rect'/>
-    <rect width="40.0" height="40.0" x="54.25" y="145.0" stroke='blue' stroke-width='0.2' fill='none' tags='rect'/>
-    <rect width="40.0" height="40.0" x="94.25" y="145.0" stroke='blue' stroke-width='0.2' fill='none' tags='rect'/>
+    <rect width="40.0" height="40.0" x="14.25" y="25.0" stroke='blue' stroke-width='0.2' fill='none' tags='square'/>
+    <rect width="40.0" height="40.0" x="54.25" y="25.0" stroke='blue' stroke-width='0.2' fill='none' tags='square'/>
+    <rect width="40.0" height="40.0" x="94.25" y="25.0" stroke='blue' stroke-width='0.2' fill='none' tags='square'/>
+    <rect width="40.0" height="40.0" x="14.25" y="65.0" stroke='blue' stroke-width='0.2' fill='none' tags='square'/>
+    <rect width="40.0" height="40.0" x="54.25" y="65.0" stroke='blue' stroke-width='0.2' fill='none' tags='square'/>
+    <rect width="40.0" height="40.0" x="94.25" y="65.0" stroke='blue' stroke-width='0.2' fill='none' tags='square'/>
+    <rect width="40.0" height="40.0" x="14.25" y="105.0" stroke='blue' stroke-width='0.2' fill='none' tags='square'/>
+    <rect width="40.0" height="40.0" x="54.25" y="105.0" stroke='blue' stroke-width='0.2' fill='none' tags='square'/>
+    <rect width="40.0" height="40.0" x="94.25" y="105.0" stroke='blue' stroke-width='0.2' fill='none' tags='square'/>
+    <rect width="40.0" height="40.0" x="14.25" y="145.0" stroke='blue' stroke-width='0.2' fill='none' tags='square'/>
+    <rect width="40.0" height="40.0" x="54.25" y="145.0" stroke='blue' stroke-width='0.2' fill='none' tags='square'/>
+    <rect width="40.0" height="40.0" x="94.25" y="145.0" stroke='blue' stroke-width='0.2' fill='none' tags='square'/>
   </g>
 </svg>

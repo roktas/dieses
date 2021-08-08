@@ -10,7 +10,7 @@ module Diesis
           draw unit: Undefined.default(unit, param.unit), multiple: Undefined.default(multiple, param.multiple) do
             repeat do
               repeat do
-                square :rect, width: multiple, style: Style.(stroke: 'blue', 'stroke-width': '0.2', fill: 'none') # rubocop:disable Layout/LineLength
+                square :square, width: multiple, style: Style.(stroke: 'blue', 'stroke-width': '0.2', fill: 'none') # rubocop:disable Layout/LineLength
                 right multiple
               end
               down multiple

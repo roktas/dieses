@@ -35,11 +35,11 @@
     <line x1="175.0" y1="14.25" x2="175.0" y2="134.25" stroke='blue' stroke-width='0.1' tags='vline'/>
     <line x1="185.0" y1="14.25" x2="185.0" y2="134.25" stroke='blue' stroke-width='0.1' tags='vline'/>
     <line x1="195.0" y1="14.25" x2="195.0" y2="134.25" stroke='blue' stroke-width='0.1' tags='vline'/>
-    <rect width="60.0" height="60.0" x="15.0" y="14.25" stroke='blue' stroke-width='0.2' fill='none' tags='rect'/>
-    <rect width="60.0" height="60.0" x="75.0" y="14.25" stroke='blue' stroke-width='0.2' fill='none' tags='rect'/>
-    <rect width="60.0" height="60.0" x="135.0" y="14.25" stroke='blue' stroke-width='0.2' fill='none' tags='rect'/>
-    <rect width="60.0" height="60.0" x="15.0" y="74.25" stroke='blue' stroke-width='0.2' fill='none' tags='rect'/>
-    <rect width="60.0" height="60.0" x="75.0" y="74.25" stroke='blue' stroke-width='0.2' fill='none' tags='rect'/>
-    <rect width="60.0" height="60.0" x="135.0" y="74.25" stroke='blue' stroke-width='0.2' fill='none' tags='rect'/>
+    <rect width="60.0" height="60.0" x="15.0" y="14.25" stroke='blue' stroke-width='0.2' fill='none' tags='square'/>
+    <rect width="60.0" height="60.0" x="75.0" y="14.25" stroke='blue' stroke-width='0.2' fill='none' tags='square'/>
+    <rect width="60.0" height="60.0" x="135.0" y="14.25" stroke='blue' stroke-width='0.2' fill='none' tags='square'/>
+    <rect width="60.0" height="60.0" x="15.0" y="74.25" stroke='blue' stroke-width='0.2' fill='none' tags='square'/>
+    <rect width="60.0" height="60.0" x="75.0" y="74.25" stroke='blue' stroke-width='0.2' fill='none' tags='square'/>
+    <rect width="60.0" height="60.0" x="135.0" y="74.25" stroke='blue' stroke-width='0.2' fill='none' tags='square'/>
   </g>
 </svg>

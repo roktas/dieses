@@ -45,11 +45,11 @@
     <line x1="248.5" y1="25.0" x2="248.5" y2="185.0" stroke='blue' stroke-width='0.1' tags='vline'/>
     <line x1="258.5" y1="25.0" x2="258.5" y2="185.0" stroke='blue' stroke-width='0.1' tags='vline'/>
     <line x1="268.5" y1="25.0" x2="268.5" y2="185.0" stroke='blue' stroke-width='0.1' tags='vline'/>
-    <rect width="80.0" height="80.0" x="28.5" y="25.0" stroke='blue' stroke-width='0.2' fill='none' tags='rect'/>
-    <rect width="80.0" height="80.0" x="108.5" y="25.0" stroke='blue' stroke-width='0.2' fill='none' tags='rect'/>
-    <rect width="80.0" height="80.0" x="188.5" y="25.0" stroke='blue' stroke-width='0.2' fill='none' tags='rect'/>
-    <rect width="80.0" height="80.0" x="28.5" y="105.0" stroke='blue' stroke-width='0.2' fill='none' tags='rect'/>
-    <rect width="80.0" height="80.0" x="108.5" y="105.0" stroke='blue' stroke-width='0.2' fill='none' tags='rect'/>
-    <rect width="80.0" height="80.0" x="188.5" y="105.0" stroke='blue' stroke-width='0.2' fill='none' tags='rect'/>
+    <rect width="80.0" height="80.0" x="28.5" y="25.0" stroke='blue' stroke-width='0.2' fill='none' tags='square'/>
+    <rect width="80.0" height="80.0" x="108.5" y="25.0" stroke='blue' stroke-width='0.2' fill='none' tags='square'/>
+    <rect width="80.0" height="80.0" x="188.5" y="25.0" stroke='blue' stroke-width='0.2' fill='none' tags='square'/>
+    <rect width="80.0" height="80.0" x="28.5" y="105.0" stroke='blue' stroke-width='0.2' fill='none' tags='square'/>
+    <rect width="80.0" height="80.0" x="108.5" y="105.0" stroke='blue' stroke-width='0.2' fill='none' tags='square'/>
+    <rect width="80.0" height="80.0" x="188.5" y="105.0" stroke='blue' stroke-width='0.2' fill='none' tags='square'/>
   </g>
 </svg>
