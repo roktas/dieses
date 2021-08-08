@@ -78,6 +78,7 @@ module Diesis
 
           base.extend ClassMethods
           base.include InstanceMethods
+
           base.extend Bundle
 
           base.variate_scribes(unit: @unit, ratio: @ratio, gap: @gap) if @unit
