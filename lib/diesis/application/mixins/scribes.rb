@@ -74,7 +74,7 @@ module Diesis
         end
 
         def included(base)
-          base.include Application::Mixins::Lines
+          base.include Lines
 
           base.extend ClassMethods
           base.include InstanceMethods
