@@ -17,10 +17,8 @@ module Diesis
         hline :hline, style: Style.(stroke: 'blue', 'stroke-width': '0.1')
         vline :vline, style: Style.(stroke: 'blue', 'stroke-width': '0.1')
 
-        cline :slant,      angle: 52.0,
-                           style: Style.(stroke: 'blue', 'stroke-width': 0.1)
-        cline :connective, angle: 30.0,
-                           style: Style.(stroke: 'blue', 'stroke-width': 0.07, 'stroke-dasharray': '2, 2')
+        cline :slant,      angle: 52.0, style: Style.(stroke: 'blue', 'stroke-width': 0.1)
+        cline :connective, angle: 30.0, style: Style.(stroke: 'blue', 'stroke-width': 0.07, 'stroke-dasharray': '2, 2')
 
         def call
           lines   multiple: param.square
