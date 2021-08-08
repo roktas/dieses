@@ -544,6 +544,38 @@
     "produce": true
   },
   {
+    "sheet": "lettering",
+    "variant": "58",
+    "paper": "a4",
+    "orientation": "landscape",
+    "file": "lettering/a4/lettering-58@a4l.svg",
+    "produce": true
+  },
+  {
+    "sheet": "lettering",
+    "variant": "58",
+    "paper": "a4",
+    "orientation": "portrait",
+    "file": "lettering/a4/lettering-58@a4.svg",
+    "produce": true
+  },
+  {
+    "sheet": "lettering",
+    "variant": "58",
+    "paper": "a5",
+    "orientation": "landscape",
+    "file": "lettering/a5/lettering-58@a5l.svg",
+    "produce": true
+  },
+  {
+    "sheet": "lettering",
+    "variant": "58",
+    "paper": "a5",
+    "orientation": "portrait",
+    "file": "lettering/a5/lettering-58@a5.svg",
+    "produce": true
+  },
+  {
     "sheet": "lined",
     "variant": "10",
     "paper": "a4",

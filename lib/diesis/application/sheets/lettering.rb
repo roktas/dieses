@@ -9,7 +9,7 @@ module Diesis
         include Mixins::Lines
         include Mixins::Squares
 
-        variate unit: [5], square: [6] do
+        variate unit: [5], square: [6, 8] do
           self.name = "#{unit}#{square}"
           self.desc = "#{square} squares with #{unit} mm unit"
         end
