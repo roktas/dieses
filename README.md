@@ -1,4 +1,4 @@
-Diesis
+Dieses
 ======
 
 [![test](https://github.com/alaturka/dieses/actions/workflows/test.yml/badge.svg)](https://github.com/alaturka/dieses/actions/workflows/test.yml)
