@@ -9,3 +9,10 @@ Guide sheets for penmanship, calligraphy, lettering, and sketching.
 
 Couldn't find the guide sheet you were looking for?  [Open an
 issue](https://github.com/alaturka/diesis/issues/new/choose) and let's see what we can do.
+
+Install
+-------
+
+```sh
+gem install diesis
+```
