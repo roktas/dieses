@@ -2,7 +2,7 @@
 
 require_relative '../test_helper'
 
-module Diesis
+module Dieses
   module Application
     class IntegrationTest < Minitest::Test
       PREFIX_DIR = 'docs/sheets'

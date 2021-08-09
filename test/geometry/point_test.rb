@@ -2,7 +2,7 @@
 
 require_relative '../test_helper'
 
-module Diesis
+module Dieses
   module Geometry
     class PointTest < Minitest::Test
     end

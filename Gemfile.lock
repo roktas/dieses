@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    diesis (0.0.0)
+    dieses (0.0.0)
 
 GEM
   remote: https://rubygems.org/
@@ -57,7 +57,7 @@ PLATFORMS
 
 DEPENDENCIES
   bundler
-  diesis!
+  dieses!
   minitest-focus (>= 1.2.1)
   minitest-reporters (>= 1.4.3)
   rake

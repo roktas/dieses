@@ -1,6 +1,6 @@
 [
   {
-    "source": "lib/diesis/support/const.rb",
+    "source": "lib/dieses/support/const.rb",
     "series": [
       {
         "directive": "    ... github.com/alaturka/ruby const/const\n",
@@ -14,7 +14,7 @@
     ]
   },
   {
-    "source": "lib/diesis/support/class.rb",
+    "source": "lib/dieses/support/class.rb",
     "series": [
       {
         "directive": "    ... github.com/alaturka/ruby class/class_attribute\n",
@@ -28,7 +28,7 @@
     ]
   },
   {
-    "source": "lib/diesis/support/enum.rb",
+    "source": "lib/dieses/support/enum.rb",
     "series": [
       {
         "directive": "    ... github.com/alaturka/ruby enum/enum\n",

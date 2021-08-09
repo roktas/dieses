@@ -6,4 +6,4 @@ require 'minitest/focus'
 
 Minitest::Reporters.use! [Minitest::Reporters::SpecReporter.new]
 
-require 'diesis'
+require 'dieses'

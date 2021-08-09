@@ -2,7 +2,7 @@
 
 require_relative '../test_helper'
 
-module Diesis
+module Dieses
   class SupportTest < Minitest::Test
     def test_precision_default
       assert_equal(Support::Float::PRECISION, Support::Float.precision)

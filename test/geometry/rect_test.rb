@@ -2,7 +2,7 @@
 
 require_relative '../test_helper'
 
-module Diesis
+module Dieses
   module Geometry
     class RectTest < Minitest::Test
       def test_rect_predicate_inside
