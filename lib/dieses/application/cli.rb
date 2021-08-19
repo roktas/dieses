@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'diesis'
+require 'dieses'
 
 require_relative 'cli/single'
 require_relative 'cli/multi'
