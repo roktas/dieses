@@ -21,7 +21,7 @@ module Dieses
 
       def classify(*tags, **kwargs)
         existing_class = attributes[:class] || Set.new
-        attr(**kwargs, tags: existing_class.add(tags))
+        attr(**kwargs, class: existing_class.add(tags))
       end
 
       def to_svg
