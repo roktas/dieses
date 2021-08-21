@@ -1,73 +1,79 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns="http://www.w3.org/2000/svg" width="148.5mm" height="210.0mm" viewBox="0 0 148.5 210.0" >
-
+<svg xmlns="http://www.w3.org/2000/svg" width="148.5mm" height="210.0mm" viewBox="0 0 148.5 210.0" shape-rendering="geometricPrecision" >
+  <style>
+    svg       { stroke: #ed008c; stroke-width: 0.04; }
+    .altcolor { stroke: blue; }
+    .thin     { stroke-width: 0.02; }
+    .thick    { stroke-width: 0.08; }
+    .dashed   { stroke-dasharray: 2 2; }
+  </style>
   <g id="sheet">
-    <line x1="9.25" y1="10.0" x2="139.25" y2="10.0" stroke='blue' stroke-width='0.1' tags='hline'/>
-    <line x1="9.25" y1="15.0" x2="139.25" y2="15.0" stroke='blue' stroke-width='0.1' tags='hline'/>
-    <line x1="9.25" y1="20.0" x2="139.25" y2="20.0" stroke='blue' stroke-width='0.1' tags='hline'/>
-    <line x1="9.25" y1="25.0" x2="139.25" y2="25.0" stroke='blue' stroke-width='0.1' tags='hline'/>
-    <line x1="9.25" y1="30.0" x2="139.25" y2="30.0" stroke='blue' stroke-width='0.1' tags='hline'/>
-    <line x1="9.25" y1="35.0" x2="139.25" y2="35.0" stroke='blue' stroke-width='0.1' tags='hline'/>
-    <line x1="9.25" y1="40.0" x2="139.25" y2="40.0" stroke='blue' stroke-width='0.1' tags='hline'/>
-    <line x1="9.25" y1="45.0" x2="139.25" y2="45.0" stroke='blue' stroke-width='0.1' tags='hline'/>
-    <line x1="9.25" y1="50.0" x2="139.25" y2="50.0" stroke='blue' stroke-width='0.1' tags='hline'/>
-    <line x1="9.25" y1="55.0" x2="139.25" y2="55.0" stroke='blue' stroke-width='0.1' tags='hline'/>
-    <line x1="9.25" y1="60.0" x2="139.25" y2="60.0" stroke='blue' stroke-width='0.1' tags='hline'/>
-    <line x1="9.25" y1="65.0" x2="139.25" y2="65.0" stroke='blue' stroke-width='0.1' tags='hline'/>
-    <line x1="9.25" y1="70.0" x2="139.25" y2="70.0" stroke='blue' stroke-width='0.1' tags='hline'/>
-    <line x1="9.25" y1="75.0" x2="139.25" y2="75.0" stroke='blue' stroke-width='0.1' tags='hline'/>
-    <line x1="9.25" y1="80.0" x2="139.25" y2="80.0" stroke='blue' stroke-width='0.1' tags='hline'/>
-    <line x1="9.25" y1="85.0" x2="139.25" y2="85.0" stroke='blue' stroke-width='0.1' tags='hline'/>
-    <line x1="9.25" y1="90.0" x2="139.25" y2="90.0" stroke='blue' stroke-width='0.1' tags='hline'/>
-    <line x1="9.25" y1="95.0" x2="139.25" y2="95.0" stroke='blue' stroke-width='0.1' tags='hline'/>
-    <line x1="9.25" y1="100.0" x2="139.25" y2="100.0" stroke='blue' stroke-width='0.1' tags='hline'/>
-    <line x1="9.25" y1="105.0" x2="139.25" y2="105.0" stroke='blue' stroke-width='0.1' tags='hline'/>
-    <line x1="9.25" y1="110.0" x2="139.25" y2="110.0" stroke='blue' stroke-width='0.1' tags='hline'/>
-    <line x1="9.25" y1="115.0" x2="139.25" y2="115.0" stroke='blue' stroke-width='0.1' tags='hline'/>
-    <line x1="9.25" y1="120.0" x2="139.25" y2="120.0" stroke='blue' stroke-width='0.1' tags='hline'/>
-    <line x1="9.25" y1="125.0" x2="139.25" y2="125.0" stroke='blue' stroke-width='0.1' tags='hline'/>
-    <line x1="9.25" y1="130.0" x2="139.25" y2="130.0" stroke='blue' stroke-width='0.1' tags='hline'/>
-    <line x1="9.25" y1="135.0" x2="139.25" y2="135.0" stroke='blue' stroke-width='0.1' tags='hline'/>
-    <line x1="9.25" y1="140.0" x2="139.25" y2="140.0" stroke='blue' stroke-width='0.1' tags='hline'/>
-    <line x1="9.25" y1="145.0" x2="139.25" y2="145.0" stroke='blue' stroke-width='0.1' tags='hline'/>
-    <line x1="9.25" y1="150.0" x2="139.25" y2="150.0" stroke='blue' stroke-width='0.1' tags='hline'/>
-    <line x1="9.25" y1="155.0" x2="139.25" y2="155.0" stroke='blue' stroke-width='0.1' tags='hline'/>
-    <line x1="9.25" y1="160.0" x2="139.25" y2="160.0" stroke='blue' stroke-width='0.1' tags='hline'/>
-    <line x1="9.25" y1="165.0" x2="139.25" y2="165.0" stroke='blue' stroke-width='0.1' tags='hline'/>
-    <line x1="9.25" y1="170.0" x2="139.25" y2="170.0" stroke='blue' stroke-width='0.1' tags='hline'/>
-    <line x1="9.25" y1="175.0" x2="139.25" y2="175.0" stroke='blue' stroke-width='0.1' tags='hline'/>
-    <line x1="9.25" y1="180.0" x2="139.25" y2="180.0" stroke='blue' stroke-width='0.1' tags='hline'/>
-    <line x1="9.25" y1="185.0" x2="139.25" y2="185.0" stroke='blue' stroke-width='0.1' tags='hline'/>
-    <line x1="9.25" y1="190.0" x2="139.25" y2="190.0" stroke='blue' stroke-width='0.1' tags='hline'/>
-    <line x1="9.25" y1="195.0" x2="139.25" y2="195.0" stroke='blue' stroke-width='0.1' tags='hline'/>
-    <line x1="9.25" y1="200.0" x2="139.25" y2="200.0" stroke='blue' stroke-width='0.1' tags='hline'/>
-    <line x1="9.25" y1="10.0" x2="9.25" y2="200.0" stroke='blue' stroke-width='0.1' tags='vline'/>
-    <line x1="14.25" y1="10.0" x2="14.25" y2="200.0" stroke='blue' stroke-width='0.1' tags='vline'/>
-    <line x1="19.25" y1="10.0" x2="19.25" y2="200.0" stroke='blue' stroke-width='0.1' tags='vline'/>
-    <line x1="24.25" y1="10.0" x2="24.25" y2="200.0" stroke='blue' stroke-width='0.1' tags='vline'/>
-    <line x1="29.25" y1="10.0" x2="29.25" y2="200.0" stroke='blue' stroke-width='0.1' tags='vline'/>
-    <line x1="34.25" y1="10.0" x2="34.25" y2="200.0" stroke='blue' stroke-width='0.1' tags='vline'/>
-    <line x1="39.25" y1="10.0" x2="39.25" y2="200.0" stroke='blue' stroke-width='0.1' tags='vline'/>
-    <line x1="44.25" y1="10.0" x2="44.25" y2="200.0" stroke='blue' stroke-width='0.1' tags='vline'/>
-    <line x1="49.25" y1="10.0" x2="49.25" y2="200.0" stroke='blue' stroke-width='0.1' tags='vline'/>
-    <line x1="54.25" y1="10.0" x2="54.25" y2="200.0" stroke='blue' stroke-width='0.1' tags='vline'/>
-    <line x1="59.25" y1="10.0" x2="59.25" y2="200.0" stroke='blue' stroke-width='0.1' tags='vline'/>
-    <line x1="64.25" y1="10.0" x2="64.25" y2="200.0" stroke='blue' stroke-width='0.1' tags='vline'/>
-    <line x1="69.25" y1="10.0" x2="69.25" y2="200.0" stroke='blue' stroke-width='0.1' tags='vline'/>
-    <line x1="74.25" y1="10.0" x2="74.25" y2="200.0" stroke='blue' stroke-width='0.1' tags='vline'/>
-    <line x1="79.25" y1="10.0" x2="79.25" y2="200.0" stroke='blue' stroke-width='0.1' tags='vline'/>
-    <line x1="84.25" y1="10.0" x2="84.25" y2="200.0" stroke='blue' stroke-width='0.1' tags='vline'/>
-    <line x1="89.25" y1="10.0" x2="89.25" y2="200.0" stroke='blue' stroke-width='0.1' tags='vline'/>
-    <line x1="94.25" y1="10.0" x2="94.25" y2="200.0" stroke='blue' stroke-width='0.1' tags='vline'/>
-    <line x1="99.25" y1="10.0" x2="99.25" y2="200.0" stroke='blue' stroke-width='0.1' tags='vline'/>
-    <line x1="104.25" y1="10.0" x2="104.25" y2="200.0" stroke='blue' stroke-width='0.1' tags='vline'/>
-    <line x1="109.25" y1="10.0" x2="109.25" y2="200.0" stroke='blue' stroke-width='0.1' tags='vline'/>
-    <line x1="114.25" y1="10.0" x2="114.25" y2="200.0" stroke='blue' stroke-width='0.1' tags='vline'/>
-    <line x1="119.25" y1="10.0" x2="119.25" y2="200.0" stroke='blue' stroke-width='0.1' tags='vline'/>
-    <line x1="124.25" y1="10.0" x2="124.25" y2="200.0" stroke='blue' stroke-width='0.1' tags='vline'/>
-    <line x1="129.25" y1="10.0" x2="129.25" y2="200.0" stroke='blue' stroke-width='0.1' tags='vline'/>
-    <line x1="134.25" y1="10.0" x2="134.25" y2="200.0" stroke='blue' stroke-width='0.1' tags='vline'/>
-    <line x1="139.25" y1="10.0" x2="139.25" y2="200.0" stroke='blue' stroke-width='0.1' tags='vline'/>
+    <line x1="9.25" y1="10.0" x2="139.25" y2="10.0" class='hline'/>
+    <line x1="9.25" y1="15.0" x2="139.25" y2="15.0" class='hline'/>
+    <line x1="9.25" y1="20.0" x2="139.25" y2="20.0" class='hline'/>
+    <line x1="9.25" y1="25.0" x2="139.25" y2="25.0" class='hline'/>
+    <line x1="9.25" y1="30.0" x2="139.25" y2="30.0" class='hline'/>
+    <line x1="9.25" y1="35.0" x2="139.25" y2="35.0" class='hline'/>
+    <line x1="9.25" y1="40.0" x2="139.25" y2="40.0" class='hline'/>
+    <line x1="9.25" y1="45.0" x2="139.25" y2="45.0" class='hline'/>
+    <line x1="9.25" y1="50.0" x2="139.25" y2="50.0" class='hline'/>
+    <line x1="9.25" y1="55.0" x2="139.25" y2="55.0" class='hline'/>
+    <line x1="9.25" y1="60.0" x2="139.25" y2="60.0" class='hline'/>
+    <line x1="9.25" y1="65.0" x2="139.25" y2="65.0" class='hline'/>
+    <line x1="9.25" y1="70.0" x2="139.25" y2="70.0" class='hline'/>
+    <line x1="9.25" y1="75.0" x2="139.25" y2="75.0" class='hline'/>
+    <line x1="9.25" y1="80.0" x2="139.25" y2="80.0" class='hline'/>
+    <line x1="9.25" y1="85.0" x2="139.25" y2="85.0" class='hline'/>
+    <line x1="9.25" y1="90.0" x2="139.25" y2="90.0" class='hline'/>
+    <line x1="9.25" y1="95.0" x2="139.25" y2="95.0" class='hline'/>
+    <line x1="9.25" y1="100.0" x2="139.25" y2="100.0" class='hline'/>
+    <line x1="9.25" y1="105.0" x2="139.25" y2="105.0" class='hline'/>
+    <line x1="9.25" y1="110.0" x2="139.25" y2="110.0" class='hline'/>
+    <line x1="9.25" y1="115.0" x2="139.25" y2="115.0" class='hline'/>
+    <line x1="9.25" y1="120.0" x2="139.25" y2="120.0" class='hline'/>
+    <line x1="9.25" y1="125.0" x2="139.25" y2="125.0" class='hline'/>
+    <line x1="9.25" y1="130.0" x2="139.25" y2="130.0" class='hline'/>
+    <line x1="9.25" y1="135.0" x2="139.25" y2="135.0" class='hline'/>
+    <line x1="9.25" y1="140.0" x2="139.25" y2="140.0" class='hline'/>
+    <line x1="9.25" y1="145.0" x2="139.25" y2="145.0" class='hline'/>
+    <line x1="9.25" y1="150.0" x2="139.25" y2="150.0" class='hline'/>
+    <line x1="9.25" y1="155.0" x2="139.25" y2="155.0" class='hline'/>
+    <line x1="9.25" y1="160.0" x2="139.25" y2="160.0" class='hline'/>
+    <line x1="9.25" y1="165.0" x2="139.25" y2="165.0" class='hline'/>
+    <line x1="9.25" y1="170.0" x2="139.25" y2="170.0" class='hline'/>
+    <line x1="9.25" y1="175.0" x2="139.25" y2="175.0" class='hline'/>
+    <line x1="9.25" y1="180.0" x2="139.25" y2="180.0" class='hline'/>
+    <line x1="9.25" y1="185.0" x2="139.25" y2="185.0" class='hline'/>
+    <line x1="9.25" y1="190.0" x2="139.25" y2="190.0" class='hline'/>
+    <line x1="9.25" y1="195.0" x2="139.25" y2="195.0" class='hline'/>
+    <line x1="9.25" y1="200.0" x2="139.25" y2="200.0" class='hline'/>
+    <line x1="9.25" y1="10.0" x2="9.25" y2="200.0" class='vline'/>
+    <line x1="14.25" y1="10.0" x2="14.25" y2="200.0" class='vline'/>
+    <line x1="19.25" y1="10.0" x2="19.25" y2="200.0" class='vline'/>
+    <line x1="24.25" y1="10.0" x2="24.25" y2="200.0" class='vline'/>
+    <line x1="29.25" y1="10.0" x2="29.25" y2="200.0" class='vline'/>
+    <line x1="34.25" y1="10.0" x2="34.25" y2="200.0" class='vline'/>
+    <line x1="39.25" y1="10.0" x2="39.25" y2="200.0" class='vline'/>
+    <line x1="44.25" y1="10.0" x2="44.25" y2="200.0" class='vline'/>
+    <line x1="49.25" y1="10.0" x2="49.25" y2="200.0" class='vline'/>
+    <line x1="54.25" y1="10.0" x2="54.25" y2="200.0" class='vline'/>
+    <line x1="59.25" y1="10.0" x2="59.25" y2="200.0" class='vline'/>
+    <line x1="64.25" y1="10.0" x2="64.25" y2="200.0" class='vline'/>
+    <line x1="69.25" y1="10.0" x2="69.25" y2="200.0" class='vline'/>
+    <line x1="74.25" y1="10.0" x2="74.25" y2="200.0" class='vline'/>
+    <line x1="79.25" y1="10.0" x2="79.25" y2="200.0" class='vline'/>
+    <line x1="84.25" y1="10.0" x2="84.25" y2="200.0" class='vline'/>
+    <line x1="89.25" y1="10.0" x2="89.25" y2="200.0" class='vline'/>
+    <line x1="94.25" y1="10.0" x2="94.25" y2="200.0" class='vline'/>
+    <line x1="99.25" y1="10.0" x2="99.25" y2="200.0" class='vline'/>
+    <line x1="104.25" y1="10.0" x2="104.25" y2="200.0" class='vline'/>
+    <line x1="109.25" y1="10.0" x2="109.25" y2="200.0" class='vline'/>
+    <line x1="114.25" y1="10.0" x2="114.25" y2="200.0" class='vline'/>
+    <line x1="119.25" y1="10.0" x2="119.25" y2="200.0" class='vline'/>
+    <line x1="124.25" y1="10.0" x2="124.25" y2="200.0" class='vline'/>
+    <line x1="129.25" y1="10.0" x2="129.25" y2="200.0" class='vline'/>
+    <line x1="134.25" y1="10.0" x2="134.25" y2="200.0" class='vline'/>
+    <line x1="139.25" y1="10.0" x2="139.25" y2="200.0" class='vline'/>
   </g>
 </svg>

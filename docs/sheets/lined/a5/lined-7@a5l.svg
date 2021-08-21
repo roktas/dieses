@@ -1,26 +1,32 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns="http://www.w3.org/2000/svg" width="210.0mm" height="148.5mm" viewBox="0 0 210.0 148.5" >
-
+<svg xmlns="http://www.w3.org/2000/svg" width="210.0mm" height="148.5mm" viewBox="0 0 210.0 148.5" shape-rendering="geometricPrecision" >
+  <style>
+    svg       { stroke: #ed008c; stroke-width: 0.04; }
+    .altcolor { stroke: blue; }
+    .thin     { stroke-width: 0.02; }
+    .thick    { stroke-width: 0.08; }
+    .dashed   { stroke-dasharray: 2 2; }
+  </style>
   <g id="sheet">
-    <line x1="7.0" y1="11.25" x2="203.0" y2="11.25" stroke='blue' stroke-width='0.1' tags='hline'/>
-    <line x1="7.0" y1="18.25" x2="203.0" y2="18.25" stroke='blue' stroke-width='0.1' tags='hline'/>
-    <line x1="7.0" y1="25.25" x2="203.0" y2="25.25" stroke='blue' stroke-width='0.1' tags='hline'/>
-    <line x1="7.0" y1="32.25" x2="203.0" y2="32.25" stroke='blue' stroke-width='0.1' tags='hline'/>
-    <line x1="7.0" y1="39.25" x2="203.0" y2="39.25" stroke='blue' stroke-width='0.1' tags='hline'/>
-    <line x1="7.0" y1="46.25" x2="203.0" y2="46.25" stroke='blue' stroke-width='0.1' tags='hline'/>
-    <line x1="7.0" y1="53.25" x2="203.0" y2="53.25" stroke='blue' stroke-width='0.1' tags='hline'/>
-    <line x1="7.0" y1="60.25" x2="203.0" y2="60.25" stroke='blue' stroke-width='0.1' tags='hline'/>
-    <line x1="7.0" y1="67.25" x2="203.0" y2="67.25" stroke='blue' stroke-width='0.1' tags='hline'/>
-    <line x1="7.0" y1="74.25" x2="203.0" y2="74.25" stroke='blue' stroke-width='0.1' tags='hline'/>
-    <line x1="7.0" y1="81.25" x2="203.0" y2="81.25" stroke='blue' stroke-width='0.1' tags='hline'/>
-    <line x1="7.0" y1="88.25" x2="203.0" y2="88.25" stroke='blue' stroke-width='0.1' tags='hline'/>
-    <line x1="7.0" y1="95.25" x2="203.0" y2="95.25" stroke='blue' stroke-width='0.1' tags='hline'/>
-    <line x1="7.0" y1="102.25" x2="203.0" y2="102.25" stroke='blue' stroke-width='0.1' tags='hline'/>
-    <line x1="7.0" y1="109.25" x2="203.0" y2="109.25" stroke='blue' stroke-width='0.1' tags='hline'/>
-    <line x1="7.0" y1="116.25" x2="203.0" y2="116.25" stroke='blue' stroke-width='0.1' tags='hline'/>
-    <line x1="7.0" y1="123.25" x2="203.0" y2="123.25" stroke='blue' stroke-width='0.1' tags='hline'/>
-    <line x1="7.0" y1="130.25" x2="203.0" y2="130.25" stroke='blue' stroke-width='0.1' tags='hline'/>
-    <line x1="7.0" y1="137.25" x2="203.0" y2="137.25" stroke='blue' stroke-width='0.1' tags='hline'/>
+    <line x1="7.0" y1="11.25" x2="203.0" y2="11.25" class='hline'/>
+    <line x1="7.0" y1="18.25" x2="203.0" y2="18.25" class='hline'/>
+    <line x1="7.0" y1="25.25" x2="203.0" y2="25.25" class='hline'/>
+    <line x1="7.0" y1="32.25" x2="203.0" y2="32.25" class='hline'/>
+    <line x1="7.0" y1="39.25" x2="203.0" y2="39.25" class='hline'/>
+    <line x1="7.0" y1="46.25" x2="203.0" y2="46.25" class='hline'/>
+    <line x1="7.0" y1="53.25" x2="203.0" y2="53.25" class='hline'/>
+    <line x1="7.0" y1="60.25" x2="203.0" y2="60.25" class='hline'/>
+    <line x1="7.0" y1="67.25" x2="203.0" y2="67.25" class='hline'/>
+    <line x1="7.0" y1="74.25" x2="203.0" y2="74.25" class='hline'/>
+    <line x1="7.0" y1="81.25" x2="203.0" y2="81.25" class='hline'/>
+    <line x1="7.0" y1="88.25" x2="203.0" y2="88.25" class='hline'/>
+    <line x1="7.0" y1="95.25" x2="203.0" y2="95.25" class='hline'/>
+    <line x1="7.0" y1="102.25" x2="203.0" y2="102.25" class='hline'/>
+    <line x1="7.0" y1="109.25" x2="203.0" y2="109.25" class='hline'/>
+    <line x1="7.0" y1="116.25" x2="203.0" y2="116.25" class='hline'/>
+    <line x1="7.0" y1="123.25" x2="203.0" y2="123.25" class='hline'/>
+    <line x1="7.0" y1="130.25" x2="203.0" y2="130.25" class='hline'/>
+    <line x1="7.0" y1="137.25" x2="203.0" y2="137.25" class='hline'/>
   </g>
 </svg>

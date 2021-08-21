@@ -1,15 +1,21 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns="http://www.w3.org/2000/svg" width="210.0mm" height="148.5mm" viewBox="0 0 210.0 148.5" >
-
+<svg xmlns="http://www.w3.org/2000/svg" width="210.0mm" height="148.5mm" viewBox="0 0 210.0 148.5" shape-rendering="geometricPrecision" >
+  <style>
+    svg       { stroke: #ed008c; stroke-width: 0.04; }
+    .altcolor { stroke: blue; }
+    .thin     { stroke-width: 0.02; }
+    .thick    { stroke-width: 0.08; }
+    .dashed   { stroke-dasharray: 2 2; }
+  </style>
   <g id="sheet">
-    <rect width="40.0" height="50.0" x="17.5" y="21.75" stroke='blue' stroke-width='0.2' fill='none' tags='rect'/>
-    <rect width="40.0" height="50.0" x="62.5" y="21.75" stroke='blue' stroke-width='0.2' fill='none' tags='rect'/>
-    <rect width="40.0" height="50.0" x="107.5" y="21.75" stroke='blue' stroke-width='0.2' fill='none' tags='rect'/>
-    <rect width="40.0" height="50.0" x="152.5" y="21.75" stroke='blue' stroke-width='0.2' fill='none' tags='rect'/>
-    <rect width="40.0" height="50.0" x="17.5" y="76.75" stroke='blue' stroke-width='0.2' fill='none' tags='rect'/>
-    <rect width="40.0" height="50.0" x="62.5" y="76.75" stroke='blue' stroke-width='0.2' fill='none' tags='rect'/>
-    <rect width="40.0" height="50.0" x="107.5" y="76.75" stroke='blue' stroke-width='0.2' fill='none' tags='rect'/>
-    <rect width="40.0" height="50.0" x="152.5" y="76.75" stroke='blue' stroke-width='0.2' fill='none' tags='rect'/>
+    <rect width="40.0" height="50.0" x="17.5" y="21.75" fill='none' class='rect'/>
+    <rect width="40.0" height="50.0" x="62.5" y="21.75" fill='none' class='rect'/>
+    <rect width="40.0" height="50.0" x="107.5" y="21.75" fill='none' class='rect'/>
+    <rect width="40.0" height="50.0" x="152.5" y="21.75" fill='none' class='rect'/>
+    <rect width="40.0" height="50.0" x="17.5" y="76.75" fill='none' class='rect'/>
+    <rect width="40.0" height="50.0" x="62.5" y="76.75" fill='none' class='rect'/>
+    <rect width="40.0" height="50.0" x="107.5" y="76.75" fill='none' class='rect'/>
+    <rect width="40.0" height="50.0" x="152.5" y="76.75" fill='none' class='rect'/>
   </g>
 </svg>
