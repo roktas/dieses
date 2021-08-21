@@ -14,11 +14,11 @@ module Dieses
           self.desc = "#{square} squares with #{unit} mm unit"
         end
 
-        hline :hline, style: Style.(stroke: 'blue', 'stroke-width': '0.1')
-        vline :vline, style: Style.(stroke: 'blue', 'stroke-width': '0.1')
+        hline %i[hline]
+        vline %i[vline]
 
-        cline :slant,      angle: 52.0, style: Style.(stroke: 'blue', 'stroke-width': 0.1)
-        cline :connective, angle: 30.0, style: Style.(stroke: 'blue', 'stroke-width': 0.07, 'stroke-dasharray': '2, 2')
+        cline %i[slant thin],             angle: 52.0
+        cline %i[connective thin dashed], angle: 30.0
 
         def call
           lines   multiple: param.square

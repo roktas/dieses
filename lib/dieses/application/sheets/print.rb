@@ -8,7 +8,7 @@ module Dieses
 
         include Mixins::Scribes[:quartet].with unit: [5, 7, 10]
 
-        vline :vline, style: Style.(stroke: 'blue', 'stroke-width': '0.05')
+        vline %i[vline]
 
         def call
           scribes

@@ -79,40 +79,39 @@ module Dieses
         Offsite = Class.new StopIteration
 
         module Elements
-          def hline(tag = Undefined, length: Undefined, style: Undefined)
+          def hline(tags = Undefined, length: Undefined, style: Undefined)
             length = Undefined.equal?(length) ? perfect.width : ruler.measure(length)
-            add Geometry::Line.new(pos, pos.translate(x: length)), tag, style
+            add Geometry::Line.new(pos, pos.translate(x: length)), tags, style
           end
 
-          def vline(tag = Undefined, length: Undefined, style: Undefined)
+          def vline(tags = Undefined, length: Undefined, style: Undefined)
             length = Undefined.equal?(length) ? perfect.height : ruler.measure(length)
-            add Geometry::Line.new(pos, pos.translate(y: length)), tag, style
+            add Geometry::Line.new(pos, pos.translate(y: length)), tags, style
           end
 
-          def cline(tag = Undefined, angle:, style: Undefined)
-            add perfect.intersect(Geometry::Equation.slant_from_direction(point: pos, angle: -angle)), tag, style
+          def cline(tags = Undefined, angle:, style: Undefined)
+            add perfect.intersect(Geometry::Equation.slant_from_direction(point: pos, angle: -angle)), tags, style
           end
 
-          def rect(tag = Undefined, width:, height:, style: Undefined)
+          def rect(tags = Undefined, width:, height:, style: Undefined)
             width, height = ruler.measure(width), ruler.measure(height)
-            add Geometry::Rect.new(width, height, position: pos), tag, style
+            style = { fill: 'none' }.merge Undefined.default(style, EMPTY_HASH).to_h
+            add Geometry::Rect.new(width, height, position: pos), tags, style
           end
 
-          def square(tag = Undefined, width:, style: Undefined)
-            rect(tag, width: width, height: width, style: style)
+          def square(tags = Undefined, width:, style: Undefined)
+            rect(tags, width: width, height: width, style: style)
           end
 
           private
 
-          BASE_STYLE = { stroke: 'black', 'stroke-width': '0.1' }.freeze
-
-          def add(element, tag, style)
+          def add(element, tags, style)
             raise Offsite unless element && perfect.cover?(element)
 
-            tag = Undefined.default(tag, caller_locations(1, 1).first.label.to_sym)
+            tags = Undefined.default(tags, caller_locations(1, 1).first.label.to_sym)
 
             element.tap do
-              buffer << element.classify(tag, **BASE_STYLE.merge(Undefined.default(style, EMPTY_HASH).to_h))
+              buffer << element.classify(tags, **Undefined.default(style, EMPTY_HASH).to_h)
             end
           end
 

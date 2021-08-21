@@ -43,34 +43,22 @@ module Dieses
 
         module Bundle
           def quartet
-            hline :ascender,  after: proc { height },
-                              style: Style.(stroke: 'blue', 'stroke-width': '0.2')
-            hline :waist,     after: proc { x_height },
-                              style: Style.(stroke: 'grey', 'stroke-width': '0.1', 'stroke-dasharray': '2, 2')
-            hline :base,      after: proc { height },
-                              style: Style.(stroke: 'red',  'stroke-width': '0.1', 'stroke-dasharray': '2, 2')
-            hline :descender, after: proc { gap },
-                              style: Style.(stroke: 'blue', 'stroke-width': '0.2')
+            hline %i[ascender thick],  after: proc { height   }
+            hline %i[waist],           after: proc { x_height }
+            hline %i[base altcolor],   after: proc { height   }
+            hline %i[descender thick], after: proc { gap      }
           end
 
-          # rubocop:disable Metrics/MethodLength
           # codebeat:disable[ABC]
           def sextet
-            hline :ascender2,  after: proc { height },
-                               style: Style.(stroke: 'blue', 'stroke-width': '0.2')
-            hline :ascender1,  after: proc { height },
-                               style: Style.(stroke: 'grey', 'stroke-width': '0.1', 'stroke-dasharray': '2, 2')
-            hline :waist,      after: proc { x_height },
-                               style: Style.(stroke: 'grey', 'stroke-width': '0.1')
-            hline :base,       after: proc { height },
-                               style: Style.(stroke: 'red',  'stroke-width': '0.1')
-            hline :descender1, after: proc { height },
-                               style: Style.(stroke: 'grey', 'stroke-width': '0.1', 'stroke-dasharray': '2, 2')
-            hline :descender2, after: proc { gap },
-                               style: Style.(stroke: 'blue', 'stroke-width': '0.2')
+            hline %i[ascender2 thick],   after: proc { height   }
+            hline %i[ascender1 dashed],  after: proc { height   }
+            hline %i[waist],             after: proc { x_height }
+            hline %i[base altcolor],     after: proc { height   }
+            hline %i[descender1 dashed], after: proc { height   }
+            hline %i[descender2 thick],  after: proc { gap      }
           end
           # codebeat:enable[ABC]
-          # rubocop:enable Metrics/MethodLength
         end
 
         def included(base)

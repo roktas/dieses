@@ -14,8 +14,8 @@ module Dieses
           self.desc = "#{square} squares with #{unit} mm unit"
         end
 
-        hline :hline, style: Style.(stroke: 'blue', 'stroke-width': '0.1')
-        vline :vline, style: Style.(stroke: 'blue', 'stroke-width': '0.1')
+        hline %i[hline]
+        vline %i[vline]
 
         def call
           lines   multiple: param.square

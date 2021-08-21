@@ -9,7 +9,13 @@ module Dieses
         <?xml version="1.0" standalone="no"?>
         <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
         <svg xmlns="http://www.w3.org/2000/svg" width="%{width}mm" height="%{height}mm" viewBox="0 0 %{width} %{height}" %{header}>
-        %{style}
+          <style>
+            svg       { stroke: %{color}; stroke-width: %{medium}; }
+            .altcolor { stroke: %{altcolor}; }
+            .thin     { stroke-width: %{thin}; }
+            .thick    { stroke-width: %{thick}; }
+            .dashed   { stroke-dasharray: %{dashed}; }
+          </style>
           <g id="sheet">
         %{content}
           </g>
@@ -25,10 +31,6 @@ module Dieses
         @elements = Set.new
       end
 
-      def to_h
-        @paper.to_h
-      end
-
       def <<(items)
         [*items].each do |item|
           case item
@@ -39,12 +41,31 @@ module Dieses
         end
       end
 
-      def render(header: EMPTY_STRING, style: EMPTY_STRING)
-        # We avoid prettifying XML through REXML which is pretty slow, at the cost of some ugly hacks.
-        format(TEMPLATE, **to_h,
+      def render(header: EMPTY_STRING, variables: EMPTY_HASH)
+        # We avoid prettifying XML through REXML which is pretty slow, at the cost of a somewhat hacky code.
+        format(TEMPLATE, **variables(**variables),
                content: Geometry.to_svg(elements, paper, prefix: ' ' * 4),
-               header:  header,
-               style:   style.empty? ? '' : format('<style>%{style}</style>', style: style))
+               header:  header)
+      end
+
+      private
+
+      DEFAULT_COLOR     = '#ed008c'
+      DEFAULT_ALTCOLOR  = 'blue'
+      DEFAULT_LINEWIDTH = 0.04
+      DEFAULT_DASHES    = [2, 2].freeze
+
+      def variables(**kwargs)
+        paper.to_h.merge(kwargs).tap do |variables|
+          linewidth = variables[:medium].to_f || DEFAULT_LINEWIDTH
+
+          variables[:color]    ||= DEFAULT_COLOR
+          variables[:altcolor] ||= DEFAULT_ALTCOLOR
+          variables[:medium]   ||= linewidth.to_s
+          variables[:thick]    ||= (linewidth * 2.0).to_s
+          variables[:thin]     ||= (linewidth / 2.0).to_s
+          variables[:dashed]   ||= DEFAULT_DASHES.map(&:to_s).join(' ')
+        end
       end
     end
   end

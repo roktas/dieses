@@ -13,8 +13,8 @@ module Dieses
           self.desc = "#{unit} mm unit"
         end
 
-        hline :hline, style: Style.(stroke: 'blue', 'stroke-width': '0.1')
-        vline :vline, style: Style.(stroke: 'blue', 'stroke-width': '0.1')
+        hline %i[hline]
+        vline %i[vline]
 
         def call
           lines

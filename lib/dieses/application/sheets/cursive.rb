@@ -8,7 +8,7 @@ module Dieses
 
         include Mixins::Scribes[:quartet].with unit: [5, 7, 10]
 
-        cline :slant, angle: 60.0, style: Style.(stroke: 'blue', 'stroke-width': 0.05)
+        cline %i[slant thin], angle: 60.0
 
         def call
           scribes

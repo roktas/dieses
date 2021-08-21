@@ -24,7 +24,7 @@ module Dieses
           draw unit: param.unit do
             repeat row do
               repeat col do
-                rect :rect, width: width, height: height, style: Style.(stroke: 'blue', 'stroke-width': '0.2', fill: 'none') # rubocop:disable Layout/LineLength
+                rect %i[rect], width: width, height: height
                 right(width + 1)
               end
               down(height + 1)
