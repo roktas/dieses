@@ -44,8 +44,8 @@ module Dieses
         module Bundle
           def quartet
             hline :ascender, :thick,  after: proc { height   }
-            hline :waist,             after: proc { x_height }
-            hline :base, :altcolor,   after: proc { height   }
+            hline :waist, :altcolor,  after: proc { x_height }
+            hline :base,              after: proc { height   }
             hline :descender, :thick, after: proc { gap      }
           end
 
@@ -53,8 +53,8 @@ module Dieses
           def sextet
             hline :ascender2, :thick,   after: proc { height   }
             hline :ascender1, :dashed,  after: proc { height   }
-            hline :waist,               after: proc { x_height }
-            hline :base, :altcolor,     after: proc { height   }
+            hline :waist, :altcolor,    after: proc { x_height }
+            hline :base,                after: proc { height   }
             hline :descender1, :dashed, after: proc { height   }
             hline :descender2, :thick,  after: proc { gap      }
           end
