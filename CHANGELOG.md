@@ -10,6 +10,7 @@ All notable changes to this project will be documented in this file.
 
 - Use inline CSS for styling
 - Fix left over names
+- Bump Ruby version to 3.0.2
 
 [0.0.1] - 2021-08-09
 --------------------
