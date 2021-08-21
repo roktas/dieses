@@ -14,11 +14,11 @@ module Dieses
           self.desc = "#{square} squares with #{unit} mm unit"
         end
 
-        hline %i[hline]
-        vline %i[vline]
+        hline :hline
+        vline :vline
 
-        cline %i[slant thin],             angle: 52.0
-        cline %i[connective thin dashed], angle: 30.0
+        cline :slant, :thin,               angle: 52.0
+        cline :connective, :thin, :dashed, angle: 30.0
 
         def call
           lines   multiple: param.square

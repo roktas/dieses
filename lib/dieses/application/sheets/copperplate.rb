@@ -8,8 +8,8 @@ module Dieses
 
         include Mixins::Scribes[:sextet].with unit: [5, 7], ratio: [3/2r, 2/1r]
 
-        cline %i[slant thin],             angle: 55.0
-        cline %i[connective thin dashed], angle: 50.0
+        cline :slant, :thin,               angle: 55.0
+        cline :connective, :thin, :dashed, angle: 50.0
 
         def call
           scribes

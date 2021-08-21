@@ -13,8 +13,8 @@ module Dieses
           self.desc = "#{unit} mm unit"
         end
 
-        hline %i[hline]
-        vline %i[vline]
+        hline :hline
+        vline :vline
 
         def call
           lines

@@ -57,7 +57,7 @@ module Dieses
 
       def variables(**kwargs)
         paper.to_h.merge(kwargs).tap do |variables|
-          linewidth = variables[:medium].to_f || DEFAULT_LINEWIDTH
+          linewidth = (variables[:medium] || DEFAULT_LINEWIDTH).to_f
 
           variables[:color]    ||= DEFAULT_COLOR
           variables[:altcolor] ||= DEFAULT_ALTCOLOR

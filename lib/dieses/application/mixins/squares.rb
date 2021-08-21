@@ -10,7 +10,7 @@ module Dieses
           draw unit: Undefined.default(unit, param.unit), multiple: Undefined.default(multiple, param.multiple) do
             repeat do
               repeat do
-                square %i[square], width: multiple
+                square :square, width: multiple
                 right multiple
               end
               down multiple

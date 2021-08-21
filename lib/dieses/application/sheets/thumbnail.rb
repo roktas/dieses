@@ -24,7 +24,7 @@ module Dieses
           draw unit: param.unit do
             repeat row do
               repeat col do
-                rect %i[rect], width: width, height: height
+                rect :rect, width: width, height: height
                 right(width + 1)
               end
               down(height + 1)

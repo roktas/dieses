@@ -5,20 +5,20 @@ module Dieses
     module Mixins
       module Lines
         module ClassMethods
-          Line = Struct.new :tag, :after, :style, :step, keyword_init: true
+          Line = Struct.new :tags, :after, :style, :step, keyword_init: true
 
-          def hline(tag, after: Undefined, style: EMPTY_HASH)
-            (param.hlines ||= []) << Line.new(tag: tag, after: after, style: style)
+          def hline(*tags, after: Undefined, style: EMPTY_HASH)
+            (param.hlines ||= []) << Line.new(tags: tags, after: after, style: style)
           end
 
-          def vline(tag, after: Undefined, style: EMPTY_HASH)
-            (param.vlines ||= []) << Line.new(tag: tag, after: after, style: style)
+          def vline(*tags, after: Undefined, style: EMPTY_HASH)
+            (param.vlines ||= []) << Line.new(tags: tags, after: after, style: style)
           end
 
-          Cross = Struct.new :tag, :angle, :style, keyword_init: true
+          Cross = Struct.new :tags, :angle, :style, keyword_init: true
 
-          def cline(tag, angle:, style: EMPTY_HASH)
-            (param.clines ||= []) << Cross.new(tag: tag, angle: angle, style: style)
+          def cline(*tags, angle:, style: EMPTY_HASH)
+            (param.clines ||= []) << Cross.new(tags: tags, angle: angle, style: style)
           end
         end
 
@@ -55,7 +55,7 @@ module Dieses
             draw unit: unit, multiple: multiple do
               repeat do
                 param.hlines.each do |line|
-                  hline line.tag, style: line.style
+                  hline(*line.tags, style: line.style)
                   down line.step
                 end
               end
@@ -70,7 +70,7 @@ module Dieses
             draw unit: unit, multiple: multiple do
               repeat do
                 param.vlines.each do |line|
-                  vline line.tag, style: line.style
+                  vline(*line.tags, style: line.style)
                   right line.step
                 end
               end
@@ -86,7 +86,7 @@ module Dieses
               repeat do
                 param.clines.each do |slant|
                   repeat do
-                    cline slant.tag, angle: slant.angle, style: slant.style
+                    cline(*slant.tags, angle: slant.angle, style: slant.style)
                     cross
                   end
                 end

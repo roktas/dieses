@@ -79,27 +79,27 @@ module Dieses
         Offsite = Class.new StopIteration
 
         module Elements
-          def hline(tags = Undefined, length: Undefined, style: Undefined)
+          def hline(*tags, length: Undefined, style: Undefined)
             length = Undefined.equal?(length) ? perfect.width : ruler.measure(length)
             add Geometry::Line.new(pos, pos.translate(x: length)), tags, style
           end
 
-          def vline(tags = Undefined, length: Undefined, style: Undefined)
+          def vline(*tags, length: Undefined, style: Undefined)
             length = Undefined.equal?(length) ? perfect.height : ruler.measure(length)
             add Geometry::Line.new(pos, pos.translate(y: length)), tags, style
           end
 
-          def cline(tags = Undefined, angle:, style: Undefined)
+          def cline(*tags, angle:, style: Undefined)
             add perfect.intersect(Geometry::Equation.slant_from_direction(point: pos, angle: -angle)), tags, style
           end
 
-          def rect(tags = Undefined, width:, height:, style: Undefined)
+          def rect(*tags, width:, height:, style: Undefined)
             width, height = ruler.measure(width), ruler.measure(height)
             style = { fill: 'none' }.merge Undefined.default(style, EMPTY_HASH).to_h
             add Geometry::Rect.new(width, height, position: pos), tags, style
           end
 
-          def square(tags = Undefined, width:, style: Undefined)
+          def square(*tags, width:, style: Undefined)
             rect(tags, width: width, height: width, style: style)
           end
 
@@ -107,8 +107,6 @@ module Dieses
 
           def add(element, tags, style)
             raise Offsite unless element && perfect.cover?(element)
-
-            tags = Undefined.default(tags, caller_locations(1, 1).first.label.to_sym)
 
             element.tap do
               buffer << element.classify(tags, **Undefined.default(style, EMPTY_HASH).to_h)

@@ -8,7 +8,7 @@ module Dieses
 
         include Mixins::Scribes[:quartet].with unit: [5, 7, 10]
 
-        vline %i[vline]
+        vline :vline
 
         def call
           scribes
