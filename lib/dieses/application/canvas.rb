@@ -55,7 +55,7 @@ module Dieses
       DEFAULT_LINEWIDTH = 0.04
       DEFAULT_DASHES    = [2, 2].freeze
 
-      def variables(**kwargs)
+      def variables(**kwargs) # rubocop:disable Metrics/PerceivedComplexity
         paper.to_h.merge(kwargs).tap do |variables|
           linewidth = (variables[:medium] || DEFAULT_LINEWIDTH).to_f
 
