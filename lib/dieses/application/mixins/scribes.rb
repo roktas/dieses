@@ -43,20 +43,20 @@ module Dieses
 
         module Bundle
           def quartet
-            hline :ascender, :thick,  after: proc { height   }
+            hline :ascender, :broad,  after: proc { height   }
             hline :waist, :altcolor,  after: proc { x_height }
             hline :base,              after: proc { height   }
-            hline :descender, :thick, after: proc { gap      }
+            hline :descender, :broad, after: proc { gap      }
           end
 
           # codebeat:disable[ABC]
           def sextet
-            hline :ascender2, :thick,   after: proc { height   }
+            hline :ascender2, :broad,   after: proc { height   }
             hline :ascender1, :dashed,  after: proc { height   }
             hline :waist, :altcolor,    after: proc { x_height }
             hline :base,                after: proc { height   }
             hline :descender1, :dashed, after: proc { height   }
-            hline :descender2, :thick,  after: proc { gap      }
+            hline :descender2, :broad,  after: proc { gap      }
           end
           # codebeat:enable[ABC]
         end
