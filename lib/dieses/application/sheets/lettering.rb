@@ -17,8 +17,8 @@ module Dieses
         hline :hline
         vline :vline
 
-        cline :slant, :thin,               angle: 52.0
-        cline :connective, :thin, :dashed, angle: 30.0
+        cline :slant, :fine,               angle: 52.0
+        cline :connective, :fine, :dashed, angle: 30.0
 
         def call
           lines   multiple: param.square
