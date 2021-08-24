@@ -10,11 +10,15 @@ module Dieses
         <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
         <svg xmlns="http://www.w3.org/2000/svg" width="%{width}mm" height="%{height}mm" viewBox="0 0 %{width} %{height}" shape-rendering="geometricPrecision" %{header}>
           <style>
-            svg       { stroke: %{color}; stroke-width: %{medium}; }
-            .altcolor { stroke: %{altcolor}; }
-            .thin     { stroke-width: %{thin}; }
-            .thick    { stroke-width: %{thick}; }
-            .dashed   { stroke-dasharray: %{dashed}; }
+            svg         { stroke:           %8{color}; }
+            svg         { stroke-width:     %8{medium}; }
+            .altcolor   { stroke:           %8{altcolor}; }
+            .extrafine  { stroke-width:     %8{extrafine}; }
+            .fine       { stroke-width:     %8{fine}; }
+            .medium     { stroke-width:     %8{medium}; }
+            .broad      { stroke-width:     %8{broad}; }
+            .extrabroad { stroke-width:     %8{extrabroad}; }
+            .dashed     { stroke-dasharray: %8{dashed}; }
           </style>
           <g id="sheet">
         %{content}
@@ -55,16 +59,18 @@ module Dieses
       DEFAULT_LINEWIDTH = 0.04
       DEFAULT_DASHES    = [2, 2].freeze
 
-      def variables(**kwargs) # rubocop:disable Metrics/PerceivedComplexity
+      def variables(**kwargs) # rubocop:disable Metrics/MethodLength, Metrics/AbcSize, Metrics/PerceivedComplexity
         paper.to_h.merge(kwargs).tap do |variables|
-          linewidth = (variables[:medium] || DEFAULT_LINEWIDTH).to_f
+          linewidth = (variables[:linewidth] || variables[:medium] || DEFAULT_LINEWIDTH).to_f
 
-          variables[:color]    ||= DEFAULT_COLOR
-          variables[:altcolor] ||= DEFAULT_ALTCOLOR
-          variables[:medium]   ||= linewidth.to_s
-          variables[:thick]    ||= (linewidth * 2.0).to_s
-          variables[:thin]     ||= (linewidth / 2.0).to_s
-          variables[:dashed]   ||= DEFAULT_DASHES.map(&:to_s).join(' ')
+          variables[:color]      ||= DEFAULT_COLOR
+          variables[:altcolor]   ||= DEFAULT_ALTCOLOR
+          variables[:medium]     ||= linewidth.to_s
+          variables[:extrafine]  ||= (linewidth / 4.0).to_s
+          variables[:fine]       ||= (linewidth / 2.0).to_s
+          variables[:broad]      ||= (linewidth * 2.0).to_s
+          variables[:extrabroad] ||= (linewidth * 4.0).to_s
+          variables[:dashed]     ||= DEFAULT_DASHES.map(&:to_s).join(' ')
         end
       end
     end
