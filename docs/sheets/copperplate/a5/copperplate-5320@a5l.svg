@@ -2,130 +2,134 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg xmlns="http://www.w3.org/2000/svg" width="210.0mm" height="148.5mm" viewBox="0 0 210.0 148.5" shape-rendering="geometricPrecision" >
   <style>
-    svg       { stroke: #ed008c; stroke-width: 0.04; }
-    .altcolor { stroke: blue; }
-    .thin     { stroke-width: 0.02; }
-    .thick    { stroke-width: 0.08; }
-    .dashed   { stroke-dasharray: 2 2; }
+    svg         { stroke:            #ed008c; }
+    svg         { stroke-width:         0.04; }
+    .altcolor   { stroke:               blue; }
+    .extrafine  { stroke-width:         0.01; }
+    .fine       { stroke-width:         0.02; }
+    .medium     { stroke-width:         0.04; }
+    .broad      { stroke-width:         0.08; }
+    .extrabroad { stroke-width:         0.16; }
+    .dashed     { stroke-dasharray:      2 2; }
   </style>
   <g id="sheet">
-    <line x1="15.0" y1="14.25" x2="195.0" y2="14.25" class='ascender2 thick'/>
+    <line x1="15.0" y1="14.25" x2="195.0" y2="14.25" class='ascender2 broad'/>
     <line x1="15.0" y1="18.0" x2="195.0" y2="18.0" class='ascender1 dashed'/>
     <line x1="15.0" y1="21.75" x2="195.0" y2="21.75" class='waist altcolor'/>
     <line x1="15.0" y1="26.75" x2="195.0" y2="26.75" class='base'/>
     <line x1="15.0" y1="30.5" x2="195.0" y2="30.5" class='descender1 dashed'/>
-    <line x1="15.0" y1="34.25" x2="195.0" y2="34.25" class='descender2 thick'/>
+    <line x1="15.0" y1="34.25" x2="195.0" y2="34.25" class='descender2 broad'/>
     <line x1="15.0" y1="38.0" x2="195.0" y2="38.0" class='ascender1 dashed'/>
     <line x1="15.0" y1="41.75" x2="195.0" y2="41.75" class='waist altcolor'/>
     <line x1="15.0" y1="46.75" x2="195.0" y2="46.75" class='base'/>
     <line x1="15.0" y1="50.5" x2="195.0" y2="50.5" class='descender1 dashed'/>
-    <line x1="15.0" y1="54.25" x2="195.0" y2="54.25" class='descender2 thick'/>
+    <line x1="15.0" y1="54.25" x2="195.0" y2="54.25" class='descender2 broad'/>
     <line x1="15.0" y1="58.0" x2="195.0" y2="58.0" class='ascender1 dashed'/>
     <line x1="15.0" y1="61.75" x2="195.0" y2="61.75" class='waist altcolor'/>
     <line x1="15.0" y1="66.75" x2="195.0" y2="66.75" class='base'/>
     <line x1="15.0" y1="70.5" x2="195.0" y2="70.5" class='descender1 dashed'/>
-    <line x1="15.0" y1="74.25" x2="195.0" y2="74.25" class='descender2 thick'/>
+    <line x1="15.0" y1="74.25" x2="195.0" y2="74.25" class='descender2 broad'/>
     <line x1="15.0" y1="78.0" x2="195.0" y2="78.0" class='ascender1 dashed'/>
     <line x1="15.0" y1="81.75" x2="195.0" y2="81.75" class='waist altcolor'/>
     <line x1="15.0" y1="86.75" x2="195.0" y2="86.75" class='base'/>
     <line x1="15.0" y1="90.5" x2="195.0" y2="90.5" class='descender1 dashed'/>
-    <line x1="15.0" y1="94.25" x2="195.0" y2="94.25" class='descender2 thick'/>
+    <line x1="15.0" y1="94.25" x2="195.0" y2="94.25" class='descender2 broad'/>
     <line x1="15.0" y1="98.0" x2="195.0" y2="98.0" class='ascender1 dashed'/>
     <line x1="15.0" y1="101.75" x2="195.0" y2="101.75" class='waist altcolor'/>
     <line x1="15.0" y1="106.75" x2="195.0" y2="106.75" class='base'/>
     <line x1="15.0" y1="110.5" x2="195.0" y2="110.5" class='descender1 dashed'/>
-    <line x1="15.0" y1="114.25" x2="195.0" y2="114.25" class='descender2 thick'/>
+    <line x1="15.0" y1="114.25" x2="195.0" y2="114.25" class='descender2 broad'/>
     <line x1="15.0" y1="118.0" x2="195.0" y2="118.0" class='ascender1 dashed'/>
     <line x1="15.0" y1="121.75" x2="195.0" y2="121.75" class='waist altcolor'/>
     <line x1="15.0" y1="126.75" x2="195.0" y2="126.75" class='base'/>
     <line x1="15.0" y1="130.5" x2="195.0" y2="130.5" class='descender1 dashed'/>
-    <line x1="15.0" y1="134.25" x2="195.0" y2="134.25" class='descender2 thick'/>
-    <line x1="15.0" y1="14.25" x2="15.0" y2="14.25" class='slant thin'/>
-    <line x1="15.0" y1="22.96496" x2="21.10228" y2="14.25" class='slant thin'/>
-    <line x1="15.0" y1="31.67991" x2="27.20456" y2="14.25" class='slant thin'/>
-    <line x1="15.0" y1="40.39487" x2="33.30683" y2="14.25" class='slant thin'/>
-    <line x1="15.0" y1="49.10982" x2="39.40911" y2="14.25" class='slant thin'/>
-    <line x1="15.0" y1="57.82478" x2="45.51139" y2="14.25" class='slant thin'/>
-    <line x1="15.0" y1="66.53973" x2="51.61367" y2="14.25" class='slant thin'/>
-    <line x1="15.0" y1="75.25469" x2="57.71594" y2="14.25" class='slant thin'/>
-    <line x1="15.0" y1="83.96965" x2="63.81822" y2="14.25" class='slant thin'/>
-    <line x1="15.0" y1="92.6846" x2="69.9205" y2="14.25" class='slant thin'/>
-    <line x1="15.0" y1="101.39956" x2="76.02278" y2="14.25" class='slant thin'/>
-    <line x1="15.0" y1="110.11451" x2="82.12506" y2="14.25" class='slant thin'/>
-    <line x1="15.0" y1="118.82947" x2="88.22733" y2="14.25" class='slant thin'/>
-    <line x1="15.0" y1="127.54443" x2="94.32961" y2="14.25" class='slant thin'/>
-    <line x1="16.40698" y1="134.25" x2="100.43189" y2="14.25" class='slant thin'/>
-    <line x1="22.50926" y1="134.25" x2="106.53417" y2="14.25" class='slant thin'/>
-    <line x1="28.61154" y1="134.25" x2="112.63644" y2="14.25" class='slant thin'/>
-    <line x1="34.71382" y1="134.25" x2="118.73872" y2="14.25" class='slant thin'/>
-    <line x1="40.8161" y1="134.25" x2="124.841" y2="14.25" class='slant thin'/>
-    <line x1="46.91837" y1="134.25" x2="130.94328" y2="14.25" class='slant thin'/>
-    <line x1="53.02065" y1="134.25" x2="137.04556" y2="14.25" class='slant thin'/>
-    <line x1="59.12293" y1="134.25" x2="143.14783" y2="14.25" class='slant thin'/>
-    <line x1="65.22521" y1="134.25" x2="149.25011" y2="14.25" class='slant thin'/>
-    <line x1="71.32748" y1="134.25" x2="155.35239" y2="14.25" class='slant thin'/>
-    <line x1="77.42976" y1="134.25" x2="161.45467" y2="14.25" class='slant thin'/>
-    <line x1="83.53204" y1="134.25" x2="167.55694" y2="14.25" class='slant thin'/>
-    <line x1="89.63432" y1="134.25" x2="173.65922" y2="14.25" class='slant thin'/>
-    <line x1="95.7366" y1="134.25" x2="179.7615" y2="14.25" class='slant thin'/>
-    <line x1="101.83887" y1="134.25" x2="185.86378" y2="14.25" class='slant thin'/>
-    <line x1="107.94115" y1="134.25" x2="191.96606" y2="14.25" class='slant thin'/>
-    <line x1="114.04343" y1="134.25" x2="195.0" y2="18.63203" class='slant thin'/>
-    <line x1="120.14571" y1="134.25" x2="195.0" y2="27.34699" class='slant thin'/>
-    <line x1="126.24798" y1="134.25" x2="195.0" y2="36.06195" class='slant thin'/>
-    <line x1="132.35026" y1="134.25" x2="195.0" y2="44.7769" class='slant thin'/>
-    <line x1="138.45254" y1="134.25" x2="195.0" y2="53.49186" class='slant thin'/>
-    <line x1="144.55482" y1="134.25" x2="195.0" y2="62.20681" class='slant thin'/>
-    <line x1="150.65709" y1="134.25" x2="195.0" y2="70.92177" class='slant thin'/>
-    <line x1="156.75937" y1="134.25" x2="195.0" y2="79.63672" class='slant thin'/>
-    <line x1="162.86165" y1="134.25" x2="195.0" y2="88.35168" class='slant thin'/>
-    <line x1="168.96393" y1="134.25" x2="195.0" y2="97.06664" class='slant thin'/>
-    <line x1="175.06621" y1="134.25" x2="195.0" y2="105.78159" class='slant thin'/>
-    <line x1="181.16848" y1="134.25" x2="195.0" y2="114.49655" class='slant thin'/>
-    <line x1="187.27076" y1="134.25" x2="195.0" y2="123.2115" class='slant thin'/>
-    <line x1="193.37304" y1="134.25" x2="195.0" y2="131.92646" class='slant thin'/>
-    <line x1="15.0" y1="21.9815" x2="21.4875" y2="14.25" class='connective thin dashed'/>
-    <line x1="15.0" y1="29.71299" x2="27.97499" y2="14.25" class='connective thin dashed'/>
-    <line x1="15.0" y1="37.44449" x2="34.46249" y2="14.25" class='connective thin dashed'/>
-    <line x1="15.0" y1="45.17598" x2="40.94998" y2="14.25" class='connective thin dashed'/>
-    <line x1="15.0" y1="52.90748" x2="47.43748" y2="14.25" class='connective thin dashed'/>
-    <line x1="15.0" y1="60.63897" x2="53.92497" y2="14.25" class='connective thin dashed'/>
-    <line x1="15.0" y1="68.37047" x2="60.41247" y2="14.25" class='connective thin dashed'/>
-    <line x1="15.0" y1="76.10196" x2="66.89996" y2="14.25" class='connective thin dashed'/>
-    <line x1="15.0" y1="83.83346" x2="73.38746" y2="14.25" class='connective thin dashed'/>
-    <line x1="15.0" y1="91.56496" x2="79.87495" y2="14.25" class='connective thin dashed'/>
-    <line x1="15.0" y1="99.29645" x2="86.36245" y2="14.25" class='connective thin dashed'/>
-    <line x1="15.0" y1="107.02795" x2="92.84994" y2="14.25" class='connective thin dashed'/>
-    <line x1="15.0" y1="114.75944" x2="99.33744" y2="14.25" class='connective thin dashed'/>
-    <line x1="15.0" y1="122.49094" x2="105.82493" y2="14.25" class='connective thin dashed'/>
-    <line x1="15.0" y1="130.22243" x2="112.31243" y2="14.25" class='connective thin dashed'/>
-    <line x1="18.10797" y1="134.25" x2="118.79992" y2="14.25" class='connective thin dashed'/>
-    <line x1="24.59546" y1="134.25" x2="125.28742" y2="14.25" class='connective thin dashed'/>
-    <line x1="31.08296" y1="134.25" x2="131.77491" y2="14.25" class='connective thin dashed'/>
-    <line x1="37.57045" y1="134.25" x2="138.26241" y2="14.25" class='connective thin dashed'/>
-    <line x1="44.05795" y1="134.25" x2="144.7499" y2="14.25" class='connective thin dashed'/>
-    <line x1="50.54544" y1="134.25" x2="151.2374" y2="14.25" class='connective thin dashed'/>
-    <line x1="57.03294" y1="134.25" x2="157.72489" y2="14.25" class='connective thin dashed'/>
-    <line x1="63.52043" y1="134.25" x2="164.21239" y2="14.25" class='connective thin dashed'/>
-    <line x1="70.00793" y1="134.25" x2="170.69988" y2="14.25" class='connective thin dashed'/>
-    <line x1="76.49542" y1="134.25" x2="177.18738" y2="14.25" class='connective thin dashed'/>
-    <line x1="82.98292" y1="134.25" x2="183.67487" y2="14.25" class='connective thin dashed'/>
-    <line x1="89.47041" y1="134.25" x2="190.16237" y2="14.25" class='connective thin dashed'/>
-    <line x1="95.95791" y1="134.25" x2="195.0" y2="16.21623" class='connective thin dashed'/>
-    <line x1="102.4454" y1="134.25" x2="195.0" y2="23.94773" class='connective thin dashed'/>
-    <line x1="108.9329" y1="134.25" x2="195.0" y2="31.67922" class='connective thin dashed'/>
-    <line x1="115.42039" y1="134.25" x2="195.0" y2="39.41072" class='connective thin dashed'/>
-    <line x1="121.90789" y1="134.25" x2="195.0" y2="47.14221" class='connective thin dashed'/>
-    <line x1="128.39538" y1="134.25" x2="195.0" y2="54.87371" class='connective thin dashed'/>
-    <line x1="134.88288" y1="134.25" x2="195.0" y2="62.6052" class='connective thin dashed'/>
-    <line x1="141.37037" y1="134.25" x2="195.0" y2="70.3367" class='connective thin dashed'/>
-    <line x1="147.85787" y1="134.25" x2="195.0" y2="78.0682" class='connective thin dashed'/>
-    <line x1="154.34536" y1="134.25" x2="195.0" y2="85.79969" class='connective thin dashed'/>
-    <line x1="160.83286" y1="134.25" x2="195.0" y2="93.53119" class='connective thin dashed'/>
-    <line x1="167.32035" y1="134.25" x2="195.0" y2="101.26268" class='connective thin dashed'/>
-    <line x1="173.80785" y1="134.25" x2="195.0" y2="108.99418" class='connective thin dashed'/>
-    <line x1="180.29534" y1="134.25" x2="195.0" y2="116.72567" class='connective thin dashed'/>
-    <line x1="186.78284" y1="134.25" x2="195.0" y2="124.45717" class='connective thin dashed'/>
-    <line x1="193.27033" y1="134.25" x2="195.0" y2="132.18866" class='connective thin dashed'/>
+    <line x1="15.0" y1="134.25" x2="195.0" y2="134.25" class='descender2 broad'/>
+    <line x1="15.0" y1="14.25" x2="15.0" y2="14.25" class='slant fine'/>
+    <line x1="15.0" y1="22.96496" x2="21.10228" y2="14.25" class='slant fine'/>
+    <line x1="15.0" y1="31.67991" x2="27.20456" y2="14.25" class='slant fine'/>
+    <line x1="15.0" y1="40.39487" x2="33.30683" y2="14.25" class='slant fine'/>
+    <line x1="15.0" y1="49.10982" x2="39.40911" y2="14.25" class='slant fine'/>
+    <line x1="15.0" y1="57.82478" x2="45.51139" y2="14.25" class='slant fine'/>
+    <line x1="15.0" y1="66.53973" x2="51.61367" y2="14.25" class='slant fine'/>
+    <line x1="15.0" y1="75.25469" x2="57.71594" y2="14.25" class='slant fine'/>
+    <line x1="15.0" y1="83.96965" x2="63.81822" y2="14.25" class='slant fine'/>
+    <line x1="15.0" y1="92.6846" x2="69.9205" y2="14.25" class='slant fine'/>
+    <line x1="15.0" y1="101.39956" x2="76.02278" y2="14.25" class='slant fine'/>
+    <line x1="15.0" y1="110.11451" x2="82.12506" y2="14.25" class='slant fine'/>
+    <line x1="15.0" y1="118.82947" x2="88.22733" y2="14.25" class='slant fine'/>
+    <line x1="15.0" y1="127.54443" x2="94.32961" y2="14.25" class='slant fine'/>
+    <line x1="16.40698" y1="134.25" x2="100.43189" y2="14.25" class='slant fine'/>
+    <line x1="22.50926" y1="134.25" x2="106.53417" y2="14.25" class='slant fine'/>
+    <line x1="28.61154" y1="134.25" x2="112.63644" y2="14.25" class='slant fine'/>
+    <line x1="34.71382" y1="134.25" x2="118.73872" y2="14.25" class='slant fine'/>
+    <line x1="40.8161" y1="134.25" x2="124.841" y2="14.25" class='slant fine'/>
+    <line x1="46.91837" y1="134.25" x2="130.94328" y2="14.25" class='slant fine'/>
+    <line x1="53.02065" y1="134.25" x2="137.04556" y2="14.25" class='slant fine'/>
+    <line x1="59.12293" y1="134.25" x2="143.14783" y2="14.25" class='slant fine'/>
+    <line x1="65.22521" y1="134.25" x2="149.25011" y2="14.25" class='slant fine'/>
+    <line x1="71.32748" y1="134.25" x2="155.35239" y2="14.25" class='slant fine'/>
+    <line x1="77.42976" y1="134.25" x2="161.45467" y2="14.25" class='slant fine'/>
+    <line x1="83.53204" y1="134.25" x2="167.55694" y2="14.25" class='slant fine'/>
+    <line x1="89.63432" y1="134.25" x2="173.65922" y2="14.25" class='slant fine'/>
+    <line x1="95.7366" y1="134.25" x2="179.7615" y2="14.25" class='slant fine'/>
+    <line x1="101.83887" y1="134.25" x2="185.86378" y2="14.25" class='slant fine'/>
+    <line x1="107.94115" y1="134.25" x2="191.96606" y2="14.25" class='slant fine'/>
+    <line x1="114.04343" y1="134.25" x2="195.0" y2="18.63203" class='slant fine'/>
+    <line x1="120.14571" y1="134.25" x2="195.0" y2="27.34699" class='slant fine'/>
+    <line x1="126.24798" y1="134.25" x2="195.0" y2="36.06195" class='slant fine'/>
+    <line x1="132.35026" y1="134.25" x2="195.0" y2="44.7769" class='slant fine'/>
+    <line x1="138.45254" y1="134.25" x2="195.0" y2="53.49186" class='slant fine'/>
+    <line x1="144.55482" y1="134.25" x2="195.0" y2="62.20681" class='slant fine'/>
+    <line x1="150.65709" y1="134.25" x2="195.0" y2="70.92177" class='slant fine'/>
+    <line x1="156.75937" y1="134.25" x2="195.0" y2="79.63672" class='slant fine'/>
+    <line x1="162.86165" y1="134.25" x2="195.0" y2="88.35168" class='slant fine'/>
+    <line x1="168.96393" y1="134.25" x2="195.0" y2="97.06664" class='slant fine'/>
+    <line x1="175.06621" y1="134.25" x2="195.0" y2="105.78159" class='slant fine'/>
+    <line x1="181.16848" y1="134.25" x2="195.0" y2="114.49655" class='slant fine'/>
+    <line x1="187.27076" y1="134.25" x2="195.0" y2="123.2115" class='slant fine'/>
+    <line x1="193.37304" y1="134.25" x2="195.0" y2="131.92646" class='slant fine'/>
+    <line x1="15.0" y1="21.9815" x2="21.4875" y2="14.25" class='connective fine dashed'/>
+    <line x1="15.0" y1="29.71299" x2="27.97499" y2="14.25" class='connective fine dashed'/>
+    <line x1="15.0" y1="37.44449" x2="34.46249" y2="14.25" class='connective fine dashed'/>
+    <line x1="15.0" y1="45.17598" x2="40.94998" y2="14.25" class='connective fine dashed'/>
+    <line x1="15.0" y1="52.90748" x2="47.43748" y2="14.25" class='connective fine dashed'/>
+    <line x1="15.0" y1="60.63897" x2="53.92497" y2="14.25" class='connective fine dashed'/>
+    <line x1="15.0" y1="68.37047" x2="60.41247" y2="14.25" class='connective fine dashed'/>
+    <line x1="15.0" y1="76.10196" x2="66.89996" y2="14.25" class='connective fine dashed'/>
+    <line x1="15.0" y1="83.83346" x2="73.38746" y2="14.25" class='connective fine dashed'/>
+    <line x1="15.0" y1="91.56496" x2="79.87495" y2="14.25" class='connective fine dashed'/>
+    <line x1="15.0" y1="99.29645" x2="86.36245" y2="14.25" class='connective fine dashed'/>
+    <line x1="15.0" y1="107.02795" x2="92.84994" y2="14.25" class='connective fine dashed'/>
+    <line x1="15.0" y1="114.75944" x2="99.33744" y2="14.25" class='connective fine dashed'/>
+    <line x1="15.0" y1="122.49094" x2="105.82493" y2="14.25" class='connective fine dashed'/>
+    <line x1="15.0" y1="130.22243" x2="112.31243" y2="14.25" class='connective fine dashed'/>
+    <line x1="18.10797" y1="134.25" x2="118.79992" y2="14.25" class='connective fine dashed'/>
+    <line x1="24.59546" y1="134.25" x2="125.28742" y2="14.25" class='connective fine dashed'/>
+    <line x1="31.08296" y1="134.25" x2="131.77491" y2="14.25" class='connective fine dashed'/>
+    <line x1="37.57045" y1="134.25" x2="138.26241" y2="14.25" class='connective fine dashed'/>
+    <line x1="44.05795" y1="134.25" x2="144.7499" y2="14.25" class='connective fine dashed'/>
+    <line x1="50.54544" y1="134.25" x2="151.2374" y2="14.25" class='connective fine dashed'/>
+    <line x1="57.03294" y1="134.25" x2="157.72489" y2="14.25" class='connective fine dashed'/>
+    <line x1="63.52043" y1="134.25" x2="164.21239" y2="14.25" class='connective fine dashed'/>
+    <line x1="70.00793" y1="134.25" x2="170.69988" y2="14.25" class='connective fine dashed'/>
+    <line x1="76.49542" y1="134.25" x2="177.18738" y2="14.25" class='connective fine dashed'/>
+    <line x1="82.98292" y1="134.25" x2="183.67487" y2="14.25" class='connective fine dashed'/>
+    <line x1="89.47041" y1="134.25" x2="190.16237" y2="14.25" class='connective fine dashed'/>
+    <line x1="95.95791" y1="134.25" x2="195.0" y2="16.21623" class='connective fine dashed'/>
+    <line x1="102.4454" y1="134.25" x2="195.0" y2="23.94773" class='connective fine dashed'/>
+    <line x1="108.9329" y1="134.25" x2="195.0" y2="31.67922" class='connective fine dashed'/>
+    <line x1="115.42039" y1="134.25" x2="195.0" y2="39.41072" class='connective fine dashed'/>
+    <line x1="121.90789" y1="134.25" x2="195.0" y2="47.14221" class='connective fine dashed'/>
+    <line x1="128.39538" y1="134.25" x2="195.0" y2="54.87371" class='connective fine dashed'/>
+    <line x1="134.88288" y1="134.25" x2="195.0" y2="62.6052" class='connective fine dashed'/>
+    <line x1="141.37037" y1="134.25" x2="195.0" y2="70.3367" class='connective fine dashed'/>
+    <line x1="147.85787" y1="134.25" x2="195.0" y2="78.0682" class='connective fine dashed'/>
+    <line x1="154.34536" y1="134.25" x2="195.0" y2="85.79969" class='connective fine dashed'/>
+    <line x1="160.83286" y1="134.25" x2="195.0" y2="93.53119" class='connective fine dashed'/>
+    <line x1="167.32035" y1="134.25" x2="195.0" y2="101.26268" class='connective fine dashed'/>
+    <line x1="173.80785" y1="134.25" x2="195.0" y2="108.99418" class='connective fine dashed'/>
+    <line x1="180.29534" y1="134.25" x2="195.0" y2="116.72567" class='connective fine dashed'/>
+    <line x1="186.78284" y1="134.25" x2="195.0" y2="124.45717" class='connective fine dashed'/>
+    <line x1="193.27033" y1="134.25" x2="195.0" y2="132.18866" class='connective fine dashed'/>
   </g>
 </svg>
