@@ -35,6 +35,7 @@ module Dieses
           klass.define :proto
           klass.define :variants, default: {}
           klass.define :param,    default: Param.new
+          klass.define :style,    default: Param.new
         end
       end
 
@@ -81,7 +82,7 @@ module Dieses
 
       def produce(**kwargs)
         call
-        canvas.render(**kwargs)
+        canvas.render(variables: self.class.style.to_h, **kwargs)
       end
 
       private
