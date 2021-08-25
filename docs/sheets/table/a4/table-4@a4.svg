@@ -1,0 +1,43 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" width="210.0mm" height="297.0mm" viewBox="0 0 210.0 297.0" shape-rendering="geometricPrecision" >
+  <style>
+    svg         { stroke:            #007f80; }
+    svg         { stroke-width:          0.2; }
+    .altcolor   { stroke:               blue; }
+    .extrafine  { stroke-width:         0.05; }
+    .fine       { stroke-width:          0.1; }
+    .medium     { stroke-width:          0.2; }
+    .broad      { stroke-width:          0.4; }
+    .extrabroad { stroke-width:          0.8; }
+    .dashed     { stroke-dasharray:      2 2; }
+  </style>
+  <g id="sheet">
+    <line x1="7.0" y1="13.5" x2="203.0" y2="13.5" class='hline'/>
+    <line x1="7.0" y1="40.5" x2="203.0" y2="40.5" class='hline'/>
+    <line x1="7.0" y1="67.5" x2="203.0" y2="67.5" class='hline'/>
+    <line x1="7.0" y1="94.5" x2="203.0" y2="94.5" class='hline'/>
+    <line x1="7.0" y1="121.5" x2="203.0" y2="121.5" class='hline'/>
+    <line x1="7.0" y1="148.5" x2="203.0" y2="148.5" class='hline'/>
+    <line x1="7.0" y1="175.5" x2="203.0" y2="175.5" class='hline'/>
+    <line x1="7.0" y1="202.5" x2="203.0" y2="202.5" class='hline'/>
+    <line x1="7.0" y1="229.5" x2="203.0" y2="229.5" class='hline'/>
+    <line x1="7.0" y1="256.5" x2="203.0" y2="256.5" class='hline'/>
+    <line x1="7.0" y1="283.5" x2="203.0" y2="283.5" class='hline'/>
+    <line x1="7.0" y1="13.5" x2="7.0" y2="283.5" class='vline'/>
+    <line x1="56.0" y1="13.5" x2="56.0" y2="283.5" class='vline'/>
+    <line x1="105.0" y1="13.5" x2="105.0" y2="283.5" class='vline'/>
+    <line x1="154.0" y1="13.5" x2="154.0" y2="283.5" class='vline'/>
+    <line x1="203.0" y1="13.5" x2="203.0" y2="283.5" class='vline'/>
+    <line x1="7.0" y1="27.0" x2="203.0" y2="27.0" class='half dashed fine'/>
+    <line x1="7.0" y1="54.0" x2="203.0" y2="54.0" class='half dashed fine'/>
+    <line x1="7.0" y1="81.0" x2="203.0" y2="81.0" class='half dashed fine'/>
+    <line x1="7.0" y1="108.0" x2="203.0" y2="108.0" class='half dashed fine'/>
+    <line x1="7.0" y1="135.0" x2="203.0" y2="135.0" class='half dashed fine'/>
+    <line x1="7.0" y1="162.0" x2="203.0" y2="162.0" class='half dashed fine'/>
+    <line x1="7.0" y1="189.0" x2="203.0" y2="189.0" class='half dashed fine'/>
+    <line x1="7.0" y1="216.0" x2="203.0" y2="216.0" class='half dashed fine'/>
+    <line x1="7.0" y1="243.0" x2="203.0" y2="243.0" class='half dashed fine'/>
+    <line x1="7.0" y1="270.0" x2="203.0" y2="270.0" class='half dashed fine'/>
+  </g>
+</svg>

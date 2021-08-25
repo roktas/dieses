@@ -558,9 +558,81 @@
     "produce": true
   },
   {
+    "sheet": "table",
+    "variant": "1",
+    "desc": "Density 1 (2x2 table on A4 paper)",
+    "paper": "a4",
+    "orientation": "portrait",
+    "file": "table/a4/table-1@a4.svg",
+    "produce": true
+  },
+  {
+    "sheet": "table",
+    "variant": "1",
+    "desc": "Density 1 (2x2 table on A4 paper)",
+    "paper": "a4",
+    "orientation": "landscape",
+    "file": "table/a4/table-1@a4l.svg",
+    "produce": true
+  },
+  {
+    "sheet": "table",
+    "variant": "2",
+    "desc": "Density 2 (5x2 table on A4 paper)",
+    "paper": "a4",
+    "orientation": "portrait",
+    "file": "table/a4/table-2@a4.svg",
+    "produce": true
+  },
+  {
+    "sheet": "table",
+    "variant": "2",
+    "desc": "Density 2 (5x2 table on A4 paper)",
+    "paper": "a4",
+    "orientation": "landscape",
+    "file": "table/a4/table-2@a4l.svg",
+    "produce": true
+  },
+  {
+    "sheet": "table",
+    "variant": "3",
+    "desc": "Density 3 (4x4 table on A4 paper)",
+    "paper": "a4",
+    "orientation": "portrait",
+    "file": "table/a4/table-3@a4.svg",
+    "produce": true
+  },
+  {
+    "sheet": "table",
+    "variant": "3",
+    "desc": "Density 3 (4x4 table on A4 paper)",
+    "paper": "a4",
+    "orientation": "landscape",
+    "file": "table/a4/table-3@a4l.svg",
+    "produce": true
+  },
+  {
+    "sheet": "table",
+    "variant": "4",
+    "desc": "Density 4 (10x4 table on A4 paper)",
+    "paper": "a4",
+    "orientation": "portrait",
+    "file": "table/a4/table-4@a4.svg",
+    "produce": true
+  },
+  {
+    "sheet": "table",
+    "variant": "4",
+    "desc": "Density 4 (10x4 table on A4 paper)",
+    "paper": "a4",
+    "orientation": "landscape",
+    "file": "table/a4/table-4@a4l.svg",
+    "produce": true
+  },
+  {
     "sheet": "thumbnail",
     "variant": "1",
-    "desc": "Density 1",
+    "desc": "Density 1 (5x3 thumbnails on A4 paper)",
     "paper": "a4",
     "orientation": "portrait",
     "file": "thumbnail/a4/thumbnail-1@a4.svg",
@@ -569,7 +641,7 @@
   {
     "sheet": "thumbnail",
     "variant": "1",
-    "desc": "Density 1",
+    "desc": "Density 1 (5x3 thumbnails on A4 paper)",
     "paper": "a4",
     "orientation": "landscape",
     "file": "thumbnail/a4/thumbnail-1@a4l.svg",
@@ -578,7 +650,7 @@
   {
     "sheet": "thumbnail",
     "variant": "2",
-    "desc": "Density 2",
+    "desc": "Density 2 (4x4 thumbnails on A4 paper)",
     "paper": "a4",
     "orientation": "portrait",
     "file": "thumbnail/a4/thumbnail-2@a4.svg",
@@ -587,7 +659,7 @@
   {
     "sheet": "thumbnail",
     "variant": "2",
-    "desc": "Density 2",
+    "desc": "Density 2 (4x4 thumbnails on A4 paper)",
     "paper": "a4",
     "orientation": "landscape",
     "file": "thumbnail/a4/thumbnail-2@a4l.svg",
@@ -596,7 +668,7 @@
   {
     "sheet": "thumbnail",
     "variant": "3",
-    "desc": "Density 3",
+    "desc": "Density 3 (5x5 thumbnails on A4 paper)",
     "paper": "a4",
     "orientation": "portrait",
     "file": "thumbnail/a4/thumbnail-3@a4.svg",
@@ -605,7 +677,7 @@
   {
     "sheet": "thumbnail",
     "variant": "3",
-    "desc": "Density 3",
+    "desc": "Density 3 (5x5 thumbnails on A4 paper)",
     "paper": "a4",
     "orientation": "landscape",
     "file": "thumbnail/a4/thumbnail-3@a4l.svg",
@@ -614,7 +686,7 @@
   {
     "sheet": "thumbnail",
     "variant": "4",
-    "desc": "Density 4",
+    "desc": "Density 4 (6x5 thumbnails on A4 paper)",
     "paper": "a4",
     "orientation": "portrait",
     "file": "thumbnail/a4/thumbnail-4@a4.svg",
@@ -623,7 +695,7 @@
   {
     "sheet": "thumbnail",
     "variant": "4",
-    "desc": "Density 4",
+    "desc": "Density 4 (6x5 thumbnails on A4 paper)",
     "paper": "a4",
     "orientation": "landscape",
     "file": "thumbnail/a4/thumbnail-4@a4l.svg",
@@ -1188,9 +1260,81 @@
     "produce": true
   },
   {
+    "sheet": "table",
+    "variant": "1",
+    "desc": "Density 1 (2x2 table on A4 paper)",
+    "paper": "a5",
+    "orientation": "portrait",
+    "file": "table/a5/table-1@a5.svg",
+    "produce": true
+  },
+  {
+    "sheet": "table",
+    "variant": "1",
+    "desc": "Density 1 (2x2 table on A4 paper)",
+    "paper": "a5",
+    "orientation": "landscape",
+    "file": "table/a5/table-1@a5l.svg",
+    "produce": true
+  },
+  {
+    "sheet": "table",
+    "variant": "2",
+    "desc": "Density 2 (5x2 table on A4 paper)",
+    "paper": "a5",
+    "orientation": "portrait",
+    "file": "table/a5/table-2@a5.svg",
+    "produce": true
+  },
+  {
+    "sheet": "table",
+    "variant": "2",
+    "desc": "Density 2 (5x2 table on A4 paper)",
+    "paper": "a5",
+    "orientation": "landscape",
+    "file": "table/a5/table-2@a5l.svg",
+    "produce": true
+  },
+  {
+    "sheet": "table",
+    "variant": "3",
+    "desc": "Density 3 (4x4 table on A4 paper)",
+    "paper": "a5",
+    "orientation": "portrait",
+    "file": "table/a5/table-3@a5.svg",
+    "produce": true
+  },
+  {
+    "sheet": "table",
+    "variant": "3",
+    "desc": "Density 3 (4x4 table on A4 paper)",
+    "paper": "a5",
+    "orientation": "landscape",
+    "file": "table/a5/table-3@a5l.svg",
+    "produce": true
+  },
+  {
+    "sheet": "table",
+    "variant": "4",
+    "desc": "Density 4 (10x4 table on A4 paper)",
+    "paper": "a5",
+    "orientation": "portrait",
+    "file": "table/a5/table-4@a5.svg",
+    "produce": true
+  },
+  {
+    "sheet": "table",
+    "variant": "4",
+    "desc": "Density 4 (10x4 table on A4 paper)",
+    "paper": "a5",
+    "orientation": "landscape",
+    "file": "table/a5/table-4@a5l.svg",
+    "produce": true
+  },
+  {
     "sheet": "thumbnail",
     "variant": "1",
-    "desc": "Density 1",
+    "desc": "Density 1 (5x3 thumbnails on A4 paper)",
     "paper": "a5",
     "orientation": "portrait",
     "file": "thumbnail/a5/thumbnail-1@a5.svg",
@@ -1199,7 +1343,7 @@
   {
     "sheet": "thumbnail",
     "variant": "1",
-    "desc": "Density 1",
+    "desc": "Density 1 (5x3 thumbnails on A4 paper)",
     "paper": "a5",
     "orientation": "landscape",
     "file": "thumbnail/a5/thumbnail-1@a5l.svg",
@@ -1208,7 +1352,7 @@
   {
     "sheet": "thumbnail",
     "variant": "2",
-    "desc": "Density 2",
+    "desc": "Density 2 (4x4 thumbnails on A4 paper)",
     "paper": "a5",
     "orientation": "portrait",
     "file": "thumbnail/a5/thumbnail-2@a5.svg",
@@ -1217,7 +1361,7 @@
   {
     "sheet": "thumbnail",
     "variant": "2",
-    "desc": "Density 2",
+    "desc": "Density 2 (4x4 thumbnails on A4 paper)",
     "paper": "a5",
     "orientation": "landscape",
     "file": "thumbnail/a5/thumbnail-2@a5l.svg",
@@ -1226,7 +1370,7 @@
   {
     "sheet": "thumbnail",
     "variant": "3",
-    "desc": "Density 3",
+    "desc": "Density 3 (5x5 thumbnails on A4 paper)",
     "paper": "a5",
     "orientation": "portrait",
     "file": "thumbnail/a5/thumbnail-3@a5.svg",
@@ -1235,7 +1379,7 @@
   {
     "sheet": "thumbnail",
     "variant": "3",
-    "desc": "Density 3",
+    "desc": "Density 3 (5x5 thumbnails on A4 paper)",
     "paper": "a5",
     "orientation": "landscape",
     "file": "thumbnail/a5/thumbnail-3@a5l.svg",
@@ -1244,7 +1388,7 @@
   {
     "sheet": "thumbnail",
     "variant": "4",
-    "desc": "Density 4",
+    "desc": "Density 4 (6x5 thumbnails on A4 paper)",
     "paper": "a5",
     "orientation": "portrait",
     "file": "thumbnail/a5/thumbnail-4@a5.svg",
@@ -1253,7 +1397,7 @@
   {
     "sheet": "thumbnail",
     "variant": "4",
-    "desc": "Density 4",
+    "desc": "Density 4 (6x5 thumbnails on A4 paper)",
     "paper": "a5",
     "orientation": "landscape",
     "file": "thumbnail/a5/thumbnail-4@a5l.svg",

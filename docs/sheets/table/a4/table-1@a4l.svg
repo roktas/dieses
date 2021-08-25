@@ -1,0 +1,25 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" width="297.0mm" height="210.0mm" viewBox="0 0 297.0 210.0" shape-rendering="geometricPrecision" >
+  <style>
+    svg         { stroke:            #007f80; }
+    svg         { stroke-width:          0.2; }
+    .altcolor   { stroke:               blue; }
+    .extrafine  { stroke-width:         0.05; }
+    .fine       { stroke-width:          0.1; }
+    .medium     { stroke-width:          0.2; }
+    .broad      { stroke-width:          0.4; }
+    .extrabroad { stroke-width:          0.8; }
+    .dashed     { stroke-dasharray:      2 2; }
+  </style>
+  <g id="sheet">
+    <line x1="7.5" y1="10.0" x2="289.5" y2="10.0" class='hline'/>
+    <line x1="7.5" y1="105.0" x2="289.5" y2="105.0" class='hline'/>
+    <line x1="7.5" y1="200.0" x2="289.5" y2="200.0" class='hline'/>
+    <line x1="7.5" y1="10.0" x2="7.5" y2="200.0" class='vline'/>
+    <line x1="148.5" y1="10.0" x2="148.5" y2="200.0" class='vline'/>
+    <line x1="289.5" y1="10.0" x2="289.5" y2="200.0" class='vline'/>
+    <line x1="7.5" y1="57.5" x2="289.5" y2="57.5" class='half dashed fine'/>
+    <line x1="7.5" y1="152.5" x2="289.5" y2="152.5" class='half dashed fine'/>
+  </g>
+</svg>

@@ -1,0 +1,31 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" width="148.5mm" height="210.0mm" viewBox="0 0 148.5 210.0" shape-rendering="geometricPrecision" >
+  <style>
+    svg         { stroke:            #007f80; }
+    svg         { stroke-width:          0.2; }
+    .altcolor   { stroke:               blue; }
+    .extrafine  { stroke-width:         0.05; }
+    .fine       { stroke-width:          0.1; }
+    .medium     { stroke-width:          0.2; }
+    .broad      { stroke-width:          0.4; }
+    .extrabroad { stroke-width:          0.8; }
+    .dashed     { stroke-dasharray:      2 2; }
+  </style>
+  <g id="sheet">
+    <line x1="8.25" y1="11.0" x2="140.25" y2="11.0" class='hline'/>
+    <line x1="8.25" y1="58.0" x2="140.25" y2="58.0" class='hline'/>
+    <line x1="8.25" y1="105.0" x2="140.25" y2="105.0" class='hline'/>
+    <line x1="8.25" y1="152.0" x2="140.25" y2="152.0" class='hline'/>
+    <line x1="8.25" y1="199.0" x2="140.25" y2="199.0" class='hline'/>
+    <line x1="8.25" y1="11.0" x2="8.25" y2="199.0" class='vline'/>
+    <line x1="41.25" y1="11.0" x2="41.25" y2="199.0" class='vline'/>
+    <line x1="74.25" y1="11.0" x2="74.25" y2="199.0" class='vline'/>
+    <line x1="107.25" y1="11.0" x2="107.25" y2="199.0" class='vline'/>
+    <line x1="140.25" y1="11.0" x2="140.25" y2="199.0" class='vline'/>
+    <line x1="8.25" y1="34.5" x2="140.25" y2="34.5" class='half dashed fine'/>
+    <line x1="8.25" y1="81.5" x2="140.25" y2="81.5" class='half dashed fine'/>
+    <line x1="8.25" y1="128.5" x2="140.25" y2="128.5" class='half dashed fine'/>
+    <line x1="8.25" y1="175.5" x2="140.25" y2="175.5" class='half dashed fine'/>
+  </g>
+</svg>
