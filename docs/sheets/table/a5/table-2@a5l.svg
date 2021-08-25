@@ -19,13 +19,13 @@
     <line x1="7.0" y1="86.75" x2="203.0" y2="86.75" class='hline'/>
     <line x1="7.0" y1="111.75" x2="203.0" y2="111.75" class='hline'/>
     <line x1="7.0" y1="136.75" x2="203.0" y2="136.75" class='hline'/>
-    <line x1="7.0" y1="11.75" x2="7.0" y2="136.75" class='vline'/>
-    <line x1="105.0" y1="11.75" x2="105.0" y2="136.75" class='vline'/>
-    <line x1="203.0" y1="11.75" x2="203.0" y2="136.75" class='vline'/>
     <line x1="7.0" y1="24.25" x2="203.0" y2="24.25" class='half dashed fine'/>
     <line x1="7.0" y1="49.25" x2="203.0" y2="49.25" class='half dashed fine'/>
     <line x1="7.0" y1="74.25" x2="203.0" y2="74.25" class='half dashed fine'/>
     <line x1="7.0" y1="99.25" x2="203.0" y2="99.25" class='half dashed fine'/>
     <line x1="7.0" y1="124.25" x2="203.0" y2="124.25" class='half dashed fine'/>
+    <line x1="7.0" y1="11.75" x2="7.0" y2="136.75" class='vline'/>
+    <line x1="105.0" y1="11.75" x2="105.0" y2="136.75" class='vline'/>
+    <line x1="203.0" y1="11.75" x2="203.0" y2="136.75" class='vline'/>
   </g>
 </svg>

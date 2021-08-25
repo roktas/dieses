@@ -19,13 +19,13 @@
     <line x1="7.0" y1="176.0" x2="203.0" y2="176.0" class='hline'/>
     <line x1="7.0" y1="231.0" x2="203.0" y2="231.0" class='hline'/>
     <line x1="7.0" y1="286.0" x2="203.0" y2="286.0" class='hline'/>
-    <line x1="7.0" y1="11.0" x2="7.0" y2="286.0" class='vline'/>
-    <line x1="105.0" y1="11.0" x2="105.0" y2="286.0" class='vline'/>
-    <line x1="203.0" y1="11.0" x2="203.0" y2="286.0" class='vline'/>
     <line x1="7.0" y1="38.5" x2="203.0" y2="38.5" class='half dashed fine'/>
     <line x1="7.0" y1="93.5" x2="203.0" y2="93.5" class='half dashed fine'/>
     <line x1="7.0" y1="148.5" x2="203.0" y2="148.5" class='half dashed fine'/>
     <line x1="7.0" y1="203.5" x2="203.0" y2="203.5" class='half dashed fine'/>
     <line x1="7.0" y1="258.5" x2="203.0" y2="258.5" class='half dashed fine'/>
+    <line x1="7.0" y1="11.0" x2="7.0" y2="286.0" class='vline'/>
+    <line x1="105.0" y1="11.0" x2="105.0" y2="286.0" class='vline'/>
+    <line x1="203.0" y1="11.0" x2="203.0" y2="286.0" class='vline'/>
   </g>
 </svg>

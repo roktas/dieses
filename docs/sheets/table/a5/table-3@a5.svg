@@ -18,14 +18,14 @@
     <line x1="8.25" y1="105.0" x2="140.25" y2="105.0" class='hline'/>
     <line x1="8.25" y1="152.0" x2="140.25" y2="152.0" class='hline'/>
     <line x1="8.25" y1="199.0" x2="140.25" y2="199.0" class='hline'/>
+    <line x1="8.25" y1="34.5" x2="140.25" y2="34.5" class='half dashed fine'/>
+    <line x1="8.25" y1="81.5" x2="140.25" y2="81.5" class='half dashed fine'/>
+    <line x1="8.25" y1="128.5" x2="140.25" y2="128.5" class='half dashed fine'/>
+    <line x1="8.25" y1="175.5" x2="140.25" y2="175.5" class='half dashed fine'/>
     <line x1="8.25" y1="11.0" x2="8.25" y2="199.0" class='vline'/>
     <line x1="41.25" y1="11.0" x2="41.25" y2="199.0" class='vline'/>
     <line x1="74.25" y1="11.0" x2="74.25" y2="199.0" class='vline'/>
     <line x1="107.25" y1="11.0" x2="107.25" y2="199.0" class='vline'/>
     <line x1="140.25" y1="11.0" x2="140.25" y2="199.0" class='vline'/>
-    <line x1="8.25" y1="34.5" x2="140.25" y2="34.5" class='half dashed fine'/>
-    <line x1="8.25" y1="81.5" x2="140.25" y2="81.5" class='half dashed fine'/>
-    <line x1="8.25" y1="128.5" x2="140.25" y2="128.5" class='half dashed fine'/>
-    <line x1="8.25" y1="175.5" x2="140.25" y2="175.5" class='half dashed fine'/>
   </g>
 </svg>
