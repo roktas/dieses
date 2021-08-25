@@ -23,5 +23,7 @@ module Dieses
     Param = Class.new struct
 
     Orientation = Geometry::Rect::Orientation
+
+    Ruler = Support::Ruler
   end
 end

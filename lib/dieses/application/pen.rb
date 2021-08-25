@@ -9,26 +9,8 @@ module Dieses
         @canvas = canvas
       end
 
-      def draw(unit:, multiple: nil, &block)
+      def draw(unit:, multiple: 1, &block)
         Draw.(self, Ruler.(unit, multiple), &block)
-      end
-
-      Ruler = Struct.new :unit, :multiple do
-        def self.call(unit, multiple = nil)
-          new unit, (multiple || 1)
-        end
-
-        def major
-          @major ||= multiple * unit
-        end
-
-        def even(length)
-          major * (length / major).to_i
-        end
-
-        def measure(n)
-          n * unit
-        end
       end
 
       class Draw
