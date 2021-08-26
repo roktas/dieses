@@ -16,3 +16,4 @@ Gelecek
 - [ ] Geometry primitiflerinde position'ın x, y ve/veya direction (açı) ile ötelenmesini gerçekle
 - [ ] Geliştirici dokümantasyonunu tamamla
 - [ ] Çizgi kalınlıkları ve renk için CLI'da isteğe bağlı custom CSS kullanılsın
+- [ ] JSON'dan tabloya dönüşüm yapılarak sheet galeri hazırla
