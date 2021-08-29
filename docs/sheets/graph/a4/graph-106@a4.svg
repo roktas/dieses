@@ -57,17 +57,17 @@
     <line x1="175.0" y1="28.5" x2="175.0" y2="268.5" class='vline'/>
     <line x1="185.0" y1="28.5" x2="185.0" y2="268.5" class='vline'/>
     <line x1="195.0" y1="28.5" x2="195.0" y2="268.5" class='vline'/>
-    <rect width="60.0" height="60.0" x="15.0" y="28.5" fill='none' class='square'/>
-    <rect width="60.0" height="60.0" x="75.0" y="28.5" fill='none' class='square'/>
-    <rect width="60.0" height="60.0" x="135.0" y="28.5" fill='none' class='square'/>
-    <rect width="60.0" height="60.0" x="15.0" y="88.5" fill='none' class='square'/>
-    <rect width="60.0" height="60.0" x="75.0" y="88.5" fill='none' class='square'/>
-    <rect width="60.0" height="60.0" x="135.0" y="88.5" fill='none' class='square'/>
-    <rect width="60.0" height="60.0" x="15.0" y="148.5" fill='none' class='square'/>
-    <rect width="60.0" height="60.0" x="75.0" y="148.5" fill='none' class='square'/>
-    <rect width="60.0" height="60.0" x="135.0" y="148.5" fill='none' class='square'/>
-    <rect width="60.0" height="60.0" x="15.0" y="208.5" fill='none' class='square'/>
-    <rect width="60.0" height="60.0" x="75.0" y="208.5" fill='none' class='square'/>
-    <rect width="60.0" height="60.0" x="135.0" y="208.5" fill='none' class='square'/>
+    <rect width="60.0" height="60.0" x="15.0" y="28.5" fill='none' class='square extrabroad'/>
+    <rect width="60.0" height="60.0" x="75.0" y="28.5" fill='none' class='square extrabroad'/>
+    <rect width="60.0" height="60.0" x="135.0" y="28.5" fill='none' class='square extrabroad'/>
+    <rect width="60.0" height="60.0" x="15.0" y="88.5" fill='none' class='square extrabroad'/>
+    <rect width="60.0" height="60.0" x="75.0" y="88.5" fill='none' class='square extrabroad'/>
+    <rect width="60.0" height="60.0" x="135.0" y="88.5" fill='none' class='square extrabroad'/>
+    <rect width="60.0" height="60.0" x="15.0" y="148.5" fill='none' class='square extrabroad'/>
+    <rect width="60.0" height="60.0" x="75.0" y="148.5" fill='none' class='square extrabroad'/>
+    <rect width="60.0" height="60.0" x="135.0" y="148.5" fill='none' class='square extrabroad'/>
+    <rect width="60.0" height="60.0" x="15.0" y="208.5" fill='none' class='square extrabroad'/>
+    <rect width="60.0" height="60.0" x="75.0" y="208.5" fill='none' class='square extrabroad'/>
+    <rect width="60.0" height="60.0" x="135.0" y="208.5" fill='none' class='square extrabroad'/>
   </g>
 </svg>

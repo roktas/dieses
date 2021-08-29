@@ -39,7 +39,7 @@
     <line x1="94.25" y1="25.0" x2="94.25" y2="185.0" class='vline'/>
     <line x1="104.25" y1="25.0" x2="104.25" y2="185.0" class='vline'/>
     <line x1="114.25" y1="25.0" x2="114.25" y2="185.0" class='vline'/>
-    <rect width="80.0" height="80.0" x="34.25" y="25.0" fill='none' class='square'/>
-    <rect width="80.0" height="80.0" x="34.25" y="105.0" fill='none' class='square'/>
+    <rect width="80.0" height="80.0" x="34.25" y="25.0" fill='none' class='square extrabroad'/>
+    <rect width="80.0" height="80.0" x="34.25" y="105.0" fill='none' class='square extrabroad'/>
   </g>
 </svg>

@@ -45,11 +45,11 @@
     <line x1="114.25" y1="15.0" x2="114.25" y2="195.0" class='vline'/>
     <line x1="124.25" y1="15.0" x2="124.25" y2="195.0" class='vline'/>
     <line x1="134.25" y1="15.0" x2="134.25" y2="195.0" class='vline'/>
-    <rect width="60.0" height="60.0" x="14.25" y="15.0" fill='none' class='square'/>
-    <rect width="60.0" height="60.0" x="74.25" y="15.0" fill='none' class='square'/>
-    <rect width="60.0" height="60.0" x="14.25" y="75.0" fill='none' class='square'/>
-    <rect width="60.0" height="60.0" x="74.25" y="75.0" fill='none' class='square'/>
-    <rect width="60.0" height="60.0" x="14.25" y="135.0" fill='none' class='square'/>
-    <rect width="60.0" height="60.0" x="74.25" y="135.0" fill='none' class='square'/>
+    <rect width="60.0" height="60.0" x="14.25" y="15.0" fill='none' class='square extrabroad'/>
+    <rect width="60.0" height="60.0" x="74.25" y="15.0" fill='none' class='square extrabroad'/>
+    <rect width="60.0" height="60.0" x="14.25" y="75.0" fill='none' class='square extrabroad'/>
+    <rect width="60.0" height="60.0" x="74.25" y="75.0" fill='none' class='square extrabroad'/>
+    <rect width="60.0" height="60.0" x="14.25" y="135.0" fill='none' class='square extrabroad'/>
+    <rect width="60.0" height="60.0" x="74.25" y="135.0" fill='none' class='square extrabroad'/>
   </g>
 </svg>

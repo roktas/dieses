@@ -210,29 +210,29 @@
     <line x1="158.16754" y1="268.5" x2="185.0" y2="253.00827" class='connective fine dashed'/>
     <line x1="168.14681" y1="268.5" x2="185.0" y2="258.76981" class='connective fine dashed'/>
     <line x1="178.12608" y1="268.5" x2="185.0" y2="264.53134" class='connective fine dashed'/>
-    <rect width="40.0" height="40.0" x="25.0" y="28.5" fill='none' class='square'/>
-    <rect width="40.0" height="40.0" x="65.0" y="28.5" fill='none' class='square'/>
-    <rect width="40.0" height="40.0" x="105.0" y="28.5" fill='none' class='square'/>
-    <rect width="40.0" height="40.0" x="145.0" y="28.5" fill='none' class='square'/>
-    <rect width="40.0" height="40.0" x="25.0" y="68.5" fill='none' class='square'/>
-    <rect width="40.0" height="40.0" x="65.0" y="68.5" fill='none' class='square'/>
-    <rect width="40.0" height="40.0" x="105.0" y="68.5" fill='none' class='square'/>
-    <rect width="40.0" height="40.0" x="145.0" y="68.5" fill='none' class='square'/>
-    <rect width="40.0" height="40.0" x="25.0" y="108.5" fill='none' class='square'/>
-    <rect width="40.0" height="40.0" x="65.0" y="108.5" fill='none' class='square'/>
-    <rect width="40.0" height="40.0" x="105.0" y="108.5" fill='none' class='square'/>
-    <rect width="40.0" height="40.0" x="145.0" y="108.5" fill='none' class='square'/>
-    <rect width="40.0" height="40.0" x="25.0" y="148.5" fill='none' class='square'/>
-    <rect width="40.0" height="40.0" x="65.0" y="148.5" fill='none' class='square'/>
-    <rect width="40.0" height="40.0" x="105.0" y="148.5" fill='none' class='square'/>
-    <rect width="40.0" height="40.0" x="145.0" y="148.5" fill='none' class='square'/>
-    <rect width="40.0" height="40.0" x="25.0" y="188.5" fill='none' class='square'/>
-    <rect width="40.0" height="40.0" x="65.0" y="188.5" fill='none' class='square'/>
-    <rect width="40.0" height="40.0" x="105.0" y="188.5" fill='none' class='square'/>
-    <rect width="40.0" height="40.0" x="145.0" y="188.5" fill='none' class='square'/>
-    <rect width="40.0" height="40.0" x="25.0" y="228.5" fill='none' class='square'/>
-    <rect width="40.0" height="40.0" x="65.0" y="228.5" fill='none' class='square'/>
-    <rect width="40.0" height="40.0" x="105.0" y="228.5" fill='none' class='square'/>
-    <rect width="40.0" height="40.0" x="145.0" y="228.5" fill='none' class='square'/>
+    <rect width="40.0" height="40.0" x="25.0" y="28.5" fill='none' class='square extrabroad'/>
+    <rect width="40.0" height="40.0" x="65.0" y="28.5" fill='none' class='square extrabroad'/>
+    <rect width="40.0" height="40.0" x="105.0" y="28.5" fill='none' class='square extrabroad'/>
+    <rect width="40.0" height="40.0" x="145.0" y="28.5" fill='none' class='square extrabroad'/>
+    <rect width="40.0" height="40.0" x="25.0" y="68.5" fill='none' class='square extrabroad'/>
+    <rect width="40.0" height="40.0" x="65.0" y="68.5" fill='none' class='square extrabroad'/>
+    <rect width="40.0" height="40.0" x="105.0" y="68.5" fill='none' class='square extrabroad'/>
+    <rect width="40.0" height="40.0" x="145.0" y="68.5" fill='none' class='square extrabroad'/>
+    <rect width="40.0" height="40.0" x="25.0" y="108.5" fill='none' class='square extrabroad'/>
+    <rect width="40.0" height="40.0" x="65.0" y="108.5" fill='none' class='square extrabroad'/>
+    <rect width="40.0" height="40.0" x="105.0" y="108.5" fill='none' class='square extrabroad'/>
+    <rect width="40.0" height="40.0" x="145.0" y="108.5" fill='none' class='square extrabroad'/>
+    <rect width="40.0" height="40.0" x="25.0" y="148.5" fill='none' class='square extrabroad'/>
+    <rect width="40.0" height="40.0" x="65.0" y="148.5" fill='none' class='square extrabroad'/>
+    <rect width="40.0" height="40.0" x="105.0" y="148.5" fill='none' class='square extrabroad'/>
+    <rect width="40.0" height="40.0" x="145.0" y="148.5" fill='none' class='square extrabroad'/>
+    <rect width="40.0" height="40.0" x="25.0" y="188.5" fill='none' class='square extrabroad'/>
+    <rect width="40.0" height="40.0" x="65.0" y="188.5" fill='none' class='square extrabroad'/>
+    <rect width="40.0" height="40.0" x="105.0" y="188.5" fill='none' class='square extrabroad'/>
+    <rect width="40.0" height="40.0" x="145.0" y="188.5" fill='none' class='square extrabroad'/>
+    <rect width="40.0" height="40.0" x="25.0" y="228.5" fill='none' class='square extrabroad'/>
+    <rect width="40.0" height="40.0" x="65.0" y="228.5" fill='none' class='square extrabroad'/>
+    <rect width="40.0" height="40.0" x="105.0" y="228.5" fill='none' class='square extrabroad'/>
+    <rect width="40.0" height="40.0" x="145.0" y="228.5" fill='none' class='square extrabroad'/>
   </g>
 </svg>
