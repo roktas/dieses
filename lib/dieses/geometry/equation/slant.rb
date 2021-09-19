@@ -16,7 +16,7 @@ module Dieses
         end
 
         def y(x)
-          slope * x + intercept
+          (slope * x) + intercept
         end
 
         # When distance given, y = m * x + n (m, n positive) equation moves to the right (x increases, y decreases)
@@ -44,7 +44,7 @@ module Dieses
           case other
           when Slant
             x = (other.intercept - intercept) / (slope - other.slope)
-            y = slope * x + intercept
+            y = (slope * x) + intercept
           when Steep
             x = other.x
             y = y(x)

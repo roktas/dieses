@@ -17,7 +17,7 @@ module Dieses
           horizontal(c)
         else
           slope     = (ending.y - starting.y) / (ending.x - starting.x)
-          intercept = starting.y - slope * starting.x
+          intercept = starting.y - (slope * starting.x)
 
           slant(slope: slope, intercept: intercept)
         end
@@ -32,7 +32,7 @@ module Dieses
         return vertical(point.x)   if (angle % 90).zero?
 
         slope     = Math.tan(Support.to_radian(angle.to_f))
-        intercept = point.y - slope * point.x
+        intercept = point.y - (slope * point.x)
 
         slant(slope: slope, intercept: intercept)
       end

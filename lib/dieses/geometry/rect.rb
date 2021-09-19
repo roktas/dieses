@@ -41,8 +41,8 @@ module Dieses
         module_function
 
         def center(this, that)
-          Point.new(this.position.x + (this.width  - that.width)  / 2,
-                    this.position.y + (this.height - that.height) / 2)
+          Point.new(this.position.x + ((this.width  - that.width)  / 2),
+                    this.position.y + ((this.height - that.height) / 2))
         end
 
         def left(this, that)

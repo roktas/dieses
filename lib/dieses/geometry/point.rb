@@ -63,7 +63,7 @@ module Dieses
 
         def distance(starting, ending)
           ending ||= origin
-          Math.sqrt((ending.x - starting.x)**2 + (starting.y - ending.y)**2)
+          Math.sqrt(((ending.x - starting.x)**2) + ((starting.y - ending.y)**2))
         end
 
         def cast(point)
