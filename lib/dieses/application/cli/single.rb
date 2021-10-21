@@ -1,5 +1,8 @@
 # frozen_string_literal: true
 
+require 'optparse'
+require 'ostruct'
+
 module Dieses
   module Application
     module CLI
