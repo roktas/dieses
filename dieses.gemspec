@@ -4,7 +4,7 @@ $LOAD_PATH.push File.expand_path('lib', __dir__)
 
 require 'dieses/version'
 
-Gem::Specification.new do |s|
+Gem::Specification.new do |s| # rubocop:disable Metrics/BlockLength
   s.name        = 'dieses'
   s.author      = 'Recai Oktaş'
   s.email       = 'roktas@gmail.com'
@@ -33,4 +33,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'rubocop-performance'
   s.add_development_dependency 'rubocop-rake'
   s.add_development_dependency 'rubygems-tasks'
+  s.metadata = {
+    'rubygems_mfa_required' => 'true'
+  }
 end
